@@ -1,6 +1,6 @@
 # longlivesimple
 
-> Long Live Simple An Ashville based Company
+> Long Live Simple An Asheville based Company
 
 ## Build Setup
 
