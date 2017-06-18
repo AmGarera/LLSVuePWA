@@ -37,13 +37,13 @@ main {
   /*margin-top: 40px;*/
 }
 
-header {
+/*header {
   margin: 0;
   height: 56px;
   padding: 0 16px 0 24px;
   background-color: #4fc08d;
   color: #ffffff;
-}
+}*/
 
 header span {
   display: block;

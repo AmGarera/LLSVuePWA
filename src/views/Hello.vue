@@ -13,13 +13,33 @@
   </div>
 
   <!-- Hero footer: will stick at the bottom -->
-  <div class="hero-foot white-text">
+  <div class="hero-foot white-text has-text-centered">
     <span>We empower our clients to help them find their brand identity and visually</span>
     <br>
     <span>communicate their brand stories in unique, compelling, and strategic ways.</span>
   </div>
 </section>
+
+<section class="hero is-medium">
+ <div class="columns is-gapless">
+  <div class="column">
+    First column
   </div>
+  <div class="column">
+    Second column
+  </div>
+  <div class="column">
+    Third column
+  </div>
+  <div class="column">
+    Fourth column
+  </div>
+</div>
+</section>
+
+  </div>
+<!--End of First Hero-->
+
 </template>
 
 <script>
