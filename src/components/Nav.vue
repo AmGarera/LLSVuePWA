@@ -29,9 +29,9 @@
         <figure class="image is-16x16" style="margin-right: 8px;">
           <img src="http://bulma.io/images/jgthms.png">
         </figure>
-        Profile
+        More Social
       </a>
-      <a class="nav-item is-tab">Log out</a>
+      <a class="nav-item is-tab">Social</a>
     </div>
   </div>
 </nav>

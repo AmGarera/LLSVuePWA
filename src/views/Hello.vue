@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-<section class="hero is-medium">
+<section class="hero is-medium brand-story">
   <!-- Hero header: will stick at the top -->
 
   <!-- Hero content: will be in the middle -->
@@ -20,19 +20,50 @@
   </div>
 </section>
 
+    <section class="hero is-medium">
+
+      <div class="columns">
+        <div class="column">
+
+        </div>
+
+      </div>
+      <div class="columns">
+        <div class="column is-half">
+          <p class="tile title flex has-text-centered">
+            We are Long Live Simple, a creative and strategic graphic design studio.
+          </p>
+        </div>
+        <div class="column is-half">
+          <div class="tile is-parent">
+            <article class="tile is-child">
+              <!--<p class="title">Wide tile</p>-->
+              <p class="flex">
+                Here at Long Live Simple, we believe brands should tell stories.
+                Whether your brand is an extension of what you do, a reflection of
+                your personality or a platform to your ideal audience, we love
+              creating unique, hand-drawn logos and custom work so our clients can have a symbol that represents who they are and what
+              they do. We offer meaningful experiences for customer-driven
+              and thoughtful brands.</p>
+              <div class="content">
+                <!-- Content -->
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
 <section class="hero is-medium">
  <div class="columns is-gapless">
   <div class="column">
-    First column
+    Local Features
   </div>
   <div class="column">
-    Second column
+  Sustainable Practices
   </div>
   <div class="column">
-    Third column
-  </div>
-  <div class="column">
-    Fourth column
+    Community Focused
   </div>
 </div>
 </section>
@@ -59,7 +90,7 @@ export default {
 h1 {
   color: white;
   border: 1px solid white;
-  display: inline-block; 
+  display: inline-block;
   padding: 20px;
 }
 .hero-foot{
@@ -83,7 +114,7 @@ li {
 a {
   color: #42b983;
 }
-section {
+.brand-story {
   background-image: url('https://unsplash.it/1920/1080');
 }
 </style>
