@@ -20,15 +20,16 @@
   </div>
 </section>
 
-    <section class="hero is-medium">
+    <section class="hero is-medium lls-intro">
 
-      <div class="columns">
+      <div class="columns ">
         <div class="column">
 
         </div>
 
       </div>
-      <div class="columns">
+      <div class="container is-fluid">
+      <div class="columns is-gapless">
         <div class="column is-half">
           <p class="tile title flex has-text-centered">
             We are Long Live Simple, a creative and strategic graphic design studio.
@@ -52,8 +53,35 @@
           </div>
         </div>
       </div>
+      </div>
     </section>
+<section class="hero is-medium what-we-offer">
+<h2 class="title what-we-offer-text">WHAT WE OFFER:</h2>
+  <div class="columns">
+<ul class="column">
+</ul>
 
+    <ul class="column">
+      <li>Branding Packages</li>
+      <li>Print Collateral Design</li>
+      <li>Custom Illustration</li>
+      <li>Custom Iconography</li>
+    </ul>
+
+    <hr class="divider-line">
+
+    <ul class="column">
+  <li>Branding Packages</li>
+  <li>Print Collateral Design</li>
+  <li>Custom Illustration</li>
+  <li>Custom Iconography</li>
+</ul>
+
+  <ul class="column">
+  </ul>
+  </div>
+  <p class="white-text listOfServices">See our full list of services ></p>
+</section>
 <section class="hero is-medium">
  <div class="columns is-gapless">
   <div class="column">
@@ -107,7 +135,7 @@ ul {
 }
 
 li {
-  display: inline-block;
+  /*display: inline-block;*/
   margin: 0 10px;
 }
 
@@ -117,4 +145,23 @@ a {
 .brand-story {
   background-image: url('https://unsplash.it/1920/1080');
 }
+.what-we-offer {
+  background-image: url('https://unsplash.it/1920/1080');
+}
+.what-we-offer-text {
+  color: #fff;
+}
+  .listOfServices {
+    border: 1px solid white;
+    display: inline-block;
+    padding: 20px;
+  }
+  .lls-intro {
+    background-color: RGB(230,238,236);
+  }
+
+  hr.divider-line {
+    width: 0px;
+    height: 100%;
+  }
 </style>
