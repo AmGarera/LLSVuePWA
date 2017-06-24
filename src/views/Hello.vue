@@ -129,7 +129,9 @@ export default {
           arrows: false,
           adaptiveHeight: true,
           prevArrow: false,
-          nextArrow: false
+          nextArrow: false,
+          variableWidth: true,
+          centerMode: true
         // Any other options that can be got from plugin documentation
         }
       }

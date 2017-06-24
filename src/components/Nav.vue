@@ -8,15 +8,42 @@
     </div>
     <div class="nav-center">
       <!--Map this to Vue-Router-->
+      <router-link to="/Work" class="" tag="div" exact>
       <a class="nav-item is-tab is-hidden-mobile is-active">
         <figure class="image is-32x32" style="margin-right: 2px;">
           <img src="../../static/img/HP/icon1.png">
         </figure>Work</a>
-      <a class="nav-item is-tab is-hidden-mobile">About</a>
-      <a class="nav-item is-tab is-hidden-mobile">Services</a>
-      <a class="nav-item is-tab is-hidden-mobile">Blog</a>
-      <a class="nav-item is-tab is-hidden-mobile">Contact</a>
-      <a class="nav-item is-tab is-hidden-mobile">Shop</a>
+      </router-link>
+      <router-link to="/About" class="" tag="div" exact>
+      <a class="nav-item is-tab is-hidden-mobile">
+        <figure class="image is-32x32" style="margin-right: 2px;">
+        <img src="../../static/img/HP/icon2.png">
+      </figure>About</a>
+      </router-link>
+      <router-link to="/Services" class="" tag="div" exact>
+      <a class="nav-item is-tab is-hidden-mobile">
+        <figure class="image is-32x32" style="margin-right: 2px;">
+          <img src="../../static/img/HP/icon3.png">
+        </figure>Services</a>
+      </router-link>
+      <router-link to="/Blog" class="" tag="div" exact>
+      <a class="nav-item is-tab is-hidden-mobile">
+        <figure class="image is-32x32" style="margin-right: 2px;">
+          <img src="../../static/img/HP/icon4.png">
+        </figure>Blog</a>
+      </router-link>
+      <router-link to="/Contact" class="" tag="div" exact>
+      <a class="nav-item is-tab is-hidden-mobile">
+        <figure class="image is-32x32" style="margin-right: 2px;">
+          <img src="../../static/img/HP/icon5.png">
+        </figure>Contact</a>
+      </router-link>
+      <router-link to="/Shop" class="" tag="div" exact>
+      <a class="nav-item is-tab is-hidden-mobile">
+        <figure class="image is-32x32" style="margin-right: 2px;">
+          <img src="../../static/img/HP/icon6.png">
+        </figure>Shop</a>
+      </router-link>
     </div>
     <label class="nav-toggle" for="nav-toggle-state">
     </label>
