@@ -1,5 +1,14 @@
 <template>
   <div class="hello">
+    <section>
+      <slick ref="slick" :options="slickOptions">
+        <a href="https://unsplash.it/1920/1080"><img src="https://unsplash.it/1920/1080" alt=""></a>
+        <a href="https://unsplash.it/1920/1080"><img src="https://unsplash.it/1920/1080" alt=""></a>
+        <a href="https://unsplash.it/1920/1080"><img src="https://unsplash.it/1920/1080" alt=""></a>
+        <a href="https://unsplash.it/1920/1080"><img src="https://unsplash.it/1920/1080" alt=""></a>
+        <a href="https://unsplash.it/1920/1080"><img src="https://unsplash.it/1920/1080" alt=""></a>
+      </slick>
+    </section>
 <section class="hero is-medium brand-story">
   <!-- Hero header: will stick at the top -->
 
@@ -107,13 +116,40 @@
 </template>
 
 <script>
+  import Slick from 'vue-slick'
+
 export default {
-  name: 'hello',
-  data () {
-    return {
-      // msg: 'Welcome to Your Vue.js PWA'
+    name: 'hello',
+    components: { Slick },
+    data () {
+      return {
+        slickOptions: {
+          slidesToShow: 1,
+          autoplay: true,
+          arrows: false,
+          adaptiveHeight: true,
+          prevArrow: false,
+          nextArrow: false
+        // Any other options that can be got from plugin documentation
+        }
+      }
+    },
+
+  // All slick methods can be used too, example here
+    methods: {
+//      next () {
+//        this.$refs.slick.next()
+//      },
+//
+//      prev () {
+//        this.$refs.slick.prev()
+//      },
+//
+//      reInit () {
+//      // Helpful if you have to deal with v-for to update dynamic lists
+//        this.$refs.slick.reSlick()
+//      }
     }
-  }
 }
 </script>
 
