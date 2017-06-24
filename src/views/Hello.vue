@@ -6,7 +6,7 @@
   <!-- Hero content: will be in the middle -->
   <div class="hero-body">
     <div class="container has-text-centered">
-      <h1 class="title">
+      <h1 class="title white-box">
         Tell Us Your Brand Story >
       </h1>
     </div>
@@ -56,21 +56,22 @@
       </div>
     </section>
 <section class="hero is-medium what-we-offer">
+  <br>
 <h2 class="title what-we-offer-text">WHAT WE OFFER:</h2>
   <div class="columns">
 <ul class="column">
 </ul>
 
-    <ul class="column">
+    <ul class="column white-text">
       <li>Branding Packages</li>
       <li>Print Collateral Design</li>
       <li>Custom Illustration</li>
       <li>Custom Iconography</li>
     </ul>
 
-    <hr class="divider-line">
+    <div class="divider-line "></div>
 
-    <ul class="column">
+    <ul class="column white-text">
   <li>Branding Packages</li>
   <li>Print Collateral Design</li>
   <li>Custom Illustration</li>
@@ -80,7 +81,11 @@
   <ul class="column">
   </ul>
   </div>
-  <p class="white-text listOfServices">See our full list of services ></p>
+  <div>
+    <br>
+  <p class="white-text white-box listOfServices">See our full list of services ></p>
+  </div>
+  <br>
 </section>
 <section class="hero is-medium">
  <div class="columns is-gapless">
@@ -115,7 +120,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 /*Section Title*/
-h1 {
+.white-box {
   color: white;
   border: 1px solid white;
   display: inline-block;
@@ -152,16 +157,17 @@ a {
   color: #fff;
 }
   .listOfServices {
-    border: 1px solid white;
-    display: inline-block;
-    padding: 20px;
+
   }
   .lls-intro {
     background-color: RGB(230,238,236);
   }
 
-  hr.divider-line {
-    width: 0px;
-    height: 100%;
+  .divider-line {
+    /*position:absolute;*/
+    left:50%;
+    top:10%;
+    bottom:10%;
+    border-left:1px solid white;
   }
 </style>
