@@ -2,7 +2,7 @@
   <nav class="nav has-shadow transparent">
     <div class="nav-left">
       <a class="nav-item">
-        <img src="../../static/img/HP/llslogo.png" alt="Bulma logo">
+        <img style="max-height: 2.75em" src="../../static/img/HP/llslogo.png" alt="Bulma logo">
       </a>
 
     </div>

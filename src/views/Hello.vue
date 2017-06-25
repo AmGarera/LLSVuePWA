@@ -2,11 +2,11 @@
   <div class="hello">
     <section>
       <slick ref="slick" :options="slickOptions">
-        <a href="https://unsplash.it/1920/1080"><img src="https://unsplash.it/1920/1080" alt=""></a>
-        <a href="https://unsplash.it/1920/1080"><img src="https://unsplash.it/1920/1080" alt=""></a>
-        <a href="https://unsplash.it/1920/1080"><img src="https://unsplash.it/1920/1080" alt=""></a>
-        <a href="https://unsplash.it/1920/1080"><img src="https://unsplash.it/1920/1080" alt=""></a>
-        <a href="https://unsplash.it/1920/1080"><img src="https://unsplash.it/1920/1080" alt=""></a>
+        <a href="https://unsplash.it/1920/1080"><img src="https://unsplash.it/1920/540" alt=""></a>
+        <a href="https://unsplash.it/1920/1080"><img src="https://unsplash.it/1920/540" alt=""></a>
+        <a href="https://unsplash.it/1920/1080"><img src="https://unsplash.it/1920/540" alt=""></a>
+        <a href="https://unsplash.it/1920/1080"><img src="https://unsplash.it/1920/540" alt=""></a>
+        <a href="https://unsplash.it/1920/1080"><img src="https://unsplash.it/1920/540" alt=""></a>
       </slick>
     </section>
 <!--<section class="hero is-medium brand-story">-->
@@ -49,15 +49,23 @@
           <div class="tile is-parent">
             <article class="tile is-child">
               <!--<p class="title">Wide tile</p>-->
-              <p class="flex">
-                Here at Long Live Simple, we believe brands should tell stories.
-                Whether your brand is an extension of what you do, a reflection of
-                your personality or a platform to your ideal audience, we love
-              creating unique, hand-drawn logos and custom work so our clients can have a symbol that represents who they are and what
-              they do. We offer meaningful experiences for customer-driven
-              and thoughtful brands.</p>
+
               <div class="content">
-                <!-- Content -->
+                <p style="padding-top: 20px; font-size: large" class="has-text-left">
+                  Here at Long Live Simple, we believe brands should tell stories.
+                  Whether your brand is an extension of what you do, a reflection of
+                  your personality or a platform to your ideal audience, we love
+                  creating unique, hand-drawn logos and custom work so our clients can have a symbol that represents who they are and what
+                  they do. We offer meaningful experiences for customer-driven
+                  and thoughtful brands.</p>
+                <a href="/About"><p class="more-about-us has-text-right">More About Us ></p></a>
+                <figure class="imghvr-zoom-in">
+                  <img src="../../static/img/HP/GoLocalHonoredhere2017_graphic.jpg">
+                  <figcaption>
+                    <img src="../../static/img/HP/GoLocalHonoredhere2017_graphic.jpg">
+                    This is some text
+                  </figcaption>
+                </figure>
               </div>
             </article>
           </div>
@@ -210,4 +218,11 @@ a {
     bottom:10%;
     border-left:1px solid white;
   }
+  .more-about-us {
+    font-size: x-large;
+  }
+[class^='imghvr-'],
+[class*=' imghvr-'] {
+  background-color: #D14233;
+}
 </style>
