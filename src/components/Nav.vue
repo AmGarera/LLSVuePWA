@@ -11,37 +11,49 @@
       <router-link to="/Work" class="" tag="div" exact>
       <a class="nav-item is-tab is-hidden-mobile">
         <figure class="image is-32x32" style="margin-right: 2px;">
-          <img src="../../static/img/HP/icon1.png">
+          <img src="../../static/img/HP/icon1.png"
+               onmouseover="this.src='../../static/img/HP/icon1_green.png'"
+               onmouseout="this.src='../../static/img/HP/icon1.png'">
         </figure>Work</a>
       </router-link>
       <router-link to="/About" class="" tag="div" exact>
       <a class="nav-item is-tab is-hidden-mobile">
         <figure class="image is-32x32" style="margin-right: 2px;">
-        <img src="../../static/img/HP/icon2.png">
+        <img src="../../static/img/HP/icon2.png"
+             onmouseover="this.src='../../static/img/HP/icon2_green.png'"
+             onmouseout="this.src='../../static/img/HP/icon2.png'">
       </figure>About</a>
       </router-link>
       <router-link to="/Services" class="" tag="div" exact>
       <a class="nav-item is-tab is-hidden-mobile">
         <figure class="image is-32x32" style="margin-right: 2px;">
-          <img src="../../static/img/HP/icon3.png">
+          <img src="../../static/img/HP/icon3.png"
+               onmouseover="this.src='../../static/img/HP/icon3_green.png'"
+               onmouseout="this.src='../../static/img/HP/icon3.png'">
         </figure>Services</a>
       </router-link>
       <router-link to="/Blog" class="" tag="div" exact>
       <a class="nav-item is-tab is-hidden-mobile">
         <figure class="image is-32x32" style="margin-right: 2px;">
-          <img src="../../static/img/HP/icon4.png">
+          <img src="../../static/img/HP/icon4.png"
+               onmouseover="this.src='../../static/img/HP/icon4_green.png'"
+               onmouseout="this.src='../../static/img/HP/icon4.png'">
         </figure>Blog</a>
       </router-link>
       <router-link to="/Contact" class="" tag="div" exact>
       <a class="nav-item is-tab is-hidden-mobile">
         <figure class="image is-32x32" style="margin-right: 2px;">
-          <img src="../../static/img/HP/icon5.png">
+          <img src="../../static/img/HP/icon5.png"
+               onmouseover="this.src='../../static/img/HP/icon5_green.png'"
+               onmouseout="this.src='../../static/img/HP/icon5.png'">
         </figure>Contact</a>
       </router-link>
       <router-link to="/Shop" class="" tag="div" exact>
       <a class="nav-item is-tab is-hidden-mobile">
         <figure class="image is-32x32" style="margin-right: 2px;">
-          <img src="../../static/img/HP/icon6.png">
+          <img src="../../static/img/HP/icon6.png"
+               onmouseover="this.src='../../static/img/HP/icon6_green.png'"
+               onmouseout="this.src='../../static/img/HP/icon6.png'">
         </figure>Shop</a>
       </router-link>
     </div>
@@ -52,7 +64,27 @@
     <input type="checkbox" id="nav-toggle-state" />
 
     <div class="nav-right nav-menu">
-
+      <a class="nav-item is-tab is-paddingless">
+        <figure class="image is-32x32" >
+          <img src="../../static/img/HP/instagram.png" alt="Instagram Icon">
+      </figure></a>
+      <a class="nav-item is-tab is-paddingless">
+        <figure class="image is-32x32" >
+          <img src="../../static/img/HP/facebook.png" alt="Facebook Icon">
+      </figure></a>
+      <a class="nav-item is-tab is-paddingless">
+        <figure class="image is-32x32" >
+          <img src="../../static/img/HP/twitter.png" alt="Twitter Icon">
+      </figure></a>
+      <a class="nav-item is-tab is-paddingless">
+        <figure class="image is-32x32" >
+          <img src="../../static/img/HP/Pinteresticon.png" alt="Pinterest Icon">
+      </figure></a>
+      <a class="nav-item is-tab is-paddingless">
+        <figure class="image is-32x32">
+          <img src="../../static/img/HP/Dribbble.png" alt="Dribble Icon">
+      </figure></a>
+      <!--Mobile Menu-->
       <a class="nav-item is-tab is-hidden-tablet is-active">Work</a>
       <a class="nav-item is-tab is-hidden-tablet">About</a>
       <a class="nav-item is-tab is-hidden-tablet">Services</a>

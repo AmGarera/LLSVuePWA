@@ -40,9 +40,10 @@
       <div class="container is-fluid">
       <div class="columns is-gapless">
         <div class="column is-half">
-          <p class="tile title flex has-text-centered">
-            We are Long Live Simple, a creative and strategic graphic design studio.
-          </p>
+          <img src="../../static/img/HP/WeareLongLiveSimple_content.png" alt="">
+          <!--<p class="tile title flex has-text-centered">-->
+            <!--We are Long Live Simple, a creative and strategic graphic design studio.-->
+          <!--</p>-->
         </div>
         <div class="column is-half">
           <div class="tile is-parent">
