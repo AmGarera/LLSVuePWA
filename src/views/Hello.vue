@@ -9,25 +9,25 @@
         <a href="https://unsplash.it/1920/1080"><img src="https://unsplash.it/1920/1080" alt=""></a>
       </slick>
     </section>
-<section class="hero is-medium brand-story">
-  <!-- Hero header: will stick at the top -->
+<!--<section class="hero is-medium brand-story">-->
+  <!--&lt;!&ndash; Hero header: will stick at the top &ndash;&gt;-->
 
-  <!-- Hero content: will be in the middle -->
-  <div class="hero-body">
-    <div class="container has-text-centered">
-      <h1 class="title white-box">
-        Tell Us Your Brand Story >
-      </h1>
-    </div>
-  </div>
+  <!--&lt;!&ndash; Hero content: will be in the middle &ndash;&gt;-->
+  <!--<div class="hero-body">-->
+    <!--<div class="container has-text-centered">-->
+      <!--<h1 class="title white-box">-->
+        <!--Tell Us Your Brand Story >-->
+      <!--</h1>-->
+    <!--</div>-->
+  <!--</div>-->
 
-  <!-- Hero footer: will stick at the bottom -->
-  <div class="hero-foot white-text has-text-centered">
-    <span>We empower our clients to help them find their brand identity and visually</span>
-    <br>
-    <span>communicate their brand stories in unique, compelling, and strategic ways.</span>
-  </div>
-</section>
+  <!--&lt;!&ndash; Hero footer: will stick at the bottom &ndash;&gt;-->
+  <!--<div class="hero-foot white-text has-text-centered">-->
+    <!--<span>We empower our clients to help them find their brand identity and visually</span>-->
+    <!--<br>-->
+    <!--<span>communicate their brand stories in unique, compelling, and strategic ways.</span>-->
+  <!--</div>-->
+<!--</section>-->
 
     <section class="hero is-medium lls-intro">
 
@@ -64,7 +64,7 @@
       </div>
       </div>
     </section>
-<section class="hero is-medium what-we-offer">
+<section style="padding-bottom: 40px; padding-top: 40px" class="hero is-medium what-we-offer">
   <br>
 <h2 class="title what-we-offer-text">WHAT WE OFFER:</h2>
   <div class="columns">
@@ -81,10 +81,10 @@
     <div class="divider-line "></div>
 
     <ul class="column white-text">
-  <li>Branding Packages</li>
-  <li>Print Collateral Design</li>
-  <li>Custom Illustration</li>
-  <li>Custom Iconography</li>
+  <li>Web Design</li>
+  <li>Social Media Setup</li>
+  <li>Brand Strategy Consulting</li>
+  <li>User Experience Consulting</li>
 </ul>
 
   <ul class="column">
@@ -94,18 +94,18 @@
     <br>
   <p class="white-text white-box listOfServices">See our full list of services ></p>
   </div>
-  <br>
 </section>
 <section class="hero is-medium">
  <div class="columns is-gapless">
-  <div class="column">
-    Local Features
+  <div style="background: #E2F2EA;" class="column">
+    <img src="../../static/img/HP/LocalFeatures.png" alt="Local Features">
   </div>
-  <div class="column">
-  Sustainable Practices
+  <div style="background-color: #4CBFA0" class="column">
+    <img src="../../static/img/HP/SustainablePractices.png" alt="Sustainable Practices">
   </div>
-  <div class="column">
-    Community Focused
+  <div style="background: #A1D7CA;" class="column">
+    <img src="../../static/img/HP/CommunityFocused.png" alt="Community Focused">
+
   </div>
 </div>
 </section>
@@ -193,6 +193,7 @@ a {
 }
 .what-we-offer-text {
   color: #fff;
+  padding-bottom: 30px;
 }
   .listOfServices {
 

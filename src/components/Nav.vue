@@ -9,7 +9,7 @@
     <div class="nav-center">
       <!--Map this to Vue-Router-->
       <router-link to="/Work" class="" tag="div" exact>
-      <a class="nav-item is-tab is-hidden-mobile is-active">
+      <a class="nav-item is-tab is-hidden-mobile">
         <figure class="image is-32x32" style="margin-right: 2px;">
           <img src="../../static/img/HP/icon1.png">
         </figure>Work</a>
@@ -52,6 +52,7 @@
     <input type="checkbox" id="nav-toggle-state" />
 
     <div class="nav-right nav-menu">
+
       <a class="nav-item is-tab is-hidden-tablet is-active">Work</a>
       <a class="nav-item is-tab is-hidden-tablet">About</a>
       <a class="nav-item is-tab is-hidden-tablet">Services</a>

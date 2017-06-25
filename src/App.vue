@@ -1,22 +1,23 @@
 <template>
   <div id="app">
     <header>
-      <div>Testing</div>
     <navigationMenu></navigationMenu>
     </header>
     <main>
       <!--<img src="./assets/logo.png" alt="Vue.js PWA">-->
       <router-view></router-view>
     </main>
+    <footer-custom></footer-custom>
   </div>
 </template>
 
 <script>
 import navigationMenu from './components/Nav.vue'
+import footerCustom from './components/Footer.vue'
 export default {
   components: {
-    navigationMenu
-  },
+    navigationMenu,
+    footerCustom},
   name: 'app'
 }
 </script>
