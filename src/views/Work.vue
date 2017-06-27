@@ -1,7 +1,12 @@
-<template></template>
+<template>
+
+
+</template>
 <script>
   export default {
     name: 'Work'
   }
 </script>
-<style></style>
+<style lang="scss">
+
+</style>

@@ -4,6 +4,8 @@ var isProduction = process.env.NODE_ENV === 'production'
 
 module.exports = {
   loaders: utils.cssLoaders({
+    scss: 'vue-style-loader!css-loader!sass-loader', // <style lang="scss">
+    sass: 'vue-style-loader!css-loader!sass-loader?indentedSyntax', // <style lang="sass">
     sourceMap: isProduction
       ? config.build.productionSourceMap
       : config.dev.cssSourceMap,

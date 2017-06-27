@@ -101,7 +101,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .container {
 background:rgba(255,255,255,0.5);
 }
@@ -114,4 +114,10 @@ background:rgba(255,255,255,0.5);
 #nav-toggle-state:checked ~ .nav-menu {
   display: block;
 }
+  a:hover {
+    color: #000;
+  }
+  figure:hover {
+    color: #1ca64c;
+  }
 </style>
