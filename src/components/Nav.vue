@@ -14,7 +14,7 @@
           <img src="../../static/img/HP/icon1.png"
                onmouseover="this.src='../../static/img/HP/icon1_green.png'"
                onmouseout="this.src='../../static/img/HP/icon1.png'">
-        </figure>Work</a>
+        </figure><strong>WORK</strong></a>
       </router-link>
       <router-link to="/About" class="" tag="div" exact>
       <a class="nav-item is-tab is-hidden-mobile">
