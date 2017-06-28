@@ -167,6 +167,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 /*Section Title*/
+
 .white-box {
   color: white;
   border: 1px solid white;
@@ -179,7 +180,8 @@ opacity: .5;
 }
  .white-text {
    font-size: 20px;
-   color: #fff
+   color: #fff;
+   font-family: 'Karla', sans-serif;
  }
 ul {
   list-style-type: none;

@@ -114,6 +114,15 @@ background:rgba(255,255,255,0.5);
 #nav-toggle-state:checked ~ .nav-menu {
   display: block;
 }
+nav {
+  width: 100%;
+  position: fixed;
+  background: #fff;
+  opacity: .8;
+}
+.nav-item{
+  font-family: Montserrat;
+}
  strong {
    color: #d3d3d3
  ; }

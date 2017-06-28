@@ -39,6 +39,7 @@ body {
 
 main {
   text-align: center;
+  /*font-family: 'Karla', sans-serif;*/
   /*margin-top: 40px;*/
 }
 
