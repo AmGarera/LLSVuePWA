@@ -59,13 +59,6 @@
                   they do. We offer meaningful experiences for customer-driven
                   and thoughtful brands.</p>
                 <a href="/About"><p class="more-about-us has-text-right">More About Us ></p></a>
-                <figure class="imghvr-zoom-in">
-                  <img src="../../static/img/HP/GoLocalHonoredhere2017_graphic.jpg">
-                  <figcaption>
-                    <img src="../../static/img/HP/GoLocalHonoredhere2017_graphic.jpg">
-                    This is some text
-                  </figcaption>
-                </figure>
               </div>
             </article>
           </div>
