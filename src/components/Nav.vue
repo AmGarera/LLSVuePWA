@@ -123,6 +123,11 @@ nav {
 .nav-item{
   font-family: Montserrat;
 }
+a.nav-item.is-tab
+{
+  border-bottom: none;
+}
+
  strong {
    color: #d3d3d3
  ; }
