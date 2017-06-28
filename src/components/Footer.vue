@@ -1,9 +1,9 @@
 <template>
   <footer class="footer">
     <div class="columns">
-      <div class="column is-flex-mobile">
-        <p style="text-indent: 25px" > Long Live Simple, LLC 2017</p>
-        <p style="text-indent: 25px" > All Rights Reserved | Legal</p>
+      <div class="column">
+        <p style="text-indent: 25px" class="has-text-centered" > Long Live Simple, LLC 2017</p>
+        <p style="text-indent: 25px" class="has-text-centered" > All Rights Reserved | Legal</p>
       </div>
       <div class="column">
         <p class="subtitle has-text-centered"> <span>Site Credits </span> | FAQ's | Testimonials | Client Login</p>

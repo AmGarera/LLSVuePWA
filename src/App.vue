@@ -25,10 +25,13 @@ export default {
 <style>
 body {
   margin: 0;
+  /*These are the fonts for the Website so one is primary and one is secondary*/
+  /*font-family: 'Montserrat', sans-serif;*/
+  /*font-family: 'Karla', sans-serif;*/
 }
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Karla', sans-serif, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;

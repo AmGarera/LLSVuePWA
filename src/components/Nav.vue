@@ -114,8 +114,11 @@ background:rgba(255,255,255,0.5);
 #nav-toggle-state:checked ~ .nav-menu {
   display: block;
 }
+ strong {
+   color: #d3d3d3
+ ; }
   strong:hover {
-    color: #d3d3d3;
+    color: #4cc1a1;
   }
   figure:hover {
     color: #1ca64c;
