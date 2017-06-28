@@ -22,7 +22,7 @@
         <img src="../../static/img/HP/icon2.png"
              onmouseover="this.src='../../static/img/HP/icon2_green.png'"
              onmouseout="this.src='../../static/img/HP/icon2.png'">
-      </figure>About</a>
+      </figure><strong>ABOUT</strong></a>
       </router-link>
       <router-link to="/Services" class="" tag="div" exact>
       <a class="nav-item is-tab is-hidden-mobile">
@@ -30,7 +30,7 @@
           <img src="../../static/img/HP/icon3.png"
                onmouseover="this.src='../../static/img/HP/icon3_green.png'"
                onmouseout="this.src='../../static/img/HP/icon3.png'">
-        </figure>Services</a>
+        </figure><strong>SERVICES</strong></a>
       </router-link>
       <router-link to="/Blog" class="" tag="div" exact>
       <a class="nav-item is-tab is-hidden-mobile">
@@ -38,7 +38,7 @@
           <img src="../../static/img/HP/icon4.png"
                onmouseover="this.src='../../static/img/HP/icon4_green.png'"
                onmouseout="this.src='../../static/img/HP/icon4.png'">
-        </figure>Blog</a>
+        </figure><strong>BLOG</strong></a>
       </router-link>
       <router-link to="/Contact" class="" tag="div" exact>
       <a class="nav-item is-tab is-hidden-mobile">
@@ -46,7 +46,7 @@
           <img src="../../static/img/HP/icon5.png"
                onmouseover="this.src='../../static/img/HP/icon5_green.png'"
                onmouseout="this.src='../../static/img/HP/icon5.png'">
-        </figure>Contact</a>
+        </figure><strong>CONTACT</strong></a>
       </router-link>
       <router-link to="/Shop" class="" tag="div" exact>
       <a class="nav-item is-tab is-hidden-mobile">
@@ -54,7 +54,7 @@
           <img src="../../static/img/HP/icon6.png"
                onmouseover="this.src='../../static/img/HP/icon6_green.png'"
                onmouseout="this.src='../../static/img/HP/icon6.png'">
-        </figure>Shop</a>
+        </figure><strong>SHOP</strong></a>
       </router-link>
     </div>
     <label class="nav-toggle" for="nav-toggle-state">
@@ -114,8 +114,8 @@ background:rgba(255,255,255,0.5);
 #nav-toggle-state:checked ~ .nav-menu {
   display: block;
 }
-  a:hover {
-    color: #000;
+  strong:hover {
+    color: #d3d3d3;
   }
   figure:hover {
     color: #1ca64c;
