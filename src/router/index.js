@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Hello from '@/views/Hello'
 import Work from '@/views/Work'
+import About from '@/views/About'
 import Buefy from 'buefy'
 import 'buefy/lib/buefy.css'
 
@@ -19,6 +20,11 @@ export default new Router({
       path: '/Work',
       name: 'Work',
       component: Work
+    },
+    {
+      path: '/About',
+      name: 'About',
+      component: About
     }
   ]
 })
