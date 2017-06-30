@@ -111,6 +111,77 @@
   </div>
 </div>
 </section>
+    <section class="newsletter-section">
+      <div class="columns">
+        <div class="column">
+          <p style="flex-wrap: wrap">Sign up for our newsletter to receive branding insights. freebies, and happenings.</p>
+        </div>
+        <div class="column">
+      <div class="field is-horizontal">
+        <div class="field-label is-normal">
+          <label class="label">From</label>
+        </div>
+        <div class="field-body">
+          <div class="field is-grouped">
+            <p class="control is-expanded has-icons-left">
+              <input class="input" type="text" placeholder="Name">
+              <span class="icon is-small is-left">
+          <i class="fa fa-user"></i>
+        </span>
+            </p>
+          </div>
+          <div class="field">
+            <p class="control is-expanded has-icons-left has-icons-right">
+              <input class="input is-success" type="email" placeholder="Email" value="">
+              <span class="icon is-small is-left">
+          <i class="fa fa-envelope"></i>
+        </span>
+              <span class="icon is-small is-right">
+          <i class="fa fa-check"></i>
+        </span>
+            </p>
+            <p class="help is-success">This email is correct</p>
+          </div>
+          <div class="field">
+            <div class="control">
+              <button class="button is-primary">
+                Send message
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+        <!----></div>
+      <div class="columns">
+      <div class=" column container">
+
+      </div>
+
+        <div class=" column container">
+          <div class="level-left">
+            <!-- Left empty for spacing -->
+
+          </div>
+        </div>
+      </div>
+
+      <div class="columns">
+        <div class=" column container">
+          <div class="">
+            <!-- Left empty for spacing -->
+            <p class="has-text-centered">We aren't the Spamming Type</p>
+          </div>
+        </div>
+
+        <div class=" column container">
+          <div class="level-left">
+            <!-- Left empty for spacing -->
+
+          </div>
+        </div>
+      </div>
+    </section>
 
   </div>
 <!--End of First Hero-->
@@ -220,4 +291,10 @@ a {
 [class*=' imghvr-'] {
   background-color: #D14233;
 }
+
+  /*Newsletter*/
+  .newsletter-section {
+    padding-top: 20px;
+    background-color: gray;
+  }
 </style>
