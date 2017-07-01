@@ -100,13 +100,19 @@
 <section class="hero is-medium">
  <div class="columns is-gapless">
   <div style="background: #E2F2EA;" class="column">
+    <router-link to="/About">
     <img src="../../static/img/HP/LocalFeatures.png" alt="Local Features">
+    </router-link>
   </div>
   <div style="background-color: #4CBFA0" class="column">
+    <router-link to="/About">
     <img src="../../static/img/HP/SustainablePractices.png" alt="Sustainable Practices">
+    </router-link>
   </div>
   <div style="background: #A1D7CA;" class="column">
+    <router-link to="/About">
     <img src="../../static/img/HP/CommunityFocused.png" alt="Community Focused">
+    </router-link>
 
   </div>
 </div>
@@ -232,7 +238,7 @@ export default {
   color: white;
   border: 1px solid white;
   display: inline-block;
-  padding: 20px;
+  padding: 17px;
 }
 .hero-foot{
 background-color: black;
