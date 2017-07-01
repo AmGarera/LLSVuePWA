@@ -120,7 +120,7 @@
     <section class="newsletter-section">
       <div class="columns container white-text">
         <div class="column">
-          <p style="flex-wrap: wrap"><b>Sign up for our newsletter to receive branding insights. freebies, and happenings.</b></p>
+          <p><b>Sign up for our newsletter to receive branding insights. freebies, and happenings.</b></p>
         </div>
         <div class="column">
       <div class="field is-horizontal">
@@ -154,13 +154,13 @@
         <!----></div>
       <div class="columns container">
       <div class="column">
-        <p class="has-text-centered white-text"><i>We aren't the Spamming Type</i></p>
+        <p class="has-text-centered white-text"><i>We aren't the spamming type.</i></p>
       </div>
 
         <div class=" column">
           <div class="has-text-centered">
             <!-- Left empty for spacing -->
-            <a class="button is-primary is-inverted is-outlined is-medium"><strong>Get Notified</strong></a>
+            <a class="button is-primary is-inverted is-outlined is-medium"><strong>Get notified</strong></a>
           </div>
         </div>
       </div>
@@ -260,7 +260,7 @@ li {
 }
 
 a {
-  color: #42b983;
+  color: RGB(76,191,160);
 }
 .brand-story {
   background-image: url('https://unsplash.it/1920/1080');

@@ -15,7 +15,7 @@
       <div class="column">
         <p class="subtitle has-text-centered Karla-font">Socialize with us:</p>
         <ul class=" has-text-centered">
-          <li><img src="../../static/img/HP/instagram.png" class="image is-32x32" alt="Instagram Icon"></li>
+          <li><a href=""><img src="../../static/img/HP/instagram.png" class="image is-32x32" alt="Instagram Icon"></a></li>
           <li><img src="../../static/img/HP/facebook.png" class="image is-32x32" alt="Facebook Icon"></li>
           <li><img src="../../static/img/HP/twitter.png" class="image is-32x32" alt="Twitter Icon"></li>
           <li><img src="../../static/img/HP/Pinteresticon.png" class="image is-32x32" alt="Pinterest Icon"></li>
@@ -63,7 +63,7 @@ li {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: #42b983; /* Set a background color */
+  background-color: RGB(76,191,160); /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
