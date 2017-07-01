@@ -13,7 +13,7 @@
       </div>
     </section>
     <section>
-      <h3 class="title has-text-centered">The Long Live Simple Story:</h3>
+      <h3 class="title is-spaced has-text-centered">The Long Live Simple Story:</h3>
       <div class="container is-fluid">
       <p class="has-text-centered mission">We are the full-service creative company that your small business has been looking for.
         Whether you're a recent startup, a well-established company,
@@ -24,7 +24,7 @@
     </section>
     <br><!--TODO Replace this with padding-->
     <section class="container">
-      <h3 class="title has-text-centered"> Our Mission</h3>
+      <h3 class="title is-spaced has-text-centered"> Our Mission</h3>
       <p class="has-text-centered mission">At Long Live Simple, we craft brands for entrepreneurs and
         businesses that are both relatable and intentional through custom typography and design services.
       Here are some of the things we love and the ways we aim to give back through what we do.</p>
@@ -91,7 +91,7 @@
       <!--Team Grid-->
       <div class="container">
       <div class="columns">
-        <div class="column">
+        <div class="column is-offset-1">
           <article class="media">
             <figure class="media-left">
               <p class="image is-96x96">
@@ -102,9 +102,9 @@
               <div class="content">
                 <p>
                   <br>
-                  <strong class="grey-text">Carley Lee | Creative Director</strong>
+                  <span class="grey-text">Carley Lee | Creative Director</span>
                   <br>
-                  <strong class="grey-text">Long Live Simple</strong>
+                  <span class="grey-text">Long Live Simple</span>
                 </p>
               </div>
             </div>
@@ -121,9 +121,9 @@
               <div class="content">
                 <p>
                   <br>
-                  <strong class="grey-text">Anthony Garera | Web Developer</strong>
+                  <span class="grey-text">Anthony Garera | Web Developer</span>
                   <br>
-                  <strong class="grey-text">DamGap Studios</strong>
+                  <span class="grey-text">DamGap Studios</span>
                 </p>
               </div>
             </div>
@@ -131,7 +131,7 @@
         </div>
       </div>
       <div class="columns">
-        <div class="column">
+        <div class="column is-offset-1">
           <article class="media">
             <figure class="media-left">
               <p class="image is-96x96">
@@ -142,9 +142,9 @@
               <div class="content">
                 <p>
                   <br>
-                  <strong class="grey-text">Collaborating with Taylor Heery Photography </strong>
+                  <span class="grey-text">Collaborating with Taylor Heery Photography </span>
                   <br>
-                  <strong class="grey-text">for brand photos </strong>
+                  <span class="grey-text">for brand photos </span>
                 </p>
               </div>
             </div>
@@ -161,9 +161,9 @@
               <div class="content">
                 <p>
                   <br>
-                  <strong class="grey-text">Website editing by </strong>
+                  <span class="grey-text">Website editing by </span>
                   <br>
-                  <strong class="grey-text">Kelsey Mitchener Editing</strong>
+                  <span class="grey-text">Kelsey Mitchener Editing</span>
                 </p>
               </div>
             </div>
@@ -172,6 +172,36 @@
       </div>
       </div>
       <br>
+    </section>
+    <!--About Carley-->
+    <section>
+      <div class="container">
+        <article class="media">
+          <div class="media-content">
+            <div class="content">
+              <p class="has-text-left">
+                <br>
+                <img class="left-pic" src="../../static/img/HP/GoLocalHonoredhere2017_graphic.jpg">Hi there! I’m Carley Lee, the Creative Director here at Long Live Simple, LLC. Long Live Simple is a full-service graphic design co. that specializes in branding, web design, and print solutions for local businesses in my home town of Asheville, North Carolina, and the surrounding area. Whether you’re crafting your dream business from the ground up, launching a digital product, hosting an event, or needing a captivating packaging solution, my studio will make sure your business is in great hands.
+                With nine years of graphic design and marketing experience, I have gained professional experience with Ally Financial as a Senior User Experience Designer, Lowe’s Corporate as an Email Designer, and a variety of branding relationships with such companies as Hagopian Ink (Bailey Banks & Biddle, HubSpot Marketing, INBOUND Conference), NanceNet (Weight Watchers, ContextMedia) and many adventurous solopreneurs. Each opportunity has enhanced my creativity and led me to my true passion—working one-on-one with clients and their teams. In April 2016, this dream became a reality with the creation of Long Live Simple—a company where I personally create customized branding experiences and develop brands that resonate with my clients’ target audiences while keeping simplicity and sustainability in the forefront.  It’s my goal to ensure that all aspects of a brand vision are represented completely. I also collaborate with a handful of talented freelancers, and together, we make the identity of each brand stand out in a compelling way.
+                While I’ve lived and worked in a variety of cities, including NYC, DC, and Charlotte, NC , I am happy to now call the mountains of Asheville home. When I’m not at the studio or behind my laptop, I’m fueling my soul with my other passions—hiking in the beautiful mountains, exploring art galleries for thought-provoking and heart-touching pieces, studying the intriguing qualities of Earth’s plants, and enjoying precious time with family and friends.
+                Having a studio art background, I am able to articulate my clients’ wishes into memorable and fully customized branding experiences. I value working with each client on each brand I help them to create .
+                If you’re ready to explore how we can work together, please visit the Services page . If you’d like to connect and socialize with me, you can find Long Live Simple on Facebook, Instagram, Twitter, Pinterest, and Dribbble. And, if you’d like to be introduced to some helpful resources, you’ll be able to dive into my blog, which is coming soon!</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!--Join Our Team-->
+    <section class="dark-green-background">
+      <div class="container">
+        <br>
+        <h3 class="title is-spaced white-text"> Join our Team</h3>
+        <p class="white-text mission is-flex-mobile">We’re always looking for amazing designers, content strategists, or local entrepreneurs to work with.
+          Come join us! For inquiries or if you’d like to collaborate, email us at <a class="is-hidden-mobile" href="mailto:hello@longlivesimple.com?subject=Collaboration">hello@longlivesimple.com.</a>
+        </p>
+        <a class="is-hidden-tablet" href="mailto:hello@longlivesimple.com?subject=Collaboration">hello@longlivesimple.com.</a>
+      </div>
     </section>
   </div>
 </template>
@@ -184,17 +214,36 @@
 
 
 <style scoped>
-  .mission {
-    padding: 0 10rem;
+  @media screen and (min-width: 1001px) {
+    .mission {
+      padding: 0 10rem;
+    }
   }
   .grey-text {
     color: gray;
     font-size: large;
+  }
+  .white-text {
+    color: #fff;
   }
   .media {
     border-top: none;
   }
   .green-background {
     background-color: rgb(226,241,234);
+  }.dark-green-background {
+    background-color: rgb(160,211,200);
+  }
+  .Karla-font {
+    font-family: 'Karla', sans-serif;
+  }
+  .left-pic {
+    float: left;
+    padding: 0 20px 20px 0;}
+  .title {
+    font-family: 'Montserrat', sans-serif;
+  }
+  body {
+    font-family: 'Karla', sans-serif;
   }
 </style>
