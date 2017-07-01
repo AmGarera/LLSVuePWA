@@ -114,7 +114,7 @@
     <section class="newsletter-section">
       <div class="columns container white-text">
         <div class="column">
-          <p style="flex-wrap: wrap">Sign up for our newsletter to receive branding insights. freebies, and happenings.</p>
+          <p style="flex-wrap: wrap"><b>Sign up for our newsletter to receive branding insights. freebies, and happenings.</b></p>
         </div>
         <div class="column">
       <div class="field is-horizontal">
@@ -148,7 +148,7 @@
         <!----></div>
       <div class="columns container">
       <div class="column">
-        <p class="has-text-centered white-text">We aren't the Spamming Type</p>
+        <p class="has-text-centered white-text"><i>We aren't the Spamming Type</i></p>
       </div>
 
         <div class=" column">
