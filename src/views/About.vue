@@ -203,6 +203,26 @@
         <a class="is-hidden-tablet" href="mailto:hello@longlivesimple.com?subject=Collaboration">hello@longlivesimple.com.</a>
       </div>
     </section>
+    <!--Hear Yours-->
+    <section>
+      <div class="container">
+        <br>
+        <h3 class="title is-spaced "> BANNER:</h3>
+        <p class="mission is-flex-mobile">We’ve told you our story —now we’d love to hear yours!
+          Get in touch with us <span class="is-hidden-mobile">at</span> <a class="is-hidden-mobile" href="mailto:hello@longlivesimple.com?subject=Collaboration">hello@longlivesimple.com.</a>
+          to review your brand story and ideas. Let us help you craft a brand that resonates with your target audience and makes your brand personality shine. </p>
+        <a class="is-hidden-tablet" href="mailto:hello@longlivesimple.com?subject=Collaboration">hello@longlivesimple.com.</a>
+
+        <div class="columns">
+          <div class="column">
+            <span><a href="">Get in touch with us ></a></span>
+          </div>
+          <div class="column">
+            <span><a href="">Set up a free consultation ></a></span>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -245,5 +265,8 @@
   }
   body {
     font-family: 'Karla', sans-serif;
+  }
+  a {
+    color: #42b983;
   }
 </style>
