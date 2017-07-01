@@ -58,7 +58,7 @@
                   creating unique, hand-drawn logos and custom work so our clients can have a symbol that represents who they are and what
                   they do. We offer meaningful experiences for customer-driven
                   and thoughtful brands.</p>
-                <a href="/About"><p class="more-about-us has-text-right">More About Us ></p></a>
+                <a href="/About"><b><p class="more-about-us has-text-right">More About Us ></p></b></a>
               </div>
             </article>
           </div>
@@ -94,7 +94,7 @@
   </div>
   <div>
     <br>
-  <p class="white-text white-box listOfServices">See our full list of services ></p>
+  <p class="white-text white-box listOfServices"><strong class="white-text">See our full list of services ></strong></p>
   </div>
 </section>
 <section class="hero is-medium">
@@ -154,7 +154,7 @@
         <div class=" column">
           <div class="has-text-centered">
             <!-- Left empty for spacing -->
-            <a class="button is-primary is-inverted is-outlined is-medium">Get Notified</a>
+            <a class="button is-primary is-inverted is-outlined is-medium"><strong>Get Notified</strong></a>
           </div>
         </div>
       </div>

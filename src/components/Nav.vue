@@ -11,49 +11,49 @@
       <router-link to="/Work" class="" tag="div" exact>
       <a class="nav-item is-tab is-hidden-mobile">
         <figure class="image is-32x32" style="margin-right: 2px;">
-          <img src="../../static/img/HP/icon1.png"
-               onmouseover="this.src='../../static/img/HP/icon1_green.png'"
-               onmouseout="this.src='../../static/img/HP/icon1.png'">
+          <img src="../../static/img/Navigation Icons/icon1.png"
+               onmouseover="this.src='../../static/img/Navigation Icons/icon1_green.png'"
+               onmouseout="this.src='../../static/img/Navigation Icons/icon1.png'">
         </figure><strong>WORK</strong></a>
       </router-link>
       <router-link to="/About" class="" tag="div" exact>
       <a class="nav-item is-tab is-hidden-mobile">
         <figure class="image is-32x32" style="margin-right: 2px;">
-        <img src="../../static/img/HP/icon2.png"
-             onmouseover="this.src='../../static/img/HP/icon2_green.png'"
-             onmouseout="this.src='../../static/img/HP/icon2.png'">
+        <img src="../../static/img/Navigation Icons/icon2.png"
+             onmouseover="this.src='../../static/img/Navigation Icons/icon2_green.png'"
+             onmouseout="this.src='../../static/img/Navigation Icons/icon2.png'">
       </figure><strong>ABOUT</strong></a>
       </router-link>
       <router-link to="/Services" class="" tag="div" exact>
       <a class="nav-item is-tab is-hidden-mobile">
         <figure class="image is-32x32" style="margin-right: 2px;">
-          <img src="../../static/img/HP/icon3.png"
-               onmouseover="this.src='../../static/img/HP/icon3_green.png'"
-               onmouseout="this.src='../../static/img/HP/icon3.png'">
+          <img src="../../static/img/Navigation Icons/icon3.png"
+               onmouseover="this.src='../../static/img/Navigation Icons/icon3_green.png'"
+               onmouseout="this.src='../../static/img/Navigation Icons/icon3.png'">
         </figure><strong>SERVICES</strong></a>
       </router-link>
       <router-link to="/Blog" class="" tag="div" exact>
       <a class="nav-item is-tab is-hidden-mobile">
         <figure class="image is-32x32" style="margin-right: 2px;">
-          <img src="../../static/img/HP/icon4.png"
-               onmouseover="this.src='../../static/img/HP/icon4_green.png'"
-               onmouseout="this.src='../../static/img/HP/icon4.png'">
+          <img src="../../static/img/Navigation Icons/icon4.png"
+               onmouseover="this.src='../../static/img/Navigation Icons/icon4_green.png'"
+               onmouseout="this.src='../../static/img/Navigation Icons/icon4.png'">
         </figure><strong>BLOG</strong></a>
       </router-link>
       <router-link to="/Contact" class="" tag="div" exact>
       <a class="nav-item is-tab is-hidden-mobile">
         <figure class="image is-32x32" style="margin-right: 2px;">
-          <img src="../../static/img/HP/icon5.png"
-               onmouseover="this.src='../../static/img/HP/icon5_green.png'"
-               onmouseout="this.src='../../static/img/HP/icon5.png'">
+          <img src="../../static/img/Navigation Icons/icon5.png"
+               onmouseover="this.src='../../static/img/Navigation Icons/icon5_green.png'"
+               onmouseout="this.src='../../static/img/Navigation Icons/icon5.png'">
         </figure><strong>CONTACT</strong></a>
       </router-link>
       <router-link to="/Shop" class="" tag="div" exact>
       <a class="nav-item is-tab is-hidden-mobile">
         <figure class="image is-32x32" style="margin-right: 2px;">
-          <img src="../../static/img/HP/icon6.png"
-               onmouseover="this.src='../../static/img/HP/icon6_green.png'"
-               onmouseout="this.src='../../static/img/HP/icon6.png'">
+          <img src="../../static/img/Navigation Icons/icon6.png"
+               onmouseover="this.src='../../static/img/Navigation Icons/icon6_green.png'"
+               onmouseout="this.src='../../static/img/Navigation Icons/icon6.png'">
         </figure><strong>SHOP</strong></a>
       </router-link>
     </div>
