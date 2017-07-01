@@ -51,7 +51,7 @@
               <!--<p class="title">Wide tile</p>-->
 
               <div class="content">
-                <p style="padding-top: 20px; font-size: large" class="has-text-left">
+                <p style="padding-top: 20px; font-size: large" class="has-text-left is-hidden-mobile">
                   Here at Long Live Simple, we believe brands should tell stories.
                   Whether your brand is an extension of what you do, a reflection of
                   your personality or a platform to your ideal audience, we love
