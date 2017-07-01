@@ -112,14 +112,14 @@
 </div>
 </section>
     <section class="newsletter-section">
-      <div class="columns">
+      <div class="columns container white-text">
         <div class="column">
           <p style="flex-wrap: wrap">Sign up for our newsletter to receive branding insights. freebies, and happenings.</p>
         </div>
         <div class="column">
       <div class="field is-horizontal">
         <div class="field-label is-normal">
-          <label class="label">From</label>
+          <!--<label class="label">From</label>-->
         </div>
         <div class="field-body">
           <div class="field is-grouped">
@@ -132,7 +132,7 @@
           </div>
           <div class="field">
             <p class="control is-expanded has-icons-left has-icons-right">
-              <input class="input is-success" type="email" placeholder="Email" value="">
+              <input class="input" type="email" placeholder="Email" value="">
               <span class="icon is-small is-left">
           <i class="fa fa-envelope"></i>
         </span>
@@ -140,44 +140,40 @@
           <i class="fa fa-check"></i>
         </span>
             </p>
-            <p class="help is-success">This email is correct</p>
           </div>
-          <div class="field">
-            <div class="control">
-              <button class="button is-primary">
-                Send message
-              </button>
-            </div>
-          </div>
+
         </div>
       </div>
         </div>
         <!----></div>
-      <div class="columns">
-      <div class=" column container">
-
+      <div class="columns container">
+      <div class="column">
+        <p class="has-text-centered white-text">We aren't the Spamming Type</p>
       </div>
 
-        <div class=" column container">
-          <div class="level-left">
+        <div class=" column">
+          <div class="has-text-centered">
             <!-- Left empty for spacing -->
-
+            <a class="button is-primary is-inverted is-outlined is-medium">Get Notified</a>
           </div>
         </div>
       </div>
 
-      <div class="columns">
-        <div class=" column container">
+      <div class="columns container">
+        <div class=" column ">
           <div class="">
             <!-- Left empty for spacing -->
-            <p class="has-text-centered">We aren't the Spamming Type</p>
           </div>
         </div>
 
-        <div class=" column container">
-          <div class="level-left">
+        <div class=" column">
+          <div class="">
             <!-- Left empty for spacing -->
+            <div class="field has-addons has-addons-centered">
+              <div class="control">
 
+              </div>
+            </div>
           </div>
         </div>
       </div>
