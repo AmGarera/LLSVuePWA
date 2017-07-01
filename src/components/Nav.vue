@@ -1,5 +1,5 @@
 <template>
-  <nav class="nav has-shadow transparent">
+  <nav id="top" class="nav has-shadow transparent">
     <div class="nav-left">
       <a href="/" class="nav-item">
         <img style="max-height: 2.75em" src="../../static/img/HP/llslogo.png" alt="Bulma logo">

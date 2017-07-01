@@ -20,8 +20,8 @@
         <figure class="imghvr-zoom-in">
           <img src="../../static/img/HP/GoLocalHonoredhere2017_graphic.jpg">
           <figcaption>
-            <img src="../../static/img/HP/GoLocalHonoredhere2017_graphic.jpg">
-            This is some text
+            <router-link to="/Aris"><img src="../../static/img/HP/GoLocalHonoredhere2017_graphic.jpg">
+            Aris</router-link>
           </figcaption>
         </figure>
 

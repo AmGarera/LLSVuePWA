@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <a id="top"></a>
     <header>
     <navigationMenu></navigationMenu>
     </header>
