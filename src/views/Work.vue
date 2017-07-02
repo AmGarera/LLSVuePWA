@@ -20,49 +20,30 @@
   <div style="padding: 0px 40px;" class="columns ">
     <div class="column">
       <router-link to="/Aris">
-      <figure class="imghvr-zoom-in ih-delay-xs">
         <div class="card">
           <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="../../static/img/HP/IMG_6393.jpg" alt="Image">
+            <figure class="image is-3by2 wrapper">
+              <img class="image-hover-opacity" src="../../static/img/HP/IMG_6393.jpg" alt="Image">
+
+              <p class="text-box has-text-centered title">I'm Text</p>
             </figure>
           </div>
-          <div class="card-content">
-            <div class="content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Phasellus nec iaculis mauris.
-            </div>
-          </div>
         </div>
-        <figcaption>
-          <img src="../../static/img/HP/arise-hero.jpg">
-          This is some text
-        </figcaption>
-      </figure>
       </router-link>
     </div>
 
     <div class="column">
-      <figure class="imghvr-zoom-in">
-      <div class="card">
-        <div class="card-image">
-          <figure class="image is-4by3">
-            <img src="../../static/img/HP/arise-hero.jpg" alt="Image">
+      <router-link to="/Aris">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-3by2 wrapper">
+              <img class="image-hover-opacity" src="../../static/img/HP/IMG_6393.jpg" alt="Image">
 
-          </figure>
-        </div>
-        <div class="card-content">
-          <div class="content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Phasellus nec iaculis mauris.
+              <p class="text-box has-text-centered title">I'm Text</p>
+            </figure>
           </div>
         </div>
-      </div>
-        <figcaption>
-          <img src="../../static/img/HP/arise-hero.jpg">
-          This is some text
-        </figcaption>
-      </figure>
+      </router-link>
     </div>
   </div>
   <div class="columns">
@@ -204,4 +185,34 @@
  color: #000;
   padding-bottom: 20px;
 }
+.text-box {
+  color: black;
+  display: inline-table;
+  vertical-align:middle;
+  line-height:100%;
+
+}
+#wrapper .text-box {
+  position:relative;
+  bottom:0px;
+  left:0px;
+  top: 50%;
+  visibility:hidden;
+}
+
+#wrapper:hover .text-box {
+  visibility:visible;
+
+}
+  .image-hover-opacity {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  .image-hover-opacity:hover {
+    opacity: 0.3;
+  }
 </style>

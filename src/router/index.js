@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Hello from '@/views/Hello'
 import Work from '@/views/Work'
 import About from '@/views/About'
+import Blog from '@/views/Blog'
 import Aris from '@/views/Aris'
 import Buefy from 'buefy'
 import 'buefy/lib/buefy.css'
@@ -28,8 +29,13 @@ export default new Router({
       component: About
     },
     {
+      path: '/Blog',
+      name: 'Blog',
+      component: Blog
+    },
+    {
       path: '/Aris',
-      name: 'Aris',
+      name: 'Arise',
       component: Aris
     }
   ]
