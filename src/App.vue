@@ -23,7 +23,8 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+
 body {
   margin: 0;
   /*These are the fonts for the Website so one is primary and one is secondary*/

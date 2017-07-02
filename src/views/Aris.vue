@@ -25,24 +25,15 @@
       <div class="column">
         <img src="../../static/img/HP/Arise_8-06.png" alt="Client Image">
       </div>
-      <div class="column">
-        <img src="../../static/img/HP/Arise_9-06.png" alt="Client Image">
-      </div>
     </div>
-    <img src="../../static/img/HP/CommunityFocused.png" alt="Client Image">
+    <img src="../../static/img/HP/Arise_9-06.png" alt="Client Image">
     <p>We worked with the team to create a series of email campaign headers that mirror their social media banners.</p>
     <div class="columns">
       <div class="column">
-        <img src="../../static/img/HP/CommunityFocused.png" alt="Client Image">
-      </div>
-      <div class="column">
-        <img src="../../static/img/HP/CommunityFocused.png" alt="Client Image">
-      </div>
-      <div class="column">
-        <img src="../../static/img/HP/CommunityFocused.png" alt="Client Image">
+        <img src="../../static/img/HP/Arise_10-06.png" alt="Client Image">
       </div>
     </div>
-    <img src="../../static/img/HP/CommunityFocused.png" alt="Client Image">
+    <img src="../../static/img/HP/Arise_11-06.png" alt="Client Image">
     <p>All work done for Arise(TM) Virtual Solutions was based off their newly created brand guide and brand standards.
       All work and flyers shown are copyright Arise(TM) Virtual Solutions.</p>
   </div>
@@ -61,5 +52,8 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  }
+  .is-fluid {
+    margin: 0px 80px;
   }
 </style>

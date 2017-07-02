@@ -13,49 +13,96 @@
       </div>
     </section>
 <section>
-  <span class="has-text-centered subtitle brand-title-text">Brands We've Worked With</span>
+  <h1 class="has-text-centered subtitle brand-title-text">Brands We've Worked With</h1>
   <!--Grid of Clients-->
-  <div class="columns is-gapless">
-    <div class="column is-text-centered">
-        <figure class="imghvr-zoom-in">
-          <img src="../../static/img/HP/GoLocalHonoredhere2017_graphic.jpg">
-          <figcaption>
-            <router-link to="/Aris"><img src="../../static/img/HP/GoLocalHonoredhere2017_graphic.jpg">
-            Aris</router-link>
-          </figcaption>
-        </figure>
 
-    </div>
-    <div class="column is-text-centered">
+  <div class="columns">
+    <div class="column">
       <figure class="imghvr-zoom-in">
-        <img src="../../static/img/HP/GoLocalHonoredhere2017_graphic.jpg">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="../../static/img/HP/arise-hero.jpg" alt="Image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Phasellus nec iaculis mauris.
+            </div>
+          </div>
+        </div>
         <figcaption>
-          <img src="../../static/img/HP/GoLocalHonoredhere2017_graphic.jpg">
+          <img src="../../static/img/HP/arise-hero.jpg">
           This is some text
         </figcaption>
       </figure>
+    </div>
 
+    <div class="column">
+      <figure class="imghvr-zoom-in">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="../../static/img/HP/arise-hero.jpg" alt="Image">
+
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Phasellus nec iaculis mauris.
+          </div>
+        </div>
+      </div>
+        <figcaption>
+          <img src="../../static/img/HP/arise-hero.jpg">
+          This is some text
+        </figcaption>
+      </figure>
     </div>
   </div>
-
   <div class="columns is-gapless">
-    <div class="column is-text-centered">
+    <div class="column is-6 is-text-centered">
       <figure class="imghvr-zoom-in">
-        <img src="../../static/img/HP/GoLocalHonoredhere2017_graphic.jpg">
+        <div class="card">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">
+              Hero title
+            </h1>
+            <h2 class="subtitle">
+              Hero subtitle
+            </h2>
+          </div>
+        </div>
         <figcaption>
           <img src="../../static/img/HP/GoLocalHonoredhere2017_graphic.jpg">
           This is some text
         </figcaption>
+        </div>
       </figure>
 
     </div>
     <div class="column is-text-centered">
       <figure class="imghvr-zoom-in">
-        <img src="../../static/img/HP/GoLocalHonoredhere2017_graphic.jpg">
+        <div class="card">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">
+              Hero title
+            </h1>
+            <h2 class="subtitle">
+              Hero subtitle
+            </h2>
+          </div>
+        </div>
+
         <figcaption>
           <img src="../../static/img/HP/GoLocalHonoredhere2017_graphic.jpg">
           This is some text
         </figcaption>
+        </div>
       </figure>
 
     </div>
@@ -139,7 +186,11 @@
 </script>
 <style lang="scss" scoped>
 .hero-image {
-  background-image: url('https://unsplash.it/1920/1080');
+  background: url("../../static/img/HP/Work_Hero-01.svg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
   .title {
     color: #fff;

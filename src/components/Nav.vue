@@ -102,9 +102,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.container {
-background:rgba(255,255,255,0.5);
-}
+  $primary: #72d0eb;
+  $is-tab: #72d0eb;
 .nav-toggle:before { content:'\2630'; }
 
 #nav-toggle-state {
