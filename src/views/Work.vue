@@ -17,10 +17,10 @@
   <h1 class="has-text-centered title brand-title-text">Brands We've Worked With</h1>
   <!--Grid of Clients-->
 
-  <div class="columns ">
+  <div style="padding: 0px 40px;" class="columns ">
     <div class="column">
       <router-link to="/Aris">
-      <figure class="imghvr-zoom-in">
+      <figure class="imghvr-zoom-in ih-delay-xs">
         <div class="card">
           <div class="card-image">
             <figure class="image is-4by3">

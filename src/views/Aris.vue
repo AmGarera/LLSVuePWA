@@ -7,7 +7,7 @@
 </section>
 <section>
   <div style="margin: 0px 80px" class="container is-fluid">
-    <p style="padding: 60px 0px;" class=""><b><a href="https://www.arise.com">Arise&#8482; Virtual Solutions </a>is a customer service support company in Miramar, Florida.</b> </p>
+    <p style="padding: 60px 0px;" class="header-font"><b><a href="https://www.arise.com">Arise&#8482; Virtual Solutions </a>is a customer service support company in Miramar, Florida.</b> </p>
     <!--Client Images-->
     <img src="../../static/img/HP/Arise_1-06.png" alt="Client Image">
     <img src="../../static/img/HP/Arise_2-06.png" alt="Client Image">
@@ -59,4 +59,7 @@
   .content-padding {
     padding:30px 0px;
   }
+  .header-font {
+    font-family: 'Montserrat', sans-serif;
+   }
 </style>
