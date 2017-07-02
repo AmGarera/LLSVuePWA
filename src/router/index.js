@@ -5,6 +5,7 @@ import Work from '@/views/Work'
 import About from '@/views/About'
 import Blog from '@/views/Blog'
 import Shop from '@/views/Shop'
+import TylerJMcCall from '@/views/TylerJMcCall'
 import Aris from '@/views/Aris'
 import Buefy from 'buefy'
 import 'buefy/lib/buefy.css'
@@ -40,7 +41,12 @@ export default new Router({
       component: Shop
     },
     {
-      path: '/Aris',
+      path: '/Tyler-J-McCall',
+      name: 'TylerJMcCall',
+      component: TylerJMcCall
+    },
+    {
+      path: '/Arise',
       name: 'Arise',
       component: Aris
     }

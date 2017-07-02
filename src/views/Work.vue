@@ -19,7 +19,7 @@
 
   <div style="padding: 0px 40px;" class="columns ">
     <div class="column">
-      <router-link to="/Aris">
+      <router-link to="/Tyler-J-McCall">
         <div class="card">
           <div class="card-image">
             <figure class="image is-3by2 wrapper">
