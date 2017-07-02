@@ -269,4 +269,11 @@
   a {
     color: #42b983;
   }
+  .hero-body {
+    background: url("../../static/img/ABOUT/About_TestimonialsBanner.svg")  no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 </style>

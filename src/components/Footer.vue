@@ -15,11 +15,11 @@
       <div class="column">
         <p class="subtitle has-text-centered Karla-font">Socialize with us:</p>
         <ul class=" has-text-centered">
-          <li><a href=""><img src="../../static/img/HP/instagram.png" class="image is-32x32" alt="Instagram Icon"></a></li>
-          <li><img src="../../static/img/HP/facebook.png" class="image is-32x32" alt="Facebook Icon"></li>
-          <li><img src="../../static/img/HP/twitter.png" class="image is-32x32" alt="Twitter Icon"></li>
-          <li><img src="../../static/img/HP/Pinteresticon.png" class="image is-32x32" alt="Pinterest Icon"></li>
-          <li><img src="../../static/img/HP/Dribbble.png" class="image is-32x32" alt="Dribble Icon"></li>
+          <li><a href="https://www.instagram.com/longlivesimple"><img src="../../static/img/HP/instagram.png" class="image is-32x32" alt="Instagram Icon"></a></li>
+          <li><a href="https://www.facebook.com/longlivesimple"><img src="../../static/img/HP/facebook.png" class="image is-32x32" alt="Facebook Icon"></a></li>
+          <li><a href="https://www.twitter.com/longlivesimple"><img src="../../static/img/HP/twitter.png" class="image is-32x32" alt="Twitter Icon"></a></li>
+          <li><a href="https://www.pinterest.com/longlivesimple"><img src="../../static/img/HP/Pinteresticon.png" class="image is-32x32" alt="Pinterest Icon"></a></li>
+          <li><a href="https://www.dribbble.com/longlivesimple"><img src="../../static/img/HP/Dribbble.png" class="image is-32x32" alt="Dribble Icon"></a></li>
         </ul>
       </div>
     </div>
