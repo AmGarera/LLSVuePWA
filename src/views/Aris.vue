@@ -7,11 +7,11 @@
 </section>
 <section>
   <div style="margin: 0px 80px" class="container is-fluid">
-    <p style="padding: 60px 0px;"><a href="https://www.arise.com">Arise&#8482; Virtual Solutions </a>is a customer service support company in Miramar, Florida. </p>
+    <p style="padding: 60px 0px;" class="has-text-left"><a href="https://www.arise.com">Arise&#8482; Virtual Solutions </a>is a customer service support company in Miramar, Florida. </p>
     <!--Client Images-->
     <img src="../../static/img/HP/Arise_1-06.png" alt="Client Image">
     <img src="../../static/img/HP/Arise_2-06.png" alt="Client Image">
-    <p class="content-padding">We worked with the Arise &#8482;  team based in Charlotte, North Carolina to update and reformat their flyers,
+    <p class="content-padding has-text-left">We worked with the Arise &#8482;  team based in Charlotte, North Carolina to update and reformat their flyers,
       all based off of their new brand guidelines. We  created a series  of 3 flyers,
       reinventing the way the information is communicated  through user experience-based solutions. </p>
     <img src="../../static/img/HP/Arise_3-06.png" alt="Client Image">
