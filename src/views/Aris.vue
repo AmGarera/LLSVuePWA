@@ -9,24 +9,24 @@
   <div class="container is-fluid">
     <p><a href="https://www.arise.com">Arise(TM) Virtual Solutions </a>is a customer service support company in Miramar, Florida. </p>
     <!--Client Images-->
-    <img src="../../static/img/HP/CommunityFocused.png" alt="Client Image">
-    <img src="../../static/img/HP/CommunityFocused.png" alt="Client Image">
+    <img src="../../static/img/HP/Arise_1-06.png" alt="Client Image">
+    <img src="../../static/img/HP/Arise_2-06.png" alt="Client Image">
     <p>We worked with the Arise (TM)  team based in Charlotte, North Carolina to update and reformat their flyers,
       all based off of their new brand guidelines. We  created a series  of 3 flyers,
       reinventing the way the information is communicated  through user experience-based solutions. </p>
-    <img src="../../static/img/HP/CommunityFocused.png" alt="Client Image">
-    <img src="../../static/img/HP/CommunityFocused.png" alt="Client Image">
+    <img src="../../static/img/HP/Arise_3-06.png" alt="Client Image">
+    <img src="../../static/img/HP/Arise_4-06.png" alt="Client Image">
     <p>Several other concepts for the social media banners made for Arise(TM)  Virtual Solutions.
       Clean and minimal in design, these social media banners helped set the stage for the Arise(TM) rebranding.
     </p>
-    <img src="../../static/img/HP/CommunityFocused.png" alt="Client Image">
-    <img src="../../static/img/HP/CommunityFocused.png" alt="Client Image">
+    <img src="../../static/img/HP/Arise_5-06.png" alt="Client Image">
+    <img src="../../static/img/HP/Arise_6-06.png" alt="Client Image">
     <div class="columns">
       <div class="column">
-        <img src="../../static/img/HP/CommunityFocused.png" alt="Client Image">
+        <img src="../../static/img/HP/Arise_8-06.png" alt="Client Image">
       </div>
       <div class="column">
-        <img src="../../static/img/HP/CommunityFocused.png" alt="Client Image">
+        <img src="../../static/img/HP/Arise_9-06.png" alt="Client Image">
       </div>
     </div>
     <img src="../../static/img/HP/CommunityFocused.png" alt="Client Image">
