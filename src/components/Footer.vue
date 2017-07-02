@@ -1,5 +1,6 @@
 <template>
   <footer class="footer">
+    <div id="instafeed"></div>
     <div class="columns">
       <div class="column is-3">
         <p style="text-indent: 25px" class="has-text-centered Karla-font" >&copy; Long Live Simple, LLC 2017</p>
@@ -31,7 +32,12 @@
 
 <script>
   import BackTop from './BackTop'
-
+//  let feed = new Instafeed({
+//    get: 'tagged',
+//    tagName: 'awesome',
+//    clientId: '125d84c3519a4a49a9b7ca5adb7e187a'
+//  })
+//  feed.run()
 // eslint-disable-next-line no-labels
   export default {
     methods: {
