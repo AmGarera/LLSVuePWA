@@ -7,7 +7,7 @@
 </section>
 <section>
   <div style="margin: 0px 80px" class="container is-fluid">
-    <p style="padding: 60px 0px;" class="has-text-left"><a href="https://www.arise.com">Arise&#8482; Virtual Solutions </a>is a customer service support company in Miramar, Florida. </p>
+    <p style="padding: 60px 0px;" class=""><b><a href="https://www.arise.com">Arise&#8482; Virtual Solutions </a>is a customer service support company in Miramar, Florida.</b> </p>
     <!--Client Images-->
     <img src="../../static/img/HP/Arise_1-06.png" alt="Client Image">
     <img src="../../static/img/HP/Arise_2-06.png" alt="Client Image">
@@ -16,7 +16,7 @@
       reinventing the way the information is communicated  through user experience-based solutions. </p>
     <img src="../../static/img/HP/Arise_3-06.png" alt="Client Image">
     <img src="../../static/img/HP/Arise_4-06.png" alt="Client Image">
-    <p class="content-padding">Several other concepts for the social media banners made for Arise(TM)  Virtual Solutions.
+    <p class="content-padding has-text-left">Several other concepts for the social media banners made for Arise(TM)  Virtual Solutions.
       Clean and minimal in design, these social media banners helped set the stage for the Arise(TM) rebranding.
     </p>
     <img src="../../static/img/HP/Arise_5-06.png" alt="Client Image">
@@ -27,14 +27,14 @@
       </div>
     </div>
     <img src="../../static/img/HP/Arise_9-06.png" alt="Client Image">
-    <p class="content-padding">We worked with the team to create a series of email campaign headers that mirror their social media banners.</p>
+    <p class="content-padding has-text-left">We worked with the team to create a series of email campaign headers that mirror their social media banners.</p>
     <div class="columns">
       <div class="column">
         <img src="../../static/img/HP/Arise_10-06.png" alt="Client Image">
       </div>
     </div>
     <img src="../../static/img/HP/Arise_11-06.png" alt="Client Image">
-    <p class="content-padding">All work done for Arise(TM) Virtual Solutions was based off their newly created brand guide and brand standards.
+    <p class="content-padding has-text-left">All work done for Arise(TM) Virtual Solutions was based off their newly created brand guide and brand standards.
       All work and flyers shown are copyright Arise(TM) Virtual Solutions.</p>
   </div>
 </section>
