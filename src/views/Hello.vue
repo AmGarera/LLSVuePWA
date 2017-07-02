@@ -2,11 +2,11 @@
   <div class="hello">
     <section>
       <slick ref="slick" :options="slickOptions">
-        <a href="https://unsplash.it/1920/1080"><img src="https://unsplash.it/1920/540" alt=""></a>
-        <a href="https://unsplash.it/1920/1080"><img src="https://unsplash.it/1920/540" alt=""></a>
-        <a href="https://unsplash.it/1920/1080"><img src="https://unsplash.it/1920/540" alt=""></a>
-        <a href="https://unsplash.it/1920/1080"><img src="https://unsplash.it/1920/540" alt=""></a>
-        <a href="https://unsplash.it/1920/1080"><img src="https://unsplash.it/1920/540" alt=""></a>
+        <a href="https://unsplash.it/1920/1080"><img src="../../static/img/HP/hero1.png" alt=""></a>
+        <a href="https://unsplash.it/1920/1080"><img src="../../static/img/HP/hero2.png" alt=""></a>
+        <a href="https://unsplash.it/1920/1080"><img src="../../static/img/HP/hero3.png" alt=""></a>
+        <a href="https://unsplash.it/1920/1080"><img src="../../static/img/HP/hero4.png" alt=""></a>
+        <a href="https://unsplash.it/1920/1080"><img src="../../static/img/HP/hero5.png" alt=""></a>
       </slick>
     </section>
 <!--<section class="hero is-medium brand-story">-->

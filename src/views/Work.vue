@@ -13,16 +13,18 @@
       </div>
     </section>
 <section>
-  <h1 class="has-text-centered subtitle brand-title-text">Brands We've Worked With</h1>
+  <br>
+  <h1 class="has-text-centered title brand-title-text">Brands We've Worked With</h1>
   <!--Grid of Clients-->
 
-  <div class="columns">
+  <div class="columns ">
     <div class="column">
+      <router-link to="/Aris">
       <figure class="imghvr-zoom-in">
         <div class="card">
           <div class="card-image">
             <figure class="image is-4by3">
-              <img src="../../static/img/HP/arise-hero.jpg" alt="Image">
+              <img src="../../static/img/HP/IMG_6393.jpg" alt="Image">
             </figure>
           </div>
           <div class="card-content">
@@ -37,6 +39,7 @@
           This is some text
         </figcaption>
       </figure>
+      </router-link>
     </div>
 
     <div class="column">
@@ -62,13 +65,13 @@
       </figure>
     </div>
   </div>
-  <div class="columns is-gapless">
+  <div class="columns">
     <div class="column is-6 is-text-centered">
       <figure class="imghvr-zoom-in">
         <div class="card">
         <div class="hero-body">
           <div class="container">
-            <h1 class="title">
+            <h1 class="title is-text-centered">
               Hero title
             </h1>
             <h2 class="subtitle">
@@ -85,6 +88,7 @@
 
     </div>
     <div class="column is-text-centered">
+      <div class="card">
       <figure class="imghvr-zoom-in">
         <div class="card">
         <div class="hero-body">
@@ -104,6 +108,7 @@
         </figcaption>
         </div>
       </figure>
+      </div>
 
     </div>
   </div>

@@ -6,7 +6,7 @@
         <p style="text-indent: 25px" class="has-text-centered Karla-font" > All Rights Reserved | Legal</p>
         <ul class=" has-text-centered">
           <li><img src="../../static/img/HP/GoLocalHonoredhere2017_graphic.jpg" class="image is-64x64" alt="Go Local Here 2017"></li>
-          <li><img src="../../static/img/HP/logo-mtnbizworkssm.png" class="image is-64x64" alt="Go Local Here 2017"></li>
+          <li><img src="../../static/img/HP/MountainBizWorks_Footer.png" class="image is-64x64" alt="Go Local Here 2017"></li>
         </ul>
       </div>
       <div class="column is-6">
@@ -72,5 +72,8 @@ li {
 
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
+}
+.slick-container {
+  height: 60%;
 }
 </style>
