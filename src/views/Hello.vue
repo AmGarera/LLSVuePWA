@@ -8,7 +8,7 @@
           <swiper-slide><img src="../../static/img/HP/hero2.svg" alt=""></swiper-slide>
           <swiper-slide><img src="../../static/img/HP/hero3.svg" alt=""></swiper-slide>
           <swiper-slide><img src="../../static/img/HP/hero4.svg" alt=""></swiper-slide>
-          <swiper-slide><img src="../../static/img/HP/hero5.svg" alt=""></swiper-slide>
+          <!--<swiper-slide><img src="../../static/img/HP/hero5.svg" alt=""></swiper-slide>-->
           <swiper-slide><img src="../../static/img/HP/hero6.svg" alt=""></swiper-slide>
           <!-- Optional controls -->
           <!--<div class="swiper-pagination"  slot="pagination"></div>-->
