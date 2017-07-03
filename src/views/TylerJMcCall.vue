@@ -2,6 +2,8 @@
   <div id="Tyler">
     <section class="hero is-medium">
       <div class="hero-body aris-hero">
+        <h1 style="color: white" class="title is-spaced header-font"><b>TYLER J MCCALL</b></h1>
+        <h2 style="color: white" class="subtitle is-4 body-font">Logo, Branding</h2>
 
       </div>
     </section>
