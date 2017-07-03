@@ -1,8 +1,9 @@
 <template>
   <div id="Julia">
-    <section class="hero is-medium">
+    <section class="hero is-large">
       <div class="hero-body aris-hero">
-
+      <h1 style="color: white" class="title is-spaced header-font"><b>TRAVEL JULIA'S WAY</b></h1>
+        <h2 style="color: white" class="subtitle is-4 body-font">Logo, Branding, Business Cards, Website Design, Newsletter Header</h2>
       </div>
     </section>
     <section>
@@ -52,15 +53,17 @@
     name: 'TravelJuliasWay'
   }
 </script>
-<style>
+<style scoped>
   .aris-hero {
-    background: url("../../static/img/HP/tyler1-06.png");
+    background: url("../../static/img/Julia/longlivesimple-437.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
   }
-
+white-text{
+  color: #fff;
+}
   .is-fluid {
     margin: 0px 80px;
   }
@@ -71,5 +74,8 @@
 
   .header-font {
     font-family: 'Montserrat', sans-serif;
+  }
+  .body-font {
+    font-family: 'Karla', sans-serif;
   }
 </style>
