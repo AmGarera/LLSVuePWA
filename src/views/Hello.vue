@@ -29,7 +29,7 @@
           <!--<p class="tile title flex has-text-centered">-->
             <!--We are Long Live Simple, a creative and strategic graphic design studio.-->
           <!--</p>-->
-          <a href="/About"><b><p class="more-about-us">More About Us ></p></b></a>
+          <router-link to="/About"><a href=""><b><p class="more-about-us">More About Us ></p></b></a></router-link>
         </div>
         <div class="column is-half">
           <div class="tile is-parent">
