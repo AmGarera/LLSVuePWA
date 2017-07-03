@@ -1,6 +1,6 @@
 <template>
 <div class="work">
-  <section class="hero hero-image is-medium">
+  <section class="hero hero-image work-item is-medium">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
@@ -128,7 +128,7 @@
   }
 </script>
 <style lang="scss" scoped>
-.hero-image {
+.work-item {
   background: url("../../static/img/HP/Work_Hero-01.svg") no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;

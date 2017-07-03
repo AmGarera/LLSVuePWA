@@ -18,7 +18,7 @@
 
       </div>
       <div class="column">
-        <p class="subtitle has-text-centered Karla-font">Socialize with us:</p>
+        <p style="color: grey;" class="subtitle has-text-centered Karla-font">Socialize with us:</p>
         <ul class=" has-text-centered">
           <li><a href="https://www.instagram.com/longlivesimple"><img src="../../static/img/HP/instagram.png" class="image is-32x32" alt="Instagram Icon"></a></li>
           <li><a href="https://www.facebook.com/longlivesimple"><img src="../../static/img/HP/facebook.png" class="image is-32x32" alt="Facebook Icon"></a></li>
@@ -80,7 +80,7 @@ li {
   height: 60%;
 }
 a {
-  color: #4a4a4a;
+  color: grey;
 }
   a:hover {
     color: #42b983;

@@ -1,6 +1,6 @@
 <template>
   <div class="work">
-    <section class="hero hero-image is-large">
+    <section class="hero hero-image is-medium">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
