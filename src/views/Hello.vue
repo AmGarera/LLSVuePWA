@@ -1,13 +1,15 @@
 <template>
   <div class="hello">
-    <section>
-      <slick ref="slick" :options="slickOptions">
+    <section class="hero">
+      <div class="hero-body is-small">
+      <slick style="height: 50%;" ref="slick" :options="slickOptions">
         <a href="https://unsplash.it/1920/1080"><img src="../../static/img/HP/hero1.png" alt=""></a>
         <a href="https://unsplash.it/1920/1080"><img src="../../static/img/HP/hero2.png" alt=""></a>
         <a href="https://unsplash.it/1920/1080"><img src="../../static/img/HP/hero3.png" alt=""></a>
         <a href="https://unsplash.it/1920/1080"><img src="../../static/img/HP/hero4.png" alt=""></a>
         <a href="https://unsplash.it/1920/1080"><img src="../../static/img/HP/hero5.png" alt=""></a>
       </slick>
+      </div>
     </section>
 <!--<section class="hero is-medium brand-story">-->
   <!--&lt;!&ndash; Hero header: will stick at the top &ndash;&gt;-->

@@ -1,4 +1,4 @@
-var Instafeed = require('instafeed.js')
+var Instafeed = require('./instafeed.js')
 /**
  * Created by AnthonyGarera on 7/2/17.
  */

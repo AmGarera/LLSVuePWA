@@ -24,7 +24,7 @@
         </ul>
       </div>
     </div>
-<insta></insta>
+<!--<insta></insta>-->
     <back-top>
       <i id="myBtn" class="fa fa-arrow-up" aria-hidden="true"></i>
     </back-top>
@@ -33,7 +33,7 @@
 
 <script>
   import BackTop from './BackTop'
-  import Insta from './insta'
+//  import Insta from './insta'
 // eslint-disable-next-line no-labels
   export default {
     methods: {
@@ -42,7 +42,7 @@
       }},
     name: 'footerCustom',
     components: {
-      Insta,
+//      Insta,
       BackTop}
   }
 </script>
