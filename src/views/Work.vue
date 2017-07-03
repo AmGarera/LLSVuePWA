@@ -4,7 +4,7 @@
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
-            Work
+
           </h1>
           <h2 class="subtitle">
 
@@ -123,7 +123,7 @@
 </script>
 <style lang="scss" scoped>
 .hero-image {
-  background: url("../../static/img/HP/Work_Hero-01.svg") no-repeat center center fixed;
+  background: url("../../static/img/HP/Work_Hero-01.svg") no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -176,58 +176,6 @@ visibility: hidden;
     opacity: 0.3;
   }
 
-
-.caption-style-1{
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-
-}
-.caption-style-1 li{
-  float: left;
-  padding: 0px;
-  position: relative;
-  overflow: hidden;
-}
-.caption-style-1 li:hover .caption{
-  opacity: 1;
-}
-.caption-style-1 img{
-  margin: 0px;
-  padding: 0px;
-  float: left;
-  z-index: 4;
-}
-.caption-style-1 .caption{
-  cursor: pointer;
-  position: absolute;
-  opacity: 0;
-  -webkit-transition:all 0.45s ease-in-out;
-  -moz-transition:all 0.45s ease-in-out;
-  -o-transition:all 0.45s ease-in-out;
-  -ms-transition:all 0.45s ease-in-out;
-  transition:all 0.45s ease-in-out;
-}
-.caption-style-1 .blur{
-  background-color: rgba(0,0,0,0.65);
-  height: 300px;
-  width: 400px;
-  z-index: 5;
-  position: absolute;
-}
-.caption-style-1 .caption-text h1{
-  text-transform: uppercase;
-  font-size: 24px;
-}
-.caption-style-1 .caption-text{
-  z-index: 10;
-  color: #fff;
-  position: absolute;
-  width: 400px;
-  height: 300px;
-  text-align: center;
-  top:100px;
-}
 /** Nav Menu */
 ul.nav-menu{
   padding: 0px;
