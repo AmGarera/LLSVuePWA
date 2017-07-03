@@ -252,7 +252,7 @@ a {
   background-image: url('https://unsplash.it/1920/1080');
 }
 .what-we-offer {
-  background-image: url('https://unsplash.it/1920/1080');
+  background-image: url('../../static/img/HP/whatweoffer.png');
 }
 .what-we-offer-text {
   color: #fff;
