@@ -14,7 +14,7 @@
     </section>
 <section>
   <br>
-  <h1 class="has-text-centered title brand-title-text">Brands We've Worked With</h1>
+  <h1 class="has-text-centered title brand-title-text">Brands We've Worked With:</h1>
   <!--Grid of Clients-->
 
   <div style="padding: 0px 40px;" class="columns ">
@@ -22,9 +22,8 @@
       <router-link to="/Tyler-J-McCall">
         <div class="card">
           <div class="card-image">
-            <figure style="background-image: url('../../static/img/HP/IMG_6393.jpg') " class="image is-3by2 wrapper darken">
-              <!--<img class="image-hover-opacity" src="../../static/img/HP/IMG_6393.jpg" alt="Image">-->
-              <p class="text-box has-text-centered title">I'm Text</p>
+            <figure class="image is-3by2">
+              <img class="image-hover-opacity" src="../../static/img/HP/IMG_6393.jpg" alt="Image">
             </figure>
           </div>
         </div>
@@ -32,13 +31,14 @@
     </div>
 
     <div class="column">
-      <router-link to="/Aris">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-3by2 wrapper">
-              <img class="image-hover-opacity" src="../../static/img/HP/arise-hero.jpg" alt="Image">
-
+      <router-link to="/Travel-Julias-Way">
+        <div class="card ">
+          <div class="card-image caption-style-1">
+            <figure class="image is-3by2">
+              <img class="image-hover-opacity" src="../../static/img/Julia/longlivesimple-312.jpg" alt="Image">
+<div class="caption">
               <span class="text-box has-text-centered title">I'm Text</span>
+</div>
             </figure>
           </div>
         </div>
@@ -48,13 +48,14 @@
 
   <div style="padding: 0px 40px;" class="columns ">
     <div class="column">
-      <router-link to="/Travel-Julias-Way">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-3by2 wrapper">
-              <img class="image-hover-opacity" src="../../static/img/Julia/longlivesimple-312.jpg" alt="Image">
-
-              <p class="text-box has-text-centered title parent">I'm Text</p>
+      <router-link to="/Arise">
+        <div class="card ">
+          <div class="card-image caption-style-1">
+            <figure class="image is-3by2">
+              <img class="image-hover-opacity" src="../../static/img/HP/arise-hero.jpg" alt="Image">
+              <div class="caption">
+                <span class="text-box has-text-centered title">I'm Text</span>
+              </div>
             </figure>
           </div>
         </div>
@@ -62,24 +63,18 @@
     </div>
 
     <div class="column">
-      <router-link to="/Aris">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-3by2 wrapper">
-              <img class="image-hover-opacity" src="../../static/img/HP/IMG_6393.jpg" alt="Image">
-
-              <p class="text-box has-text-centered title">I'm Text</p>
+      <router-link to="/SalonEtc">
+        <div class="card ">
+          <div class="card-image caption-style-1">
+            <figure class="image is-3by2">
+              <img class="image-hover-opacity" src="../../static/img/SalonEtcNc/salonetc13.png" alt="Image">
+              <div class="caption">
+                <span class="text-box has-text-centered title">I'm Text</span>
+              </div>
             </figure>
           </div>
         </div>
       </router-link>
-    </div>
-    <div class="pic">
-      <img src="img/01.jpg" class="pic-image" alt="Pic"/>
-      <span class="pic-caption bottom-to-top">
-		<h1 class="pic-title">Pic Title</h1>
-		<p>Some description or text.</p>
-	</span>
     </div>
   </div>
 </section>
@@ -97,6 +92,15 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+.client1-image {
+  background: url("../../static/img/HP/IMG_6393.jpg") center;
+}
+.client1 {
+visibility: hidden;
+}
+.client1:hover {
+  visibility: visible;
 }
   .title {
     color: #fff;
@@ -136,56 +140,119 @@
     opacity: 0.3;
   }
 
-  /*Hover effect*/
-/* Caption Style 3 */
-.cs-style-3 figure {
+
+.caption-style-1{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+
+}
+.caption-style-1 li{
+  float: left;
+  padding: 0px;
+  position: relative;
   overflow: hidden;
 }
-
-.cs-style-3 figure img {
-  -webkit-transition: -webkit-transform 0.4s;
-  -moz-transition: -moz-transform 0.4s;
-  transition: transform 0.4s;
-}
-
-.no-touch .cs-style-3 figure:hover img,
-.cs-style-3 figure.cs-hover img {
-  -webkit-transform: translateY(-50px);
-  -moz-transform: translateY(-50px);
-  -ms-transform: translateY(-50px);
-  transform: translateY(-50px);
-}
-
-.cs-style-3 figcaption {
-  height: 100px;
-  width: 100%;
-  top: auto;
-  bottom: 0;
-  opacity: 0;
-  -webkit-transform: translateY(100%);
-  -moz-transform: translateY(100%);
-  -ms-transform: translateY(100%);
-  transform: translateY(100%);
-  -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
-  -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
-  transition: transform 0.4s, opacity 0.1s 0.3s;
-}
-
-.no-touch .cs-style-3 figure:hover figcaption,
-.cs-style-3 figure.cs-hover figcaption {
+.caption-style-1 li:hover .caption{
   opacity: 1;
-  -webkit-transform: translateY(0px);
-  -moz-transform: translateY(0px);
-  -ms-transform: translateY(0px);
-  transform: translateY(0px);
-  -webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
-  -moz-transition: -moz-transform 0.4s, opacity 0.1s;
-  transition: transform 0.4s, opacity 0.1s;
+}
+.caption-style-1 img{
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  z-index: 4;
+}
+.caption-style-1 .caption{
+  cursor: pointer;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition:all 0.45s ease-in-out;
+  -moz-transition:all 0.45s ease-in-out;
+  -o-transition:all 0.45s ease-in-out;
+  -ms-transition:all 0.45s ease-in-out;
+  transition:all 0.45s ease-in-out;
+}
+.caption-style-1 .blur{
+  background-color: rgba(0,0,0,0.65);
+  height: 300px;
+  width: 400px;
+  z-index: 5;
+  position: absolute;
+}
+.caption-style-1 .caption-text h1{
+  text-transform: uppercase;
+  font-size: 24px;
+}
+.caption-style-1 .caption-text{
+  z-index: 10;
+  color: #fff;
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  top:100px;
+}
+/** Nav Menu */
+ul.nav-menu{
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  width: 490px;
+  margin: 60px auto;
+}
+ul.nav-menu li{
+  display: inline;
+  margin-right: 10px;
+  padding:10px;
+  border: 1px solid #ddd;
+}
+ul.nav-menu li a{
+  color: #eee;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+ul.nav-menu li a:hover, ul.nav-menu li a.active{
+  color: #2c3e50;
+}
+/** content **/
+.content{
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 700px;
+}
+.content h1, .content h2{
+  font-family: "Source Sans Pro",sans-serif;
+  color: #ecf0f1;
+  padding: 0px;
+  margin: 0px;
+  font-weight: normal;
+}
+.content h1{
+  font-weight: 900;
+  font-size: 64px;
+}
+.content h2{
+  font-size:26px;
+}
+.content p{
+  color: #ecf0f1;
+  font-family: "Lato";
+  line-height: 28px;
+  font-size: 15px;
+  padding-top: 50px;
+}
+p.credit{
+  padding-top: 20px;
+  font-size: 12px;
+}
+p a{
+  color: #ecf0f1;
+}
+/** fork icon**/
+.fork{
+  position: absolute;
+  top:0px;
+  left: 0px;
 }
 
-.cs-style-3 figcaption a {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-}
 </style>

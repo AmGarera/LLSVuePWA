@@ -23,7 +23,8 @@
     </section>
     <br><!--TODO Replace this with padding-->
     <section class="container">
-      <h3 class="title is-spaced has-text-left"> Our Mission</h3>
+      <h3 class="has-text-left"> <img src="../../static/img/ABOUT/OurMission.png"
+                                                                 height="113" width="468"/></h3>
       <p class="has-text-left">At Long Live Simple, we craft brands for entrepreneurs and
         businesses that are both relatable and intentional through custom typography and design services.
       Here are some of the things we love and the ways we aim to give back through what we do.</p>
@@ -69,7 +70,7 @@
       <article class="media">
         <figure class="media-left">
           <p class="image is-96x96">
-            <img src="../../static/img/Navigation Icons/icon2.png">
+            <img src="../../static/img/ABOUT/3_Brand_Pillars_Icons/icon1-31.svg">
           </p>
         </figure>
         <div class="media-content">
@@ -94,7 +95,7 @@
           <article class="media">
             <figure class="media-left">
               <p class="image is-96x96">
-                <img src="../../static/img/Navigation Icons/icon2.png">
+                <img src="../../static/img/ABOUT/Headshots/Carley.png">
               </p>
             </figure>
             <div class="media-content">
@@ -134,7 +135,7 @@
           <article class="media">
             <figure class="media-left">
               <p class="image is-96x96">
-                <img src="../../static/img/Navigation Icons/icon2.png">
+                <img src="../../static/img/ABOUT/Headshots/Taylor.png">
               </p>
             </figure>
             <div class="media-content">
@@ -153,7 +154,7 @@
           <article class="media">
             <figure class="media-left">
               <p class="image is-96x96">
-                <img src="../../static/img/Navigation Icons/icon2.png">
+                <img src="../../static/img/ABOUT/Headshots/Kelsey.png">
               </p>
             </figure>
             <div class="media-content">
@@ -178,9 +179,10 @@
         <article class="media">
           <div class="media-content">
             <div class="content">
+              <img class="left-pic" src="../../static/img/ABOUT/Carley2.jpg">
               <p class="has-text-left">
                 <br>
-                <img class="left-pic" src="../../static/img/HP/GoLocalHonoredhere2017_graphic.jpg">Hi there! I’m Carley Lee, the Creative Director here at Long Live Simple, LLC. Long Live Simple is a full-service graphic design co. that specializes in branding, web design, and print solutions for local businesses in my home town of Asheville, North Carolina, and the surrounding area. Whether you’re crafting your dream business from the ground up, launching a digital product, hosting an event, or needing a captivating packaging solution, my studio will make sure your business is in great hands.
+                Hi there! I’m Carley Lee, the Creative Director here at Long Live Simple, LLC. Long Live Simple is a full-service graphic design co. that specializes in branding, web design, and print solutions for local businesses in my home town of Asheville, North Carolina, and the surrounding area. Whether you’re crafting your dream business from the ground up, launching a digital product, hosting an event, or needing a captivating packaging solution, my studio will make sure your business is in great hands.
                 With nine years of graphic design and marketing experience, I have gained professional experience with Ally Financial as a Senior User Experience Designer, Lowe’s Corporate as an Email Designer, and a variety of branding relationships with such companies as Hagopian Ink (Bailey Banks & Biddle, HubSpot Marketing, INBOUND Conference), NanceNet (Weight Watchers, ContextMedia) and many adventurous solopreneurs. Each opportunity has enhanced my creativity and led me to my true passion—working one-on-one with clients and their teams. In April 2016, this dream became a reality with the creation of Long Live Simple—a company where I personally create customized branding experiences and develop brands that resonate with my clients’ target audiences while keeping simplicity and sustainability in the forefront.  It’s my goal to ensure that all aspects of a brand vision are represented completely. I also collaborate with a handful of talented freelancers, and together, we make the identity of each brand stand out in a compelling way.
                 While I’ve lived and worked in a variety of cities, including NYC, DC, and Charlotte, NC , I am happy to now call the mountains of Asheville home. When I’m not at the studio or behind my laptop, I’m fueling my soul with my other passions—hiking in the beautiful mountains, exploring art galleries for thought-provoking and heart-touching pieces, studying the intriguing qualities of Earth’s plants, and enjoying precious time with family and friends.
                 Having a studio art background, I am able to articulate my clients’ wishes into memorable and fully customized branding experiences. I value working with each client on each brand I help them to create .
@@ -201,25 +203,27 @@
         </p>
         <a class="is-hidden-tablet" href="mailto:hello@longlivesimple.com?subject=Collaboration">hello@longlivesimple.com.</a>
       </div>
+      <br>
     </section>
     <!--Hear Yours-->
     <section>
       <div class="container">
         <br>
-        <h3 class="title is-spaced "> BANNER:</h3>
-        <p class="mission is-flex-mobile">We’ve told you our story —now we’d love to hear yours!
+        <h3 class="title is-spaced "> We’ve told you our story — now we’d love to hear <img src="../../static/img/ABOUT/yours.png" alt=""></h3>
+        <p class="mission is-flex-mobile">
           Get in touch with us <span class="is-hidden-mobile">at</span> <a class="is-hidden-mobile" href="mailto:hello@longlivesimple.com?subject=Collaboration">hello@longlivesimple.com.</a>
           to review your brand story and ideas. Let us help you craft a brand that resonates with your target audience and makes your brand personality shine. </p>
         <a class="is-hidden-tablet" href="mailto:hello@longlivesimple.com?subject=Collaboration">hello@longlivesimple.com.</a>
-
+        <br>
         <div class="columns">
           <div class="column">
-            <span><a href="">Get in touch with us ></a></span>
+            <span class="body-font"><a href=""><b>Get in touch with us ></b></a></span>
           </div>
           <div class="column">
-            <span><a href="">Set up a free consultation ></a></span>
+            <span class="body-font"><a href=""><b>Set up a free consultation ></b></a></span>
           </div>
         </div>
+        <br>
       </div>
     </section>
   </div>
