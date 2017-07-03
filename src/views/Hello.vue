@@ -70,7 +70,7 @@
     </section>
 <section style="padding-bottom: 40px; padding-top: 40px" class="hero is-medium what-we-offer">
   <br>
-<h2 class="title what-we-offer-text">WHAT WE OFFER:</h2>
+<h2 class="title what-we-offer-text big-font"><b>WHAT WE OFFER:</b></h2>
   <div class="columns">
 <ul class="column">
 </ul>
@@ -293,11 +293,9 @@ a {
     transform: translate(20%, -40%);
 
   }
-[class^='imghvr-'],
-[class*=' imghvr-'] {
-  background-color: #D14233;
+.big-font{
+  font-family: 'Montserrat', sans-serif;
 }
-
   /*Newsletter*/
   .newsletter-section {
     padding-top: 20px;

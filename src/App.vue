@@ -28,7 +28,7 @@ export default {
 body {
   margin: 0;
   /*These are the fonts for the Website so one is primary and one is secondary*/
-  /*font-family: 'Montserrat', sans-serif;*/
+
   /*font-family: 'Karla', sans-serif;*/
 }
 
