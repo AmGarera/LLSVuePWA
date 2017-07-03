@@ -67,7 +67,7 @@
         <div class="card ">
           <div class="card-image caption-style-1">
             <figure class="image is-3by2">
-              <img class="image-hover-opacity" src="../../static/img/SalonEtcNc/salonetc13.png" alt="Image">
+              <img class="image-hover-opacity" src="../../static/img/SalonEtcNc/salonetc14.png" alt="Image">
               <div class="caption">
                 <span class="text-box has-text-centered title">I'm Text</span>
               </div>

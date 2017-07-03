@@ -248,9 +248,6 @@ li {
 a {
   color: RGB(76,191,160);
 }
-.brand-story {
-  background-image: url('https://unsplash.it/1920/1080');
-}
 .what-we-offer {
   background-image: url('../../static/img/HP/whatweoffer.png');
 }
@@ -298,7 +295,6 @@ a:hover {
   .newsletter-section {
     padding: 30px 60px 45px 85px;
     /*padding: 30px 60px;*/
-    background-color: gray;
     background-image: url('../../static/img/HP/newsletter.png');
   }
 </style>
