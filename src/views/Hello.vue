@@ -4,10 +4,10 @@
       <div class="hero-body is-small">
       <slick style="height: 50%;" ref="slick" :options="slickOptions">
         <a href="https://unsplash.it/1920/1080"><img src="../../static/img/HP/hero1.png" alt=""></a>
-        <a href="https://unsplash.it/1920/1080"><img src="../../static/img/HP/hero2.png" alt=""></a>
-        <a href="https://unsplash.it/1920/1080"><img src="../../static/img/HP/hero3.png" alt=""></a>
-        <a href="https://unsplash.it/1920/1080"><img src="../../static/img/HP/hero4.png" alt=""></a>
-        <a href="https://unsplash.it/1920/1080"><img src="../../static/img/HP/hero5.png" alt=""></a>
+        <!--<a href="https://unsplash.it/1920/1080"><img src="../../static/img/HP/hero2.png" alt=""></a>-->
+        <!--<a href="https://unsplash.it/1920/1080"><img src="../../static/img/HP/hero3.png" alt=""></a>-->
+        <!--<a href="https://unsplash.it/1920/1080"><img src="../../static/img/HP/hero4.png" alt=""></a>-->
+        <!--<a href="https://unsplash.it/1920/1080"><img src="../../static/img/HP/hero5.png" alt=""></a>-->
       </slick>
       </div>
     </section>
@@ -46,6 +46,7 @@
           <!--<p class="tile title flex has-text-centered">-->
             <!--We are Long Live Simple, a creative and strategic graphic design studio.-->
           <!--</p>-->
+          <a href="/About"><b><p class="more-about-us has-text-right">More About Us ></p></b></a>
         </div>
         <div class="column is-half">
           <div class="tile is-parent">
@@ -60,7 +61,6 @@
                   creating unique, hand-drawn logos and custom work so our clients can have a symbol that represents who they are and what
                   they do. We offer meaningful experiences for customer-driven
                   and thoughtful brands.</p>
-                <a href="/About"><b><p class="more-about-us has-text-right">More About Us ></p></b></a>
               </div>
             </article>
           </div>

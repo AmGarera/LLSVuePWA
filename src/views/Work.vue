@@ -47,26 +47,18 @@
     </div>
   </div>
   <div class="columns">
-    <div class="column is-6 is-text-centered">
-      <figure class="imghvr-zoom-in">
+    <div class="column">
+      <router-link to="/Travel-Julias-Way">
         <div class="card">
-        <div class="hero-body">
-          <div class="container">
-            <h1 class="title is-text-centered">
-              Hero title
-            </h1>
-            <h2 class="subtitle">
-              Hero subtitle
-            </h2>
+          <div class="card-image">
+            <figure class="image is-3by2 wrapper">
+              <img class="image-hover-opacity" src="../../static/img/HP/IMG_6393.jpg" alt="Image">
+
+              <p class="text-box has-text-centered title">I'm Text</p>
+            </figure>
           </div>
         </div>
-        <figcaption>
-          <img src="../../static/img/HP/GoLocalHonoredhere2017_graphic.jpg">
-          This is some text
-        </figcaption>
-        </div>
-      </figure>
-
+      </router-link>
     </div>
     <div class="column is-text-centered">
       <div class="card">

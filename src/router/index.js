@@ -6,6 +6,7 @@ import About from '@/views/About'
 import Blog from '@/views/Blog'
 import Shop from '@/views/Shop'
 import TylerJMcCall from '@/views/TylerJMcCall'
+import TravelJuliasWay from '@/views/TravelJuliasWay'
 import Aris from '@/views/Aris'
 import Buefy from 'buefy'
 import 'buefy/lib/buefy.css'
@@ -49,6 +50,11 @@ export default new Router({
       path: '/Arise',
       name: 'Arise',
       component: Aris
+    },
+    {
+      path: '/Travel-Julias-Way',
+      name: 'Travel-Julias-Way',
+      component: TravelJuliasWay
     }
   ]
 })
