@@ -46,7 +46,7 @@
           <!--<p class="tile title flex has-text-centered">-->
             <!--We are Long Live Simple, a creative and strategic graphic design studio.-->
           <!--</p>-->
-          <a href="/About"><b><p class="more-about-us has-text-right">More About Us ></p></b></a>
+          <a href="/About"><b><p class="more-about-us">More About Us ></p></b></a>
         </div>
         <div class="column is-half">
           <div class="tile is-parent">
@@ -96,7 +96,7 @@
   </div>
   <div>
     <br>
-  <p class="white-text white-box listOfServices"><strong class="white-text">See our full list of services ></strong></p>
+    <router-link to="/services"><p class="white-text white-box listOfServices"><strong class="white-text">See our full list of services ></strong></p></router-link>
   </div>
 </section>
 <section class="hero is-medium">
@@ -290,6 +290,7 @@ a {
   }
   .more-about-us {
     font-size: x-large;
+    transform: translateY(0%);
   }
 [class^='imghvr-'],
 [class*=' imghvr-'] {
