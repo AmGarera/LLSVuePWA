@@ -1,10 +1,9 @@
 <template>
   <div class="work">
-    <section class="hero hero-image is-medium">
+    <section class="hero hero-image is-large">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
-            About
           </h1>
           <h2 class="subtitle">
 
@@ -12,10 +11,10 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="container is-fluid">
       <h3 class="title is-spaced has-text-centered">The Long Live Simple Story:</h3>
-      <div class="container is-fluid">
-      <p class="has-text-centered mission">We are the full-service creative company that your small business has been looking for.
+      <div>
+      <p class="has-text-left mission body-font">We are the full-service creative company that your small business has been looking for.
         Whether you're a recent startup, a well-established company,
         or an entrepreneurial organization or individual looking for a refresh,
         we offer strategy-based design services to fit your specific business needs.</p>
@@ -24,8 +23,8 @@
     </section>
     <br><!--TODO Replace this with padding-->
     <section class="container">
-      <h3 class="title is-spaced has-text-centered"> Our Mission</h3>
-      <p class="has-text-centered mission">At Long Live Simple, we craft brands for entrepreneurs and
+      <h3 class="title is-spaced has-text-left"> Our Mission</h3>
+      <p class="has-text-left">At Long Live Simple, we craft brands for entrepreneurs and
         businesses that are both relatable and intentional through custom typography and design services.
       Here are some of the things we love and the ways we aim to give back through what we do.</p>
 
@@ -239,6 +238,9 @@
       padding: 0 10rem;
     }
   }
+  .body-font {
+    font-size: large;
+  }
   .grey-text {
     color: gray;
     font-size: large;
@@ -270,10 +272,7 @@
     color: #42b983;
   }
   .hero-body {
-    background: url("../../static/img/ABOUT/About_TestimonialsBanner.svg")  no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: url("../../static/img/ABOUT/About_TestimonialsBanner.svg") no-repeat;
   }
+
 </style>

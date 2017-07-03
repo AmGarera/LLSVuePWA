@@ -69,7 +69,9 @@
   .content-padding {
     padding: 30px 0px;
   }
-
+p {
+  color: gray;
+}
   .header-font {
     font-family: 'Montserrat', sans-serif;
   }

@@ -22,7 +22,7 @@
       <router-link to="/Tyler-J-McCall">
         <div class="card">
           <div class="card-image">
-            <figure class="image is-3by2 wrapper">
+            <figure class="image is-3by2 wrapper darken">
               <img class="image-hover-opacity" src="../../static/img/HP/IMG_6393.jpg" alt="Image">
               <p class="text-box has-text-centered title">I'm Text</p>
             </figure>
@@ -38,7 +38,7 @@
             <figure class="image is-3by2 wrapper">
               <img class="image-hover-opacity" src="../../static/img/HP/arise-hero.jpg" alt="Image">
 
-              <p class="text-box has-text-centered title">I'm Text</p>
+              <span class="text-box has-text-centered title">I'm Text</span>
             </figure>
           </div>
         </div>
@@ -74,6 +74,18 @@
         </div>
       </router-link>
     </div>
+    <ul class="grid cs-style-3">
+      <li>
+        <figure>
+          <img src="../../static/img/HP/IMG_6393.jpg" alt="img04">
+          <figcaption>
+            <h3>Settings</h3>
+            <span>Jacob Cummings</span>
+            <a href="http://dribbble.com/shots/1116685-Settings">Take a look</a>
+          </figcaption>
+        </figure>
+      </li>
+    </ul>
   </div>
 </section>
 </div>
@@ -128,4 +140,57 @@
   .image-hover-opacity:hover {
     opacity: 0.3;
   }
+
+  /*Hover effect*/
+/* Caption Style 3 */
+.cs-style-3 figure {
+  overflow: hidden;
+}
+
+.cs-style-3 figure img {
+  -webkit-transition: -webkit-transform 0.4s;
+  -moz-transition: -moz-transform 0.4s;
+  transition: transform 0.4s;
+}
+
+.no-touch .cs-style-3 figure:hover img,
+.cs-style-3 figure.cs-hover img {
+  -webkit-transform: translateY(-50px);
+  -moz-transform: translateY(-50px);
+  -ms-transform: translateY(-50px);
+  transform: translateY(-50px);
+}
+
+.cs-style-3 figcaption {
+  height: 100px;
+  width: 100%;
+  top: auto;
+  bottom: 0;
+  opacity: 0;
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  transform: translateY(100%);
+  -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+  -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+  transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+
+.no-touch .cs-style-3 figure:hover figcaption,
+.cs-style-3 figure.cs-hover figcaption {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+  -moz-transition: -moz-transform 0.4s, opacity 0.1s;
+  transition: transform 0.4s, opacity 0.1s;
+}
+
+.cs-style-3 figcaption a {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
 </style>
