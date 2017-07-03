@@ -11,6 +11,7 @@
         </div>
       </div>
     </section>
+    <br>
     <section class="container is-fluid">
       <h3 class="title is-spaced has-text-centered">The Long Live Simple Story:</h3>
       <div>
@@ -34,7 +35,7 @@
       <article class="media">
         <figure class="media-left">
           <p class="image is-64x64">
-            <img src="../../static/img/Navigation Icons/icon2.png">
+            <img src="../../static/img/ABOUT/LocalFeatures.png">
           </p>
         </figure>
         <div class="media-content">
@@ -52,7 +53,7 @@
       <article class="media">
         <figure class="media-left">
           <p class="image is-64x64">
-            <img src="../../static/img/Navigation Icons/icon2.png">
+            <img src="../../static/img/ABOUT/SustainablePractices.png">
           </p>
         </figure>
         <div class="media-content">
@@ -70,7 +71,7 @@
       <article class="media">
         <figure class="media-left">
           <p class="image is-64x64">
-            <img src="../../static/img/ABOUT/3_Brand_Pillars_Icons/icon1-31.svg">
+            <img src="../../static/img/ABOUT/CommunityFocused.png">
           </p>
         </figure>
         <div class="media-content">
@@ -276,7 +277,8 @@
     color: #42b983;
   }
   .hero-body {
-    background: url("../../static/img/ABOUT/About_Hero-02.svg") no-repeat;
+    background: url("../../static/img/ABOUT/ABOUT_hero.png") center;
+    background-size: cover;
   }
 
 </style>
