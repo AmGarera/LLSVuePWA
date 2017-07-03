@@ -70,19 +70,19 @@
       </figure></a>
       <a href="https://www.facebook.com/longlivesimple" class="nav-item is-tab is-paddingless">
         <figure class="image is-32x32" >
-          <img src="../../static/img/HP/facebook.png" alt="Facebook Icon">
+          <img src="../../static/img/HP/SocialMediaSVGs/SocialMediaSVGs/social2.svg" alt="Facebook Icon">
       </figure></a>
       <a href="https://www.twitter.com/longlivesimple" class="nav-item is-tab is-paddingless">
         <figure class="image is-32x32" >
-          <img src="../../static/img/HP/twitter.png" alt="Twitter Icon">
+          <img src="../../static/img/HP/SocialMediaSVGs/SocialMediaSVGs/social3.svg" alt="Twitter Icon">
       </figure></a>
       <a href="https://www.pinterest.com/longlivesimple" class="nav-item is-tab is-paddingless">
         <figure class="image is-32x32" >
-          <img src="../../static/img/HP/Pinteresticon.png" alt="Pinterest Icon">
+          <img src="../../static/img/HP/SocialMediaSVGs/SocialMediaSVGs/social4.svg" alt="Pinterest Icon">
       </figure></a>
       <a href="https://www.dribbble.com/longlivesimple" class="nav-item is-tab is-paddingless">
         <figure class="image is-32x32">
-          <img src="../../static/img/HP/Dribbble.png" alt="Dribble Icon">
+          <img src="../../static/img/HP/SocialMediaSVGs/SocialMediaSVGs/social5.svg" alt="Dribble Icon">
       </figure></a>
       <!--Mobile Menu-->
       <a class="nav-item is-tab is-hidden-tablet is-active">Work</a>
@@ -109,7 +109,9 @@ export default {
 #nav-toggle-state {
   display: none;
 }
-
+  svg:hover {
+    fill: #111;
+  }
 #nav-toggle-state:checked ~ .nav-menu {
   display: block;
 }
@@ -120,7 +122,7 @@ nav {
   opacity: .8;
 }
 .nav-item{
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
 }
 a.nav-item.is-tab
 {

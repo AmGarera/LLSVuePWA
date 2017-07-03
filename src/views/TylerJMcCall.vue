@@ -13,14 +13,13 @@
         <!--<img src="../../static/img/HP/tyler1-06.png" alt="Client Image">-->
         <img src="../../static/img/HP/tyler2-06.png" alt="Client Image">
         <p class="content-padding has-text-left">
-          We worked with the Arise &#8482;  team based in Charlotte, North Carolina to update and reformat their flyers,
-          all based off of their new brand guidelines. We  created a series  of 3 flyers,
-          reinventing the way the information is communicated  through user experience-based solutions. </p>
+          Tyler’s board is organic with geometric shapes. Camel/taupe with shades of blue and grays with bright tones set the mood for Tyler’s new branding.
+        </p>
         <img src="../../static/img/HP/tyler3-06.png" alt="Client Image">
         <img src="../../static/img/HP/tyler4-06.png" alt="Client Image">
         <p class="content-padding has-text-left">
-          Several other concepts for the social media banners made for Arise(TM)  Virtual Solutions.
-          Clean and minimal in design, these social media banners helped set the stage for the Arise(TM) rebranding.
+          We worked with Tyler to create a custom brand identity that not only represents his work but also reflects his personality and passion for helping other entrepreneurs and businesses.
+
         </p>
         <img src="../../static/img/HP/tyler5-06.png" alt="Client Image">
         <img src="../../static/img/HP/tyler6-06.png" alt="Client Image">
@@ -31,18 +30,20 @@
         </div>
         <img src="../../static/img/HP/tyler8-06.png" alt="Client Image">
         <p class="content-padding has-text-left">
-          We worked with the team to create a series of email campaign headers that mirror their social media banners.</p>
+          Tyler chose our Simple Branding Package and wanted a modern, organic, yet timeless style, so we created a hashtag brand symbol that speaks for itself. To Tyler, Instagram is about creating an online community. We’ve helped him convey his Instagram expertise while subtly highlighting the interconnectivity that Instagram provides.</p>
         <div class="columns">
           <div class="column">
             <img src="../../static/img/HP/tyler9-06.png" alt="Client Image">
+
           </div>
         </div>
         <img src="../../static/img/HP/tyler10-06.png" alt="Client Image">
+        <p class="content-padding has-text-left">This custom icon set helps categorize Tyler’s Instagram talks and his services. We created these icons to portray his brand personality. Zoom in to see an icon of Tyler himself. </p>
         <img src="../../static/img/HP/tyler11-06.png" alt="Client Image">
         <img src="../../static/img/HP/tyler12-06.png" alt="Client Image">
         <p class="content-padding has-text-left">
-          All work done for Arise(TM) Virtual Solutions was based off their newly created brand guide and brand standards.
-          All work and flyers shown are copyright Arise(TM) Virtual Solutions.</p>
+          We worked with Tyler to create this geometric, Art Deco–inspired logo that symbolizes his work. There’s much thought and intention behind his brand typography and modern brand mark. The double lines create logo depth.
+        </p>
       </div>
     </section>
   </div>
