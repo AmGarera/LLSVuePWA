@@ -83,14 +83,14 @@
   </div>
 </section>
 
-    <section>
-      <div class="container is-fluid">
+    <!--<section>-->
+    <!--  <div class="container is-fluid">-->
 
-        <p> Simple Graphic design solutions for
-          <img src="../../static/img/HP/extraordinary-brands.png" alt="">
-        </p>
-      </div>
-    </section>
+    <!--    <p> Simple Graphic design solutions for-->
+    <!--      <img src="../../static/img/HP/extraordinary-brands.png" alt="">-->
+    <!--    </p>-->
+    <!--  </div>-->
+    <!--</section>-->
 <section class="hero is-medium">
  <div class="columns is-gapless">
   <div style="background: #E2F2EA;" class="column">
