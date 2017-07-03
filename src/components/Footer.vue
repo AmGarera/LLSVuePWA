@@ -1,6 +1,9 @@
 <template>
   <footer class="footer">
     <!--True Footer-->
+    <back-top>
+      <i id="myBtn" class="fa fa-arrow-up" aria-hidden="true"></i>
+    </back-top>
     <div class="columns">
       <div class="column is-3">
         <p style="text-indent: 25px" class="has-text-centered Karla-font" >&copy; Long Live Simple, LLC 2017</p>
@@ -11,7 +14,8 @@
         </ul>
       </div>
       <div class="column is-6">
-        <p class="subtitle has-text-centered Karla-font"> <span class="footer-hover"> <router-link to="/About">Site Credits</router-link> </span> | <span class="footer-hover" onclick="alertCustom()" >FAQ's</span> | <span class="footer-hover"><router-link to="/Services">Testimonials</router-link></span> | <span class="footer-hover">Client Login</span></p>
+        <p class="subtitle has-text-centered Karla-font"> <span class="footer-hover"> <router-link to="/About">Site Credits</router-link> </span> <!--<span class="footer-hover" onclick="alertCustom()" >FAQ's</span> |--> | <span class="footer-hover"><router-link to="/Services">Testimonials</router-link></span> | <span class="footer-hover">Client Login</span></p>
+
       </div>
       <div class="column">
         <p class="subtitle has-text-centered Karla-font">Socialize with us:</p>
@@ -25,9 +29,6 @@
       </div>
     </div>
 <!--<insta></insta>-->
-    <back-top>
-      <i id="myBtn" class="fa fa-arrow-up" aria-hidden="true"></i>
-    </back-top>
   </footer>
 </template>
 

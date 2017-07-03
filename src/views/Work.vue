@@ -23,7 +23,11 @@
         <div class="card">
           <div class="card-image">
             <figure class="image is-3by2">
-              <img class="image-hover-opacity" src="../../static/img/Coverphotos_Work/longlivesimple-238.jpg" alt="Image">
+              <img class="image-hover-opacity test image" src="" alt="">
+              <div class="middle">
+                <span class="text has-text-centered">TYLER J MCCALL</span>
+              </div>
+
             </figure>
           </div>
         </div>
@@ -35,10 +39,10 @@
         <div class="card ">
           <div class="card-image caption-style-1">
             <figure class="image is-3by2">
-              <img class="image-hover-opacity" src="../../static/img/Julia/longlivesimple-312.jpg" alt="Image">
-<div class="caption">
-              <span class="text-box has-text-centered title">I'm Text</span>
-</div>
+              <img class="image-hover-opacity julia image" src="" alt="">
+              <div class="middle">
+                <span class="text has-text-centered">TRAVEL JULIA'S WAY</span>
+              </div>
             </figure>
           </div>
         </div>
@@ -52,9 +56,9 @@
         <div class="card ">
           <div class="card-image caption-style-1">
             <figure class="image is-3by2">
-              <img class="image-hover-opacity" src="../../static/img/HP/arise-hero.jpg" alt="Image">
-              <div class="caption">
-                <span class="text-box has-text-centered title">I'm Text</span>
+              <img class="image-hover-opacity arise image" src="" alt="">
+              <div class="middle">
+                <span class="text has-text-centered">ARISE</span>
               </div>
             </figure>
           </div>
@@ -67,9 +71,9 @@
         <div class="card ">
           <div class="card-image caption-style-1">
             <figure class="image is-3by2">
-              <img class="image-hover-opacity" src="../../static/img/SalonEtcNc/salonetc14.png" alt="Image">
-              <div class="caption">
-                <span class="text-box has-text-centered title">I'm Text</span>
+              <img class="image-hover-opacity salon image" src="" alt="">
+              <div class="middle">
+                <span class="text has-text-centered">SALON ETC</span>
               </div>
             </figure>
           </div>
@@ -84,9 +88,9 @@
         <div class="card ">
           <div class="card-image caption-style-1">
             <figure class="image is-3by2">
-              <img class="image-hover-opacity" src="../../static/img/Coverphotos_Work/Chris_4.png" alt="Image">
-              <div class="caption">
-                <span class="text-box has-text-centered title">I'm Text</span>
+              <img class="image-hover-opacity chris image" src="" alt="">
+              <div class="middle">
+                <span class="text has-text-centered">CHRIS</span>
               </div>
             </figure>
           </div>
@@ -99,9 +103,9 @@
         <div class="card ">
           <div class="card-image caption-style-1">
             <figure class="image is-3by2">
-              <!--<img class="image-hover-opacity" src="../../static/img/SalonEtcNc/salonetc14.png" alt="Image">-->
-              <div class="caption">
-                <span class="text-box has-text-centered title">I'm Text</span>
+              <img class="image-hover-opacity salon image" src="" alt="">
+              <div class="middle">
+                <span class="text has-text-centered">PLACEHOLDER</span>
               </div>
             </figure>
           </div>
@@ -286,5 +290,56 @@ p a{
   top:0px;
   left: 0px;
 }
+  .test {
+    background: url("../../static/img/Coverphotos_Work/longlivesimple-238.jpg") center;
+    background-size: cover;
+  }
+  .julia {
+    background: url("../../static/img/Julia/longlivesimple-312.jpg") center;
+    background-size: cover;
+  }
+  .arise {
+    background: url("../../static/img/HP/arise-hero.jpg") center;
+    background-size: cover;
+  }
+  .salon {
+    background: url("../../static/img/SalonEtcNc/salonetc14.png") center;
+    background-size: cover;
+  }
+  .chris {
+    background: url("../../static/img/Coverphotos_Work/Chris_4.png") center;
+    background-size: cover;
+  }
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
 
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.image:hover {
+  opacity: 0.3;
+}
+
+.image:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: gray;
+  font-size: 2em;
+  padding: 16px 12px;
+}
 </style>
