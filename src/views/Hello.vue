@@ -122,7 +122,7 @@
     <section class="newsletter-section">
       <div class="columns container white-text">
         <div class="column">
-          <p style="text-indent: 25px"><b>Sign up for our newsletter to receive branding insights. freebies, and happenings.</b></p>
+          <p class="has-text-left"><b>Sign up for our newsletter to receive <br>branding insights. freebies, and happenings.</b></p>
         </div>
         <div class="column">
       <div class="field is-horizontal">
@@ -149,20 +149,20 @@
         </span>
             </p>
           </div>
-
+          <a class="button is-inverted is-outlined is-medium"><strong>Get notified</strong></a>
         </div>
       </div>
         </div>
         <!----></div>
       <div class="columns container">
       <div class="column">
-        <p class="has-text-centered white-text"><i>We aren't the spamming type.</i></p>
+        <p class="has-text-left white-text"><i>We aren't the spamming type.</i></p>
       </div>
 
         <div class=" column">
           <div class="has-text-centered">
             <!-- Left empty for spacing -->
-            <a class="button is-inverted is-outlined is-medium"><strong>Get notified</strong></a>
+
           </div>
         </div>
       </div>
@@ -311,7 +311,7 @@ a:hover {
 }
   /*Newsletter*/
   .newsletter-section {
-    padding-top: 20px;
+    padding: 30px 60px;
     background-color: gray;
   }
 </style>
