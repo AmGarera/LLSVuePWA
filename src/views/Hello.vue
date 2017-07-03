@@ -300,8 +300,9 @@ a {
     font-size: x-large;
     transform: translate(20%, -40%);
     padding-bottom: 20px;
-
-
+  }
+  .more-about-us:hover {
+    color: #a1d6ca;
   }
 a:hover {
   color: black;

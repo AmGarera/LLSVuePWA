@@ -27,17 +27,17 @@
       <router-link to="/Services" class="" tag="div" exact>
       <a class="nav-item is-tab is-hidden-mobile">
         <figure class="image is-32x32" style="margin-right: 2px;">
-          <img src="../../static/img/Navigation Icons/icon3.png"
-               onmouseover="this.src='../../static/img/Navigation Icons/icon3_green.png'"
-               onmouseout="this.src='../../static/img/Navigation Icons/icon3.png'">
+          <img src="../../static/img/Navigation Icons/icon5.png"
+               onmouseover="this.src='../../static/img/Navigation Icons/icon4_green-28.svg'"
+               onmouseout="this.src='../../static/img/Navigation Icons/icon5.png'">
         </figure><strong>SERVICES</strong></a>
       </router-link>
       <router-link to="/Contact" class="" tag="div" exact>
       <a class="nav-item is-tab is-hidden-mobile">
         <figure class="image is-32x32" style="margin-right: 2px;">
-          <img src="../../static/img/Navigation Icons/icon5.png"
-               onmouseover="this.src='../../static/img/Navigation Icons/icon4_green-28.svg'"
-               onmouseout="this.src='../../static/img/Navigation Icons/icon5.png'">
+          <img src="../../static/img/Navigation Icons/icon3.png"
+               onmouseover="this.src='../../static/img/Navigation Icons/icon3_green.png'"
+               onmouseout="this.src='../../static/img/Navigation Icons/icon3.png'">
         </figure><strong>CONTACT</strong></a>
       </router-link>
       <router-link to="/Blog" class="" tag="div" exact>
