@@ -64,23 +64,23 @@
     <input type="checkbox" id="nav-toggle-state" />
 
     <div class="nav-right nav-menu">
-      <a class="nav-item is-tab is-paddingless">
+      <a href="https://www.instagram.com/longlivesimple" class="nav-item is-tab is-paddingless">
         <figure class="image is-32x32" >
           <img src="../../static/img/HP/instagram.png" alt="Instagram Icon">
       </figure></a>
-      <a class="nav-item is-tab is-paddingless">
+      <a href="https://www.facebook.com/longlivesimple" class="nav-item is-tab is-paddingless">
         <figure class="image is-32x32" >
           <img src="../../static/img/HP/facebook.png" alt="Facebook Icon">
       </figure></a>
-      <a class="nav-item is-tab is-paddingless">
+      <a href="https://www.twitter.com/longlivesimple" class="nav-item is-tab is-paddingless">
         <figure class="image is-32x32" >
           <img src="../../static/img/HP/twitter.png" alt="Twitter Icon">
       </figure></a>
-      <a class="nav-item is-tab is-paddingless">
+      <a href="https://www.pinterest.com/longlivesimple" class="nav-item is-tab is-paddingless">
         <figure class="image is-32x32" >
           <img src="../../static/img/HP/Pinteresticon.png" alt="Pinterest Icon">
       </figure></a>
-      <a class="nav-item is-tab is-paddingless">
+      <a href="https://www.dribbble.com/longlivesimple" class="nav-item is-tab is-paddingless">
         <figure class="image is-32x32">
           <img src="../../static/img/HP/Dribbble.png" alt="Dribble Icon">
       </figure></a>
