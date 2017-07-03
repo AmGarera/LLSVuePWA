@@ -96,7 +96,7 @@
   </div>
   <div>
     <br>
-    <router-link to="/services"><p class="white-text white-box listOfServices"><strong class="white-text">See our full list of services ></strong></p></router-link>
+    <router-link to="/services"><p class="white-text white-box listOfServices"><strong class="white-text green-hover">See our full list of services ></strong></p></router-link>
   </div>
 </section>
 <section class="hero is-medium">
@@ -277,6 +277,13 @@ a {
   .listOfServices {
 
   }
+  .listOfServices:hover {
+    background-color: white;
+  }
+  .green-hover:hover {
+    color: RGB(76,191,160);
+
+  }
   .lls-intro {
     background-color: RGB(230,238,236);
   }
@@ -291,8 +298,14 @@ a {
   .more-about-us {
     font-size: x-large;
     transform: translate(20%, -40%);
+    padding-bottom: 20px;
+
 
   }
+a:hover {
+  color: black;
+}
+
 .big-font{
   font-family: 'Montserrat', sans-serif;
 }
