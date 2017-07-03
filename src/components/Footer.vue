@@ -66,7 +66,7 @@ li {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: RGB(76,191,160); /* Set a background color */
+  background-color: transparent; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
@@ -74,7 +74,7 @@ li {
 }
 
 #myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: RGB(76,191,160); /* Add a dark-grey background on hover */
 }
 .slick-container {
   height: 60%;
