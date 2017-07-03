@@ -4,12 +4,12 @@
       <div class="hero-body">
         <swiper :options="swiperOption" ref="mySwiper">
           <!-- slides -->
-          <swiper-slide><img src="../../static/img/HP/hero1.svg" alt=""></swiper-slide>
-          <swiper-slide><img src="../../static/img/HP/hero2.svg" alt=""></swiper-slide>
-          <swiper-slide><img src="../../static/img/HP/hero3.svg" alt=""></swiper-slide>
-          <swiper-slide><img src="../../static/img/HP/hero4.svg" alt=""></swiper-slide>
-          <swiper-slide><img src="../../static/img/HP/hero5.svg" alt=""></swiper-slide>
-          <swiper-slide><img src="../../static/img/HP/hero6.svg" alt=""></swiper-slide>
+          <swiper-slide><router-link to="/Contact"><img src="../../static/img/HP/hero1.svg" alt=""></router-link></swiper-slide>
+          <swiper-slide><router-link to="/Work"><img src="../../static/img/HP/hero2.svg" alt=""></router-link></swiper-slide>
+          <swiper-slide><router-link to="/Tyler-J-McCall"><img src="../../static/img/HP/hero3.svg" alt=""></router-link></swiper-slide>
+          <swiper-slide><router-link to="/Services">img src="../../static/img/HP/hero4.svg" alt=""></router-link></swiper-slide>
+          <swiper-slide><router-link to="/Shop"><img src="../../static/img/HP/hero5.svg" alt=""></router-link></swiper-slide>
+          <swiper-slide><router-link to="/Contact"><img src="../../static/img/HP/hero6.svg" alt=""></router-link></swiper-slide>
           <!-- Optional controls -->
           <!--<div class="swiper-pagination"  slot="pagination"></div>-->
           <!--<div class="swiper-button-prev" slot="button-prev"></div>-->
