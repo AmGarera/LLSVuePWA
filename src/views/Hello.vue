@@ -122,7 +122,7 @@
     <section class="newsletter-section">
       <div class="columns container white-text">
         <div class="column">
-          <p><b>Sign up for our newsletter to receive branding insights. freebies, and happenings.</b></p>
+          <p style="text-indent: 25px"><b>Sign up for our newsletter to receive branding insights. freebies, and happenings.</b></p>
         </div>
         <div class="column">
       <div class="field is-horizontal">
@@ -162,7 +162,7 @@
         <div class=" column">
           <div class="has-text-centered">
             <!-- Left empty for spacing -->
-            <a class="button is-primary is-inverted is-outlined is-medium"><strong>Get notified</strong></a>
+            <a class="button is-inverted is-outlined is-medium"><strong>Get notified</strong></a>
           </div>
         </div>
       </div>
@@ -290,7 +290,8 @@ a {
   }
   .more-about-us {
     font-size: x-large;
-    transform: translateY(0%);
+    transform: translate(20%, -40%);
+
   }
 [class^='imghvr-'],
 [class*=' imghvr-'] {
