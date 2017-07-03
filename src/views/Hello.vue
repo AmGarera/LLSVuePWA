@@ -1,44 +1,27 @@
 <template>
   <div class="hello">
-    <section class="hero">
+    <section style="background-color: RGB(230, 238, 236)" class="hero">
       <div class="hero-body is-small">
-      <slick ref="slick" :options="slickOptions">
-        <a href="https://unsplash.it/1920/1080"><img src="../../static/img/HP/hero1.png" alt=""></a>
-        <!--<a href="https://unsplash.it/1920/1080"><img src="../../static/img/HP/hero2.png" alt=""></a>-->
-        <!--<a href="https://unsplash.it/1920/1080"><img src="../../static/img/HP/hero3.png" alt=""></a>-->
-        <!--<a href="https://unsplash.it/1920/1080"><img src="../../static/img/HP/hero4.png" alt=""></a>-->
-        <!--<a href="https://unsplash.it/1920/1080"><img src="../../static/img/HP/hero5.png" alt=""></a>-->
-      </slick>
+        <swiper :options="swiperOption" ref="mySwiper">
+          <!-- slides -->
+          <swiper-slide><img src="../../static/img/HP/hero1.svg" alt=""></swiper-slide>
+          <swiper-slide><img src="../../static/img/HP/hero2.svg" alt=""></swiper-slide>
+          <swiper-slide><img src="../../static/img/HP/hero3.svg" alt=""></swiper-slide>
+          <swiper-slide><img src="../../static/img/HP/hero4.svg" alt=""></swiper-slide>
+          <swiper-slide><img src="../../static/img/HP/hero5.svg" alt=""></swiper-slide>
+          <swiper-slide><img src="../../static/img/HP/hero6.svg" alt=""></swiper-slide>
+          <!-- Optional controls -->
+          <!--<div class="swiper-pagination"  slot="pagination"></div>-->
+          <!--<div class="swiper-button-prev" slot="button-prev"></div>-->
+          <!--<div class="swiper-button-next" slot="button-next"></div>-->
+          <!--<div class="swiper-scrollbar"   slot="scrollbar"></div>-->
+        </swiper>
       </div>
     </section>
-<!--<section class="hero is-medium brand-story">-->
-  <!--&lt;!&ndash; Hero header: will stick at the top &ndash;&gt;-->
-
-  <!--&lt;!&ndash; Hero content: will be in the middle &ndash;&gt;-->
-  <!--<div class="hero-body">-->
-    <!--<div class="container has-text-centered">-->
-      <!--<h1 class="title white-box">-->
-        <!--Tell Us Your Brand Story >-->
-      <!--</h1>-->
-    <!--</div>-->
-  <!--</div>-->
-
-  <!--&lt;!&ndash; Hero footer: will stick at the bottom &ndash;&gt;-->
-  <!--<div class="hero-foot white-text has-text-centered">-->
-    <!--<span>We empower our clients to help them find their brand identity and visually</span>-->
-    <!--<br>-->
-    <!--<span>communicate their brand stories in unique, compelling, and strategic ways.</span>-->
-  <!--</div>-->
-<!--</section>-->
 
     <section class="hero is-medium lls-intro">
 
-      <div class="columns ">
-        <div class="column">
 
-        </div>
-
-      </div>
       <div class="container is-fluid">
       <div class="columns is-gapless">
         <div class="column is-half">
@@ -203,23 +186,15 @@
 
 <script>
   import Slick from 'vue-slick'
-
+  import { swiper, swiperSlide } from 'vue-awesome-swiper'
 export default {
     name: 'hello',
-    components: { Slick },
+    components: { Slick, swiper, swiperSlide },
     data () {
       return {
-        slickOptions: {
-          slidesToShow: 1,
-          autoplay: true,
-          arrows: false,
-          adaptiveHeight: true,
-          prevArrow: false,
-          nextArrow: false,
-          variableWidth: true,
-          centerMode: true,
-          responsive: true
-        // Any other options that can be got from plugin documentation
+        swiperOption: {
+          preloadImages: false,
+          lazyLoading: true
         }
       }
     },

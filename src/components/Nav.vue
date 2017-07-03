@@ -66,7 +66,7 @@
     <div class="nav-right nav-menu">
       <a href="https://www.instagram.com/longlivesimple" class="nav-item is-tab is-paddingless">
         <figure class="image is-32x32" >
-          <img src="../../static/img/HP/instagram.png" alt="Instagram Icon">
+          <img src="../../static/img/HP/SocialMediaSVGs/SocialMediaSVGs/social1.svg" alt="Instagram Icon">
       </figure></a>
       <a href="https://www.facebook.com/longlivesimple" class="nav-item is-tab is-paddingless">
         <figure class="image is-32x32" >
