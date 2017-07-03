@@ -13,7 +13,7 @@
     </section>
     <br>
     <section class="container is-fluid">
-      <h3 class="title is-spaced has-text-centered grey-text2">The Long Live Simple Story:</h3>
+      <h3 class="title is-spaced has-text-centered grey-text2"><b>The Long Live Simple Story:</b></h3>
       <div>
       <p class="has-text-left mission body-font">We are the full-service creative company that your small business has been looking for.
         Whether you're a recent startup, a well-established company,
