@@ -22,8 +22,8 @@
       <router-link to="/Tyler-J-McCall">
         <div class="card">
           <div class="card-image">
-            <figure class="image is-3by2 wrapper darken">
-              <img class="image-hover-opacity" src="../../static/img/HP/IMG_6393.jpg" alt="Image">
+            <figure style="background-image: url('../../static/img/HP/IMG_6393.jpg') " class="image is-3by2 wrapper darken">
+              <!--<img class="image-hover-opacity" src="../../static/img/HP/IMG_6393.jpg" alt="Image">-->
               <p class="text-box has-text-centered title">I'm Text</p>
             </figure>
           </div>
@@ -74,18 +74,13 @@
         </div>
       </router-link>
     </div>
-    <ul class="grid cs-style-3">
-      <li>
-        <figure>
-          <img src="../../static/img/HP/IMG_6393.jpg" alt="img04">
-          <figcaption>
-            <h3>Settings</h3>
-            <span>Jacob Cummings</span>
-            <a href="http://dribbble.com/shots/1116685-Settings">Take a look</a>
-          </figcaption>
-        </figure>
-      </li>
-    </ul>
+    <div class="pic">
+      <img src="img/01.jpg" class="pic-image" alt="Pic"/>
+      <span class="pic-caption bottom-to-top">
+		<h1 class="pic-title">Pic Title</h1>
+		<p>Some description or text.</p>
+	</span>
+    </div>
   </div>
 </section>
 </div>
