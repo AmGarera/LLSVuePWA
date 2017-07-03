@@ -7,7 +7,7 @@
     <div class="columns">
       <div class="column is-3">
         <p style="text-indent: 25px" class="has-text-centered Karla-font" >&copy; Long Live Simple, LLC 2017</p>
-        <p style="text-indent: 25px" class="has-text-centered Karla-font" > All Rights Reserved | Legal</p>
+        <p style="text-indent: 25px" class="has-text-centered Karla-font" > All Rights Reserved</p>
         <ul class=" has-text-centered">
           <li><img src="../../static/img/HP/GoLocalHonoredhere2017_graphic.jpg" class="image is-64x64" alt="Go Local Here 2017"></li>
           <li><img src="../../static/img/HP/MountainBizWorks_Footer.png" class="image is-64x64" alt="Go Local Here 2017"></li>

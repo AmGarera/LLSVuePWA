@@ -14,6 +14,11 @@
     </section>
 <section>
   <br>
+  <div style="margin: 0px 80px" class="container is-fluid">
+  <p class="has-text-left">We do more than simple designs. We are a boutique creative company that strives to create simple, strategic visual solutions through custom design for intentional brands.
+    Select brands we’ve worked with:</p>
+  </div>
+  <br>
   <h1 class="has-text-centered title brand-title-text">Brands We've Worked With:</h1>
   <!--Grid of Clients-->
 
@@ -143,7 +148,7 @@ visibility: hidden;
     color: #fff;
   }
 .brand-title-text {
- color: #000;
+ color: grey;
   padding-bottom: 20px;
 }
 .text-box {
@@ -290,5 +295,6 @@ p a{
   color: gray;
   font-size: 2em;
   padding: 16px 12px;
+  font-family: Montserrat, sans-serif;
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <section style="background-color: RGB(230, 238, 236)" class="hero">
-      <div class="hero-body is-small">
+      <div class="hero-body">
         <swiper :options="swiperOption" ref="mySwiper">
           <!-- slides -->
           <swiper-slide><img src="../../static/img/HP/hero1.svg" alt=""></swiper-slide>

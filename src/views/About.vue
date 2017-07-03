@@ -276,7 +276,7 @@
     color: #42b983;
   }
   .hero-body {
-    background: url("../../static/img/ABOUT/About_TestimonialsBanner.svg") no-repeat;
+    background: url("../../static/img/ABOUT/About_Hero-02.svg") no-repeat;
   }
 
 </style>
