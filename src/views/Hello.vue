@@ -99,6 +99,15 @@
     <router-link to="/services"><p class="white-text white-box listOfServices"><strong class="white-text green-hover">See our full list of services ></strong></p></router-link>
   </div>
 </section>
+
+    <section>
+      <div class="container is-fluid">
+
+        <p> Simple Graphic design solutions for
+          <img src="../../static/img/HP/extraordinary-brands.png" alt="">
+        </p>
+      </div>
+    </section>
 <section class="hero is-medium">
  <div class="columns is-gapless">
   <div style="background: #E2F2EA;" class="column">
@@ -313,7 +322,8 @@ a:hover {
 }
   /*Newsletter*/
   .newsletter-section {
-    padding: 30px 60px;
+    padding: 30px 60px 45px 85px;
+    /*padding: 30px 60px;*/
     background-color: gray;
   }
 </style>
