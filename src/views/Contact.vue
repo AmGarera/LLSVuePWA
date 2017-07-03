@@ -1,6 +1,6 @@
 <template>
   <div class="work">
-  <section class="hero hero-image is-medium">
+  <section class="hero hero-image hero-background-image  is-medium">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
@@ -96,7 +96,7 @@
   }
 </script>
 <style>
-  .hero-body {
+  .hero-background-image {
     background: url("../../static/img/CONTACT/CONTACT_hero.png") center;
     background-size: cover;
   }
