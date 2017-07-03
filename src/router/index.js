@@ -4,6 +4,7 @@ import Hello from '@/views/Hello'
 import Work from '@/views/Work'
 import About from '@/views/About'
 import Services from '@/views/Services'
+import Contact from '@/views/Contact'
 import Blog from '@/views/Blog'
 import Shop from '@/views/Shop'
 import TylerJMcCall from '@/views/TylerJMcCall'
@@ -37,6 +38,11 @@ export default new Router({
       path: '/Services',
       name: 'Services',
       component: Services
+    },
+    {
+      path: '/Contact',
+      name: 'Contact',
+      component: Contact
     },
     {
       path: '/Blog',
