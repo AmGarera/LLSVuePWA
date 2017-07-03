@@ -193,7 +193,9 @@ export default {
       return {
         swiperOption: {
           preloadImages: false,
-          lazyLoading: true
+          lazyLoading: true,
+          autoplay: 5000,
+          autoHeight: true
         }
       }
     },

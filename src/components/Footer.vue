@@ -11,7 +11,7 @@
         </ul>
       </div>
       <div class="column is-6">
-        <p class="subtitle has-text-centered Karla-font"> <span class="footer-hover">Site Credits </span> | <span class="footer-hover" onclick="alertCustom()" >FAQ's</span> | <span class="footer-hover">Testimonials</span> | <span class="footer-hover">Client Login</span></p>
+        <p class="subtitle has-text-centered Karla-font"> <span class="footer-hover"> <router-link to="/About">Site Credits</router-link> </span> | <span class="footer-hover" onclick="alertCustom()" >FAQ's</span> | <span class="footer-hover"><router-link to="/Services">Testimonials</router-link></span> | <span class="footer-hover">Client Login</span></p>
       </div>
       <div class="column">
         <p class="subtitle has-text-centered Karla-font">Socialize with us:</p>
@@ -78,4 +78,10 @@ li {
 .slick-container {
   height: 60%;
 }
+a {
+  color: #4a4a4a;
+}
+  a:hover {
+    color: #42b983;
+  }
 </style>

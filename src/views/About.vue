@@ -33,7 +33,7 @@
       <!--Media Object-->
       <article class="media">
         <figure class="media-left">
-          <p class="image is-96x96">
+          <p class="image is-64x64">
             <img src="../../static/img/Navigation Icons/icon2.png">
           </p>
         </figure>
@@ -51,7 +51,7 @@
 
       <article class="media">
         <figure class="media-left">
-          <p class="image is-96x96">
+          <p class="image is-64x64">
             <img src="../../static/img/Navigation Icons/icon2.png">
           </p>
         </figure>
@@ -69,7 +69,7 @@
 
       <article class="media">
         <figure class="media-left">
-          <p class="image is-96x96">
+          <p class="image is-64x64">
             <img src="../../static/img/ABOUT/3_Brand_Pillars_Icons/icon1-31.svg">
           </p>
         </figure>
@@ -94,7 +94,7 @@
         <div class="column is-offset-1">
           <article class="media">
             <figure class="media-left">
-              <p class="image is-96x96">
+              <p class="image is-64x64">
                 <img src="../../static/img/ABOUT/Headshots/Carley.png">
               </p>
             </figure>
@@ -113,8 +113,8 @@
         <div class="column">
           <article class="media">
             <figure class="media-left">
-              <p class="image is-96x96">
-                <img src="../../static/img/Navigation Icons/icon2.png">
+              <p class="image is-64x64">
+                <img src="../../static/img/ABOUT/Headshots/Propic.jpg">
               </p>
             </figure>
             <div class="media-content">
@@ -134,7 +134,7 @@
         <div class="column is-offset-1">
           <article class="media">
             <figure class="media-left">
-              <p class="image is-96x96">
+              <p class="image is-64x64">
                 <img src="../../static/img/ABOUT/Headshots/Taylor.png">
               </p>
             </figure>
@@ -153,7 +153,7 @@
         <div class="column">
           <article class="media">
             <figure class="media-left">
-              <p class="image is-96x96">
+              <p class="image is-64x64">
                 <img src="../../static/img/ABOUT/Headshots/Kelsey.png">
               </p>
             </figure>
@@ -179,7 +179,7 @@
         <article class="media">
           <div class="media-content">
             <div class="content">
-              <img class="left-pic" src="../../static/img/ABOUT/Carley2.jpg">
+              <img class="left-pic" src="../../static/img/ABOUT/smallprofile.png">
               <p class="has-text-left">
                 <br>
                 Hi there! I’m Carley Lee, the Creative Director here at Long Live Simple, LLC. Long Live Simple is a full-service graphic design co. that specializes in branding, web design, and print solutions for local businesses in my home town of Asheville, North Carolina, and the surrounding area. Whether you’re crafting your dream business from the ground up, launching a digital product, hosting an event, or needing a captivating packaging solution, my studio will make sure your business is in great hands.

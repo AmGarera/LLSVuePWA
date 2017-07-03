@@ -23,7 +23,7 @@
         <div class="card">
           <div class="card-image">
             <figure class="image is-3by2">
-              <img class="image-hover-opacity" src="../../static/img/HP/IMG_6393.jpg" alt="Image">
+              <img class="image-hover-opacity" src="../../static/img/Coverphotos_Work/longlivesimple-238.jpg" alt="Image">
             </figure>
           </div>
         </div>
@@ -68,6 +68,38 @@
           <div class="card-image caption-style-1">
             <figure class="image is-3by2">
               <img class="image-hover-opacity" src="../../static/img/SalonEtcNc/salonetc14.png" alt="Image">
+              <div class="caption">
+                <span class="text-box has-text-centered title">I'm Text</span>
+              </div>
+            </figure>
+          </div>
+        </div>
+      </router-link>
+    </div>
+  </div>
+
+  <div style="padding: 0px 40px;" class="columns ">
+    <div class="column">
+      <router-link to="/Chris">
+        <div class="card ">
+          <div class="card-image caption-style-1">
+            <figure class="image is-3by2">
+              <img class="image-hover-opacity" src="../../static/img/Coverphotos_Work/Chris_4.png" alt="Image">
+              <div class="caption">
+                <span class="text-box has-text-centered title">I'm Text</span>
+              </div>
+            </figure>
+          </div>
+        </div>
+      </router-link>
+    </div>
+
+    <div class="column">
+      <router-link to="/">
+        <div class="card ">
+          <div class="card-image caption-style-1">
+            <figure class="image is-3by2">
+              <!--<img class="image-hover-opacity" src="../../static/img/SalonEtcNc/salonetc14.png" alt="Image">-->
               <div class="caption">
                 <span class="text-box has-text-centered title">I'm Text</span>
               </div>
