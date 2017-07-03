@@ -55,7 +55,7 @@
 </script>
 <style>
   .aris-hero {
-    background: url("../../static/img/HP/tyler1-06.png");
+    background: url("../../static/img/HP/TylerJMcCall_Hero-06.svg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
