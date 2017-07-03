@@ -185,11 +185,10 @@
 </template>
 
 <script>
-  import Slick from 'vue-slick'
   import { swiper, swiperSlide } from 'vue-awesome-swiper'
 export default {
     name: 'hello',
-    components: { Slick, swiper, swiperSlide },
+    components: { swiper, swiperSlide },
     data () {
       return {
         swiperOption: {
@@ -300,5 +299,6 @@ a:hover {
     padding: 30px 60px 45px 85px;
     /*padding: 30px 60px;*/
     background-color: gray;
+    background-image: url('../../static/img/HP/newsletter.png');
   }
 </style>
