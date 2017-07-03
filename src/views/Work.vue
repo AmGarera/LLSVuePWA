@@ -24,7 +24,6 @@
           <div class="card-image">
             <figure class="image is-3by2 wrapper">
               <img class="image-hover-opacity" src="../../static/img/HP/IMG_6393.jpg" alt="Image">
-
               <p class="text-box has-text-centered title">I'm Text</p>
             </figure>
           </div>
@@ -37,7 +36,7 @@
         <div class="card">
           <div class="card-image">
             <figure class="image is-3by2 wrapper">
-              <img class="image-hover-opacity" src="../../static/img/HP/IMG_6393.jpg" alt="Image">
+              <img class="image-hover-opacity" src="../../static/img/HP/arise-hero.jpg" alt="Image">
 
               <p class="text-box has-text-centered title">I'm Text</p>
             </figure>
@@ -53,9 +52,9 @@
         <div class="card">
           <div class="card-image">
             <figure class="image is-3by2 wrapper">
-              <img class="image-hover-opacity" src="../../static/img/HP/IMG_6393.jpg" alt="Image">
+              <img class="image-hover-opacity" src="../../static/img/Julia/longlivesimple-312.jpg" alt="Image">
 
-              <p class="text-box has-text-centered title">I'm Text</p>
+              <p class="text-box has-text-centered title parent">I'm Text</p>
             </figure>
           </div>
         </div>
