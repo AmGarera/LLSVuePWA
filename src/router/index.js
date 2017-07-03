@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Hello from '@/views/Hello'
 import Work from '@/views/Work'
 import About from '@/views/About'
+import Services from '@/views/Services'
 import Blog from '@/views/Blog'
 import Shop from '@/views/Shop'
 import TylerJMcCall from '@/views/TylerJMcCall'
@@ -31,6 +32,11 @@ export default new Router({
       path: '/About',
       name: 'About',
       component: About
+    },
+    {
+      path: '/Services',
+      name: 'Services',
+      component: Services
     },
     {
       path: '/Blog',
