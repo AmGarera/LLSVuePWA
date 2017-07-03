@@ -86,37 +86,37 @@
     </div>
   </div>
 
-  <div style="padding: 0px 40px;" class="columns ">
-    <div class="column">
-      <router-link to="/Chris">
-        <div class="card ">
-          <div class="card-image caption-style-1">
-            <figure class="image is-3by2">
-              <img class="image-hover-opacity chris image" src="" alt="">
-              <div class="middle">
-                <span class="text has-text-centered">CHRIS</span>
-              </div>
-            </figure>
-          </div>
-        </div>
-      </router-link>
-    </div>
+  <!--<div style="padding: 0px 40px;" class="columns ">-->
+    <!--<div class="column">-->
+      <!--<router-link to="/Chris">-->
+        <!--<div class="card ">-->
+          <!--<div class="card-image caption-style-1">-->
+            <!--<figure class="image is-3by2">-->
+              <!--<img class="image-hover-opacity chris image" src="" alt="">-->
+              <!--<div class="middle">-->
+                <!--<span class="text has-text-centered">CHRIS</span>-->
+              <!--</div>-->
+            <!--</figure>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</router-link>-->
+    <!--</div>-->
 
-    <div class="column">
-      <router-link to="/">
-        <div class="card ">
-          <div class="card-image caption-style-1">
-            <figure class="image is-3by2">
-              <img class="image-hover-opacity salon image" src="" alt="">
-              <div class="middle">
-                <span class="text has-text-centered">PLACEHOLDER</span>
-              </div>
-            </figure>
-          </div>
-        </div>
-      </router-link>
-    </div>
-  </div>
+    <!--<div class="column">-->
+      <!--<router-link to="/">-->
+        <!--<div class="card ">-->
+          <!--<div class="card-image caption-style-1">-->
+            <!--<figure class="image is-3by2">-->
+              <!--<img class="image-hover-opacity salon image" src="" alt="">-->
+              <!--<div class="middle">-->
+                <!--<span class="text has-text-centered">PLACEHOLDER</span>-->
+              <!--</div>-->
+            <!--</figure>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</router-link>-->
+    <!--</div>-->
+  <!--</div>-->
   <br>
 </section>
 </div>
