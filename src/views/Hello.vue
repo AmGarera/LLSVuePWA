@@ -120,7 +120,7 @@
 </div>
 </section>
     <section class="newsletter-section">
-      <div class="columns container white-text">
+      <div class="columns white-text">
         <div class="column">
           <p class="has-text-left"><b>Sign up for our newsletter to receive <br>branding insights. freebies, and happenings.</b></p>
         </div>
@@ -149,12 +149,12 @@
         </span>
             </p>
           </div>
-          <a class="button is-inverted is-outlined is-medium"><strong>Get notified</strong></a>
+          <router-link to="/services"><p class="white-text white-box listOfServices"><strong class="white-text green-hover">Get Notified ></strong></p></router-link>
         </div>
       </div>
         </div>
         <!----></div>
-      <div class="columns container">
+      <div class="columns">
       <div class="column">
         <p class="has-text-left white-text"><i>We aren't the spamming type.</i></p>
       </div>
