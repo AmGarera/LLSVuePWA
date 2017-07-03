@@ -58,30 +58,30 @@
         </figure><strong>SHOP</strong></a>
       </router-link>
     </div>
-    <label class="nav-toggle" for="nav-toggle-state">
+    <label style="font-size: xx-large;" class="nav-toggle" for="nav-toggle-state">
     </label>
 
     <!-- This checkbox is hidden -->
     <input type="checkbox" id="nav-toggle-state" />
 
     <div class="nav-right nav-menu">
-      <a href="https://www.instagram.com/longlivesimple" class="nav-item is-tab is-paddingless">
+      <a href="https://www.instagram.com/longlivesimple" class="nav-item is-tab is-paddingless is-hidden-mobile">
         <figure class="image is-32x32" >
           <img src="../../static/img/HP/SocialMediaSVGs/SocialMediaSVGs/social1.svg" alt="Instagram Icon">
       </figure></a>
-      <a href="https://www.facebook.com/longlivesimple" class="nav-item is-tab is-paddingless">
+      <a href="https://www.facebook.com/longlivesimple" class="nav-item is-tab is-paddingless is-hidden-mobile">
         <figure class="image is-32x32" >
           <img src="../../static/img/HP/SocialMediaSVGs/SocialMediaSVGs/social2.svg" alt="Facebook Icon">
       </figure></a>
-      <a href="https://www.twitter.com/longlivesimple" class="nav-item is-tab is-paddingless">
+      <a href="https://www.twitter.com/longlivesimple" class="nav-item is-tab is-paddingless is-hidden-mobile">
         <figure class="image is-32x32" >
           <img src="../../static/img/HP/SocialMediaSVGs/SocialMediaSVGs/social3.svg" alt="Twitter Icon">
       </figure></a>
-      <a href="https://www.pinterest.com/longlivesimple" class="nav-item is-tab is-paddingless">
+      <a href="https://www.pinterest.com/longlivesimple" class="nav-item is-tab is-paddingless is-hidden-mobile">
         <figure class="image is-32x32" >
           <img src="../../static/img/HP/SocialMediaSVGs/SocialMediaSVGs/social4.svg" alt="Pinterest Icon">
       </figure></a>
-      <a href="https://www.dribbble.com/longlivesimple" class="nav-item is-tab is-paddingless">
+      <a href="https://www.dribbble.com/longlivesimple" class="nav-item is-tab is-paddingless is-hidden-mobile">
         <figure class="image is-32x32">
           <img src="../../static/img/HP/SocialMediaSVGs/SocialMediaSVGs/social5.svg" alt="Dribble Icon">
       </figure></a>
