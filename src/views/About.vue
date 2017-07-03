@@ -24,8 +24,8 @@
     </section>
     <br><!--TODO Replace this with padding-->
     <section class="container">
-      <h3 class="has-text-left"> <img src="../../static/img/ABOUT/OurMission.png"
-                                                                 height="113" width="468"/></h3>
+      <h3 class="has-text-left"> <img src="../../static/img/ABOUT/OurMission-32.svg"
+                                                                 height="113" width="268"/></h3>
       <p class="has-text-left">At Long Live Simple, we craft brands for entrepreneurs and
         businesses that are both relatable and intentional through custom typography and design services.
       Here are some of the things we love and the ways we aim to give back through what we do.</p>
@@ -88,7 +88,7 @@
     <!--Meet The Team-->
     <section class="green-background">
       <br>
-      <h3 class="title grey-text2">Meet The Team:</h3>
+      <h3 class="title grey-text2"><b>Meet The Team:</b></h3>
       <!--Team Grid-->
       <div class="container">
       <div class="columns">
@@ -210,7 +210,7 @@
     <section>
       <div class="container">
         <br>
-        <h3 class="title is-spaced "> We’ve told you our story — now we’d love to hear <img src="../../static/img/ABOUT/yours.png" alt=""></h3>
+        <h3 class="title is-spaced "> We’ve told you our story — now we’d love to hear <b style="font-family: 'Montserrat', sans-serif;" class="grey-text2">yours!</b></h3>
         <p class="mission is-flex-mobile">
           Get in touch with us <span class="is-hidden-mobile">at</span> <a class="is-hidden-mobile" href="mailto:hello@longlivesimple.com?subject=Collaboration">hello@longlivesimple.com.</a>
           to review your brand story and ideas. Let us help you craft a brand that resonates with your target audience and makes your brand personality shine. </p>
@@ -218,10 +218,10 @@
         <br>
         <div class="columns">
           <div class="column">
-            <span class="body-font"><a href=""><b>Get in touch with us ></b></a></span>
+            <span class="body-font"><router-link to="/Contact"><a href=""><b>Get in touch with us ></b></a></router-link></span>
           </div>
           <div class="column">
-            <span class="body-font"><a href=""><b>Set up a free consultation ></b></a></span>
+            <span class="body-font"><a href="mailto:hello@longlivesimple.com"><b>Set up a free consultation ></b></a></span>
           </div>
         </div>
         <br>

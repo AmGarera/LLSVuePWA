@@ -1,7 +1,7 @@
 <template>
   <div class="work">
-  <section class="hero hero-image hero-background-image  is-medium">
-      <div class="hero-body">
+  <section class="hero hero-image  is-medium">
+      <div class="hero-body hero-background-image">
         <div class="container">
           <h1 class="title">
 
@@ -15,7 +15,11 @@
     <br>
     <section>
       <div class="container is-fluid">
-      <h3 class="title grey-text">  Contact Our Studio</h3>
+      <h3 style="padding-top: 1em" class="title grey-text">  <b>Contact Our Studio</b></h3>
+        <p>Every business or entrepreneur has a story to tell—let’s tell yours.
+          <br>
+          Get in touch with us by filling out our form below. We will be in touch within 1-2 business days.</p>
+        <br>
       <form action="https://formspree.io/gareraanthony@gmail.com"
             method="POST">
         <div class="field is-horizontal">
@@ -60,12 +64,12 @@
 
         <div class="field is-horizontal">
           <div class="field-label is-normal">
-            <label class="label grey-text">Question</label>
+            <label class="label grey-text">Inquiry</label>
           </div>
           <div class="field-body">
             <div class="field">
               <div class="control">
-                <textarea class="textarea" placeholder="Explain how we can help you" name="Services"></textarea>
+                <textarea class="textarea" placeholder="Tell us About your creative project or company" name="Services"></textarea>
               </div>
             </div>
           </div>
@@ -87,6 +91,7 @@
         </div>
       </form>
       </div>
+      <br>
     </section>
 </div>
 </template>
