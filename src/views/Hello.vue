@@ -2,7 +2,7 @@
   <div class="hello">
     <section class="hero">
       <div class="hero-body is-small">
-      <slick style="height: 50%;" ref="slick" :options="slickOptions">
+      <slick ref="slick" :options="slickOptions">
         <a href="https://unsplash.it/1920/1080"><img src="../../static/img/HP/hero1.png" alt=""></a>
         <!--<a href="https://unsplash.it/1920/1080"><img src="../../static/img/HP/hero2.png" alt=""></a>-->
         <!--<a href="https://unsplash.it/1920/1080"><img src="../../static/img/HP/hero3.png" alt=""></a>-->
@@ -149,20 +149,20 @@
         </span>
             </p>
           </div>
-          <router-link to="/services"><p class="white-text white-box listOfServices"><strong class="white-text green-hover">Get Notified ></strong></p></router-link>
+
         </div>
       </div>
         </div>
         <!----></div>
       <div class="columns">
-      <div class="column">
+      <div class="column is-6">
         <p class="has-text-left white-text"><i>We aren't the spamming type.</i></p>
       </div>
-
-        <div class=" column">
+<div class="column is-hidden-mobile"></div>
+        <div class=" column is-5">
           <div class="has-text-centered">
             <!-- Left empty for spacing -->
-
+            <router-link to="/services"><p class="white-text white-box listOfServices"><strong class="white-text green-hover">Get Notified ></strong></p></router-link>
           </div>
         </div>
       </div>
@@ -208,7 +208,8 @@ export default {
           prevArrow: false,
           nextArrow: false,
           variableWidth: true,
-          centerMode: true
+          centerMode: true,
+          responsive: true
         // Any other options that can be got from plugin documentation
         }
       }
