@@ -13,7 +13,7 @@
     </section>
     <br>
     <section class="container is-fluid">
-      <h3 class="title is-spaced has-text-centered">The Long Live Simple Story:</h3>
+      <h3 class="title is-spaced has-text-centered grey-text2">The Long Live Simple Story:</h3>
       <div>
       <p class="has-text-left mission body-font">We are the full-service creative company that your small business has been looking for.
         Whether you're a recent startup, a well-established company,
@@ -88,7 +88,7 @@
     <!--Meet The Team-->
     <section class="green-background">
       <br>
-      <h3 class="title">Meet The Team:</h3>
+      <h3 class="title grey-text2">Meet The Team:</h3>
       <!--Team Grid-->
       <div class="container">
       <div class="columns">
@@ -249,6 +249,9 @@
   .grey-text {
     color: gray;
     font-size: large;
+  }
+  .grey-text2 {
+    color: grey;
   }
   .white-text {
     color: #fff;
