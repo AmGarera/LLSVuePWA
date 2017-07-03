@@ -1,12 +1,26 @@
 <template>
-  <img src="../../static/img/HP/Blog-04.svg" alt="">
+  <div class="work">
+  <section class="hero hero-image is-medium">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            OUR SERVICES
+          </h1>
+          <h2 class="subtitle">
 
-
-
+          </h2>
+        </div>
+      </div>
+    </section>
+</div>
 </template>
 <script>
   export default {
     name: 'Services'
   }
 </script>
-<style></style>
+<style>
+  .hero-body {
+    background-image: url(https://www.placehold.it/1920x1080);
+  }
+</style>
