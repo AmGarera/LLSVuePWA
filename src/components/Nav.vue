@@ -158,4 +158,7 @@
   figure:hover {
     color: #1ca64c;
   }
+  .nav-item a.is-tab.is-active, a.nav-item.is-tab.is-active {
+    border-bottom: #4cc1a1;
+  }
 </style>
