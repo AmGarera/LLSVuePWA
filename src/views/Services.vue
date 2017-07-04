@@ -103,6 +103,11 @@
       <p class="has-text-left">Help get clarity regarding your specific questions about starting your new business or refreshing your brand. Choose from in-person or by-phone sessions. Afterward you’ll receive a document outlining our suggested solutions.
       </p>
       <br>
+      <h4 class="subtitle is-5 has-text-left">Investment:</h4>
+      <p class="has-text-left">Starting at $1,500</p>
+      <p class="has-text-left">*Ask us about our local discounts.</p>
+      <br>
+      <br>
     </section>
 </div>
 </template>
