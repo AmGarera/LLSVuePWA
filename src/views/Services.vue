@@ -18,12 +18,12 @@
 
         Our services range from branding packages to custom illustrations to a variety of print and website solutions.</p>
       <br>
-      <h3 class="title has-text-centered is-spaced"><b>OUR SERVICES</b></h3>
+      <h3 class="title has-text-centered is-spaced grey-text2"><b>OUR SERVICES</b></h3>
     </section>
     <br>
     <section style="padding-bottom: 40px; padding-top: 40px" class="hero is-medium what-we-offer">
       <br>
-      <h2 class="title what-we-offer-text big-font"><b>WHAT WE OFFER:</b></h2>
+      <!--<h2 class="title what-we-offer-text big-font"><b>WHAT WE OFFER:</b></h2>-->
       <div class="columns">
         <ul class="column">
         </ul>
@@ -53,7 +53,8 @@
       </div>
     </section>
     <section class="container">
-      <h3 class=" title has-text-left"> BRANDING PACKAGES</h3>
+      <br>
+      <h3 class=" title has-text-cenetered"><b> BRANDING PACKAGES</b></h3>
       <p class="has-text-left">Every branding package at Long Live Simple starts with a brand design. Whether a refresh or a start-to-finish design, this gets your project off to the right start.
         Choose from either our Simple Branding package or our Deluxe Branding package. From there you can choose to DIY or continue with one of the packages below that combines the brand design with collateral and/or a Squarespace site design.</p>
       <br>
@@ -107,7 +108,45 @@
       <p class="has-text-left">Starting at $1,500</p>
       <p class="has-text-left">*Ask us about our local discounts.</p>
       <br>
+      <span>Book Now</span>
       <br>
+      <h3 class="subtitle has-text-left"> <b>Web Design Package </b></h3>
+      <p class="has-text-left">Our user-experience driven website designs are fully responsive, meaning that they are designed to look good on any device, from mobile and tablets to desktop computers and displays. Featuring HTML and CSS for custom-coded Squarespace and  Wordpress  sites. See some of our work here.
+      </p>
+      <br>
+      <h4 class="subtitle is-5 has-text-left">Investment:</h4>
+      <p class="has-text-left">Squarespace sites starting at $3,000</p>
+      <p class="has-text-left">Wordpress  sites starting at  $4,000</p>
+      <br>
+      <p class="has-text-left"><b>Contact us for our full list of services and pricing ></b></p>
+      <br>
+      <br>
+    </section>
+    <section class="container">
+      <h3 class=" title has-text-centered is-spaced"><b> TESTIMONIALS:</b></h3>
+      <p class="has-text-left">“Needing a business logo refresh recently, I was recommended to Carley by my web developer,
+  who had seen her work on another project.
+  Carley and her skill set was exactly what I needed. Her work was prompt, offered a variety of choices, and expertly updated a 20-year-old image to modern standards very successfully. In addition to her graphics she has also offered marketing advice and suggestions that are valuable and appreciated.
+  It's been great working with Carley and Long Live Simple.”</p>
+      <br>
+      <p class="has-text-left">-Cathy Gerson, Founder and Ceramic Artist | Cathy Gerson Studios</p>
+      <br>
+      <p class="has-text-left">"What I love most about Carley is her cheerful friendliness.
+        She's very upbeat and kind, which put me at ease in a process I'd never been on this side of before. I loved her structured business processes, which not only made our work together clearer for me but made it obvious to me that she's put careful thought into her work with her clients. It inspired me to amp up my own game as a fellow freelancer! There were charming personal touches and pleasant, generous surprises along the way that made the project fun. She never made me feel like I was inconveniencing or annoying her with my questions or rounds of revisions, and I didn't feel rushed through our project. I worried that a designer would push me in a direction that wouldn't be a good fit for me and my brand, but while I could trust Carley to always let me know her expert perspective as an experienced designer, she didn't force a certain vision on our work together. Her hand-lettering is technically skilled and beautiful, and it was clear to me she knew what she was doing as a designer.
+        I'm very pleased with my finished branding and am happy to recommend Carley and her work."</p>
+      <br>
+      <p class="has-text-left">-Kelsey Mitchener, Editor | Kelsey Mitchener Editing</p>
+      <br>
+      <p class="has-text-left">“Long Live Simple has helped me with many projects and every one of them have been just what I wanted.
+        From business cards to logos to brochures to a website, all have been very creative and one of a kind. Carley is very particular about her work and is very caring about her clients and wants to make sure they are happy.
+        I highly recommend Carley and Long Live Simple!</p>
+      <br>
+      <p class="has-text-left">-Sheila Villada, Owner, Cosmetologist, and Nail Tech | Salon Etc.</p>
+      <br>
+     <p class="has-text-left">Ready to craft your brand story?
+       Please fill out our contact form to receive more information.
+       If you still have more questions, see our frequently asked questions.</p>
+      <!--<button>Let’s work together > </button>-->
     </section>
 </div>
 </template>
@@ -117,6 +156,9 @@
   }
 </script>
 <style scoped>
+  .grey-text2 {
+    color: grey;
+  }
   .services-background {
    background: url("../../static/img/HP/SERVICES_hero.png") center;
     background-size: cover;

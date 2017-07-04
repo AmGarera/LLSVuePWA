@@ -210,7 +210,7 @@
     <section>
       <div class="container">
         <br>
-        <h3 class="title is-spaced "> We’ve told you our story — now we’d love to hear <b style="font-family: 'Montserrat', sans-serif;" class="grey-text2">yours!</b></h3>
+        <h3 class="title grey-text2 is-spaced "> We’ve told you our story — now we’d love to hear <b style="font-family: 'Montserrat', sans-serif;" class="grey-text2">yours!</b></h3>
         <p class="mission is-flex-mobile">
           Get in touch with us <span class="is-hidden-mobile">at</span> <a class="is-hidden-mobile" href="mailto:hello@longlivesimple.com?subject=Collaboration">hello@longlivesimple.com.</a>
           to review your brand story and ideas. Let us help you craft a brand that resonates with your target audience and makes your brand personality shine. </p>

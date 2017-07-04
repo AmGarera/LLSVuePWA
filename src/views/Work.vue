@@ -248,7 +248,7 @@ p a{
     background-size: cover;
   }
   .julia {
-    background: url("../../static/img/Julia/longlivesimple-312.jpg") center;
+    background: url("../../static/img/HP/TravelJuliasWay.jpg") center;
     background-size: cover;
   }
   .arise {
