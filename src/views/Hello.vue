@@ -114,7 +114,7 @@
     <section class="newsletter-section">
       <div class="columns white-text">
         <div class="column">
-          <p class="has-text-left"><b>Sign up for our newsletter to receive <br>branding insights. freebies, and happenings.</b></p>
+          <p class="has-text-left"><b>Sign up for our newsletter to receive <br>branding insights, freebies, and happenings.</b></p>
         </div>
         <div class="column">
       <div class="field is-horizontal">

@@ -240,7 +240,7 @@
 <style scoped>
   @media screen and (min-width: 1001px) {
     .mission {
-      padding: 0 10rem;
+      padding: 0 16rem;
     }
   }
   .body-font {

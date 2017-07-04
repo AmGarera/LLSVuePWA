@@ -128,7 +128,7 @@
 </script>
 <style lang="scss" scoped>
 .work-item {
-  background: url("../../static/img/HP/Work_Hero-01.svg") no-repeat center;
+  background: url("../../static/img/HP/WORK_hero.png") no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

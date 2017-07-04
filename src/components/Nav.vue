@@ -86,12 +86,12 @@
           <img src="../../static/img/HP/SocialMediaSVGs/SocialMediaSVGs/social5.svg" alt="Dribble Icon">
       </figure></a>
       <!--Mobile Menu-->
-      <a class="nav-item is-tab is-hidden-tablet is-active">Work</a>
-      <a class="nav-item is-tab is-hidden-tablet">About</a>
-      <a class="nav-item is-tab is-hidden-tablet">Services</a>
-      <a class="nav-item is-tab is-hidden-tablet">Blog</a>
-      <a class="nav-item is-tab is-hidden-tablet">Contact</a>
-      <a class="nav-item is-tab is-hidden-tablet">Shop</a>
+      <a style="color: #4cc1a1" class="nav-item is-tab is-hidden-tablet is-active">WORK</a>
+      <a style="color: #4cc1a1" class="nav-item is-tab is-hidden-tablet">ABOUT</a>
+      <a style="color: #4cc1a1" class="nav-item is-tab is-hidden-tablet">SERVICES</a>
+      <a style="color: #4cc1a1" class="nav-item is-tab is-hidden-tablet">BLOG</a>
+      <a style="color: #4cc1a1" class="nav-item is-tab is-hidden-tablet">CONTACT</a>
+      <a style="color: #4cc1a1" class="nav-item is-tab is-hidden-tablet">SHOP</a>
     </div>
 </nav>
 </template>
