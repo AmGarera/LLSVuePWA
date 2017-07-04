@@ -100,7 +100,7 @@
     name: 'Contact'
   }
 </script>
-<style>
+<style scoped>
   .hero-background-image {
     background: url("../../static/img/CONTACT/CONTACT_hero.png") center;
     background-size: cover;

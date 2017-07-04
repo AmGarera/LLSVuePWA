@@ -55,7 +55,7 @@
     name: 'TylerJMcCall'
   }
 </script>
-<style>
+<style scoped>
   .aris-hero {
     background: url("../../static/img/HP/TylerJMcCall_Hero-06.svg");
     -webkit-background-size: cover;

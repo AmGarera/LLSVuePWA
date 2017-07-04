@@ -296,4 +296,7 @@ p a{
   padding: 16px 12px;
   font-family: Montserrat, sans-serif;
 }
+  .hero-body {
+    background-image: none
+  }
 </style>

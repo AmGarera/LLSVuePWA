@@ -46,7 +46,7 @@
     name: 'Aris'
   }
 </script>
-<style>
+<style scoped>
   a{
     color: RGB(76,191,160);
   }
