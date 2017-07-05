@@ -54,7 +54,7 @@
 </script>
 <style scoped>
   .aris-hero {
-    background: url("../../static/img/Julia/longlivesimple-437.jpg");
+    background: url("../../static/img/Coverphotos_Work/longlivesimple-420.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
