@@ -69,7 +69,7 @@
           <div class="field-body">
             <div class="field">
               <div class="control">
-                <textarea class="textarea" placeholder="Tell us About your creative project or company" name="Services"></textarea>
+                <textarea class="textarea" placeholder="Tell us about your creative project or company" name="Services"></textarea>
               </div>
             </div>
           </div>

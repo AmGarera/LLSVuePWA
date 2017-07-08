@@ -49,20 +49,20 @@
       </div>
       <div>
         <br>
-        <router-link to="/services"><p class="white-text white-box listOfServices"><strong class="white-text green-hover">See our full list of services ></strong></p></router-link>
+
       </div>
     </section>
     <section class="container">
       <br>
-      <h3 class=" title has-text-cenetered"><b> BRANDING PACKAGES</b></h3>
+      <h3 class=" title has-text-centered grey-text2"><b> BRANDING PACKAGES</b></h3>
       <p class="has-text-left">Every branding package at Long Live Simple starts with a brand design. Whether a refresh or a start-to-finish design, this gets your project off to the right start.
         Choose from either our Simple Branding package or our Deluxe Branding package. From there you can choose to DIY or continue with one of the packages below that combines the brand design with collateral and/or a Squarespace site design.</p>
       <br>
-      <h3 class="subtitle has-text-left"> <b>Simple Branding Package</b></h3>
+      <h3 class="subtitle has-text-left grey-text2"> <b>Simple Branding Package</b></h3>
       <p class="has-text-left">A three-week process equipping you with a custom logo, brand vision design, and marketing essentials. A basic package to get you started on your business plan and vision.
       </p>
       <br>
-      <h4 class="subtitle is-5 has-text-left">What's included</h4>
+      <h4 class="subtitle is-5 has-text-left grey-text2">What's included</h4>
       <ul class="has-text-left">
         <li>-Brand mood board</li>
         <li>-Custom logo</li>
@@ -77,11 +77,11 @@
       <p class="has-text-left">*Ask us about our local discounts.</p>
       <br>
 
-      <h3 class="subtitle has-text-left"> <b>Deluxe Branding Package</b></h3>
+      <h3 class="subtitle has-text-left grey-text2"> <b>Deluxe Branding Package</b></h3>
       <p class="has-text-left">A 5- to 6-week partnership focusing on creating a completely cohesive and thoroughly thoughtful brand experience.
       </p>
       <br>
-      <h4 class="subtitle is-5 has-text-left">What's included</h4>
+      <h4 class="subtitle is-5 has-text-left grey-text2">What's included</h4>
       <ul class="has-text-left">
         <li>-Custom logo</li>
         <li>-Secondary logo</li>

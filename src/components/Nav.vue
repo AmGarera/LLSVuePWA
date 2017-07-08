@@ -97,7 +97,7 @@
         </figure>
       </a>
       <!--Mobile Menu-->
-      <router-link to="/Work"><a style="color: #4cc1a1" class="nav-item is-tab is-hidden-tablet is-active">WORK</a></router-link>
+      <router-link to="/Work"><a style="color: #4cc1a1" v-on:click="nav-toggle-state" class="nav-item is-tab is-hidden-tablet is-active">WORK</a></router-link>
       <router-link to="/About"><a style="color: #4cc1a1" class="nav-item is-tab is-hidden-tablet">ABOUT</a></router-link>
       <router-link to="/Services"><a style="color: #4cc1a1" class="nav-item is-tab is-hidden-tablet">SERVICES</a></router-link>
       <router-link to="/Blog"><a style="color: #4cc1a1" class="nav-item is-tab is-hidden-tablet">BLOG</a></router-link>

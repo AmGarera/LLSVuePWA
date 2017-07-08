@@ -29,7 +29,7 @@
             <figure class="image is-3by2">
               <img class="image-hover-opacity test image" src="" alt="">
               <div class="middle">
-                <span class="text has-text-centered">TYLER J MCCALL</span>
+                <span class="text has-text-centered">TYLER J. MCCALL</span>
               </div>
 
             </figure>
