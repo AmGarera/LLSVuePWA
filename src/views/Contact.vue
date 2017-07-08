@@ -20,7 +20,7 @@
           <br>
           Get in touch with us by filling out our form below. We will be in touch within 1-2 business days.</p>
         <br>
-      <form action="https://formspree.io/gareraanthony@gmail.com"
+      <form action="https://formspree.io/hello@longlivesimple.com"
             method="POST">
         <div class="field is-horizontal">
           <div class="field-label is-normal">
