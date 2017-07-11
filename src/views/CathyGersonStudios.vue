@@ -39,7 +39,7 @@
 </template>
 <script>
   export default {
-    name: 'TravelJuliasWay'
+    name: 'CathyGersonStudios'
   }
 </script>
 <style scoped>

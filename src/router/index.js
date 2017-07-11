@@ -9,6 +9,7 @@ import Blog from '@/views/Blog'
 import Shop from '@/views/Shop'
 import TylerJMcCall from '@/views/TylerJMcCall'
 import TravelJuliasWay from '@/views/TravelJuliasWay'
+import CathyGersonStudios from '@/views/CathyGersonStudios'
 import SalonEtc from '@/views/SalonEtc'
 import Aris from '@/views/Aris'
 import Buefy from 'buefy'
@@ -73,6 +74,11 @@ export default new Router({
       path: '/SalonEtc',
       name: 'SalonEtc',
       component: SalonEtc
+    },
+    {
+      path: '/CathyGersonStudios',
+      name: 'CathyGersonStudios',
+      component: CathyGersonStudios
     }
   ]
 })
