@@ -8,7 +8,7 @@
     </div>
     <div class="nav-center">
       <!--Map this to Vue-Router-->
-      <router-link to="/Work" class="" tag="div" exact>
+      <router-link to="/Work#top" class="" tag="div" exact>
         <a class="nav-item is-tab is-hidden-mobile">
           <figure class="image is-32x32" style="margin-right: 2px;">
             <img src="../../static/img/Navigation Icons/icon1.png"

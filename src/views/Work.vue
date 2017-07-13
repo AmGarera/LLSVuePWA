@@ -86,7 +86,7 @@
     </div>
   </div>
 
-  <div style="padding: 0px 40px;" class="columns ">
+  <div id="row4" style="padding: 0px 40px;" class="columns ">
     <div class="column">
       <router-link to="/Chris">
         <div class="card ">
@@ -103,11 +103,11 @@
     </div>
 
     <div class="column">
-      <router-link to="/">
+      <router-link to="/CathyGersonStudios">
         <div class="card ">
           <div class="card-image caption-style-1">
             <figure class="image is-3by2">
-              <img class="image-hover-opacity salon image" src="" alt="">
+              <img class="image-hover-opacity cathy image" src="" alt="">
               <div class="middle">
                 <span class="text has-text-centered">CATHY GERSON STUDIOS</span>
               </div>
@@ -117,6 +117,38 @@
       </router-link>
     </div>
   </div>
+  <br>
+  <!--<div id="row3" style="padding: 0px 40px;" class="columns ">-->
+    <!--<div class="column">-->
+      <!--<router-link to="/Chris">-->
+        <!--<div class="card ">-->
+          <!--<div class="card-image caption-style-1">-->
+            <!--<figure class="image is-3by2">-->
+              <!--<img class="image-hover-opacity chris image" src="" alt="">-->
+              <!--<div class="middle">-->
+                <!--<span class="text has-text-centered">TOPCOAT</span>-->
+              <!--</div>-->
+            <!--</figure>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</router-link>-->
+    <!--</div>-->
+
+    <!--<div class="column">-->
+      <!--<router-link to="/">-->
+        <!--<div class="card ">-->
+          <!--<div class="card-image caption-style-1">-->
+            <!--<figure class="image is-3by2">-->
+              <!--<img class="image-hover-opacity cathy image" src="" alt="">-->
+              <!--<div class="middle">-->
+                <!--<span class="text has-text-centered">HELIOS WARRIORS</span>-->
+              <!--</div>-->
+            <!--</figure>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</router-link>-->
+    <!--</div>-->
+  <!--</div>-->
   <br>
 </section>
 </div>
@@ -264,7 +296,7 @@ p a{
     background-size: cover;
   }
   .cathy {
-    background: url("../../static/img/Coverphotos_Work/Chris_4.png") center;
+    background: url("../../static/img/CathyGersonStudios/Cathy2-06.png") center;
     background-size: cover;
   }
 .image {

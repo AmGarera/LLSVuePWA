@@ -95,12 +95,12 @@
       <p class="has-text-left">Starting at $1,500</p>
       <p class="has-text-left">*Ask us about our local discounts.</p>
       <br>
-      <h3 class="subtitle has-text-left"> <b>Custom Illustration</b></h3>
+      <h3 class="subtitle has-text-left grey-text2"> <b>Custom Illustration</b></h3>
       <p class="has-text-left">We create one-of-a-kind commissioned illustrations and digital vectors for any desired project. Please get in touch if you have a custom idea!
       </p>
       <br>
       <br>
-      <h3 class="subtitle has-text-left"> <b>Brand Strategy / User Experience Strategy Sessions</b></h3>
+      <h3 class="subtitle has-text-left grey-text2"> <b>Brand Strategy / User Experience Strategy Sessions</b></h3>
       <p class="has-text-left">Help get clarity regarding your specific questions about starting your new business or refreshing your brand. Choose from in-person or by-phone sessions. Afterward you’ll receive a document outlining our suggested solutions.
       </p>
       <br>
@@ -108,9 +108,9 @@
       <p class="has-text-left">Starting at $1,500</p>
       <p class="has-text-left">*Ask us about our local discounts.</p>
       <br>
-      <span>Book Now</span>
+      <router-link to="/contact"><button class="grey-text2"><strong class="green-hover">Book Now</strong></button></router-link>
       <br>
-      <h3 class="subtitle has-text-left"> <b>Web Design Package </b></h3>
+      <h3 class="subtitle has-text-left grey-text2"> <b>Web Design Package </b></h3>
       <p class="has-text-left">Our user-experience driven website designs are fully responsive, meaning that they are designed to look good on any device, from mobile and tablets to desktop computers and displays. Featuring HTML and CSS for custom-coded Squarespace and  Wordpress  sites. See some of our work here.
       </p>
       <br>
@@ -193,7 +193,7 @@
     <br>
     <section class="container">
 
-      <h3 class=" title has-text-centered is-spaced"><b> TESTIMONIALS:</b></h3>
+      <h3 class=" title has-text-centered is-spaced grey-text2"><b> TESTIMONIALS:</b></h3>
       <p class="has-text-left">“Needing a business logo refresh recently, I was recommended to Carley by my web developer,
   who had seen her work on another project.
   Carley and her skill set was exactly what I needed. Her work was prompt, offered a variety of choices, and expertly updated a 20-year-old image to modern standards very successfully. In addition to her graphics she has also offered marketing advice and suggestions that are valuable and appreciated.

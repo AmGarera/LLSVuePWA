@@ -216,7 +216,7 @@
         <br>
         <div class="columns">
           <div class="column">
-            <span class="body-font"><router-link to="/Contact"><a href=""><b>Get in touch with us ></b></a></router-link></span>
+            <span class="body-font"><router-link to="/work#row3"><a href=""><b>Get in touch with us ></b></a></router-link></span>
           </div>
           <div class="column">
             <span class="body-font"><a href="mailto:hello@longlivesimple.com"><b>Set up a free consultation ></b></a></span>
