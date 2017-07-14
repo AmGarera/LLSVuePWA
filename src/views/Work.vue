@@ -88,13 +88,13 @@
 
   <div id="row4" style="padding: 0px 40px;" class="columns ">
     <div class="column">
-      <router-link to="/Chris">
+      <router-link to="/ChrisSobalvarro">
         <div class="card ">
           <div class="card-image caption-style-1">
             <figure class="image is-3by2">
               <img class="image-hover-opacity chris image" src="" alt="">
               <div class="middle">
-                <span class="text has-text-centered">CHRIS</span>
+                <span class="text has-text-centered">CHRIS SOBALVARRO</span>
               </div>
             </figure>
           </div>

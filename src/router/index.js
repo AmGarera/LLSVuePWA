@@ -11,6 +11,7 @@ import Shop from '@/views/Shop'
 import TylerJMcCall from '@/views/TylerJMcCall'
 import TravelJuliasWay from '@/views/TravelJuliasWay'
 import CathyGersonStudios from '@/views/CathyGersonStudios'
+import ChrisSobalvarro from '@/views/ChrisSobalvarro'
 import SalonEtc from '@/views/SalonEtc'
 import Aris from '@/views/Aris'
 import Buefy from 'buefy'
@@ -114,6 +115,11 @@ export default new Router({
       path: '/CathyGersonStudios',
       name: 'CathyGersonStudios',
       component: CathyGersonStudios
+    },
+    {
+      path: '/ChrisSobalvarro',
+      name: 'ChrisSobalvarro',
+      component: ChrisSobalvarro
     }
   ]
 })
