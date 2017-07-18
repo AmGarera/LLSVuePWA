@@ -121,10 +121,11 @@
         <div class="field-label is-normal">
           <!--<label class="label">From</label>-->
         </div>
+        <form action="https://longlivesimple.us14.list-manage.com/subscribe/post" method="post">
         <div class="field-body">
           <div class="field is-grouped">
             <p class="control is-expanded has-icons-left">
-              <input class="input" type="text" placeholder="Name">
+              <input class="input" type="text" placeholder="Name" name="u" value="">
               <span class="icon is-small is-left">
           <i class="fa fa-user"></i>
         </span>
@@ -132,7 +133,7 @@
           </div>
           <div class="field">
             <p class="control is-expanded has-icons-left has-icons-right">
-              <input class="input" type="email" placeholder="Email" value="">
+              <input class="input" type="email" placeholder="Email" name="id" value="">
               <span class="icon is-small is-left">
           <i class="fa fa-envelope"></i>
         </span>
@@ -143,6 +144,7 @@
           </div>
 
         </div>
+        </form>
       </div>
         </div>
         <!----></div>
@@ -178,7 +180,7 @@
         </div>
       </div>
     </section>
-
+    <!--<insta></insta>-->
   </div>
 <!--End of First Hero-->
 
@@ -186,9 +188,13 @@
 
 <script>
   import { swiper, swiperSlide } from 'vue-awesome-swiper'
+  import Insta from '../components/insta'
 export default {
     name: 'hello',
-    components: { swiper, swiperSlide },
+    components: {
+      Insta,
+      swiper,
+      swiperSlide },
     data () {
       return {
         swiperOption: {
