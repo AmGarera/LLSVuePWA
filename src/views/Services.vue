@@ -108,7 +108,7 @@
       <p class="has-text-left">Starting at $1,500</p>
       <p class="has-text-left">*Ask us about our local discounts.</p>
       <br>
-      <router-link to="/contact"><button class="grey-text2"><strong class="green-hover">Book Now</strong></button></router-link>
+      <router-link to="/contact"><a class="grey-text2 is-small is-outlined bold grey-button-outline">Book Now</a></router-link>
       <br>
       <h3 class="subtitle has-text-left grey-text2"> <b>Web Design Package </b></h3>
       <p class="has-text-left">Our user-experience driven website designs are fully responsive, meaning that they are designed to look good on any device, from mobile and tablets to desktop computers and displays. Featuring HTML and CSS for custom-coded Squarespace and  Wordpress  sites. See some of our work here.
@@ -166,7 +166,7 @@
         <div class=" column is-5">
           <div class="has-text-centered">
             <!-- Left empty for spacing -->
-            <router-link to="/services"><p class="white-text white-box listOfServices"><strong class="white-text green-hover">Get Notified ></strong></p></router-link>
+            <router-link to="/services"><p class="white-text white-box listOfServices"><strong class="white-text">Get Notified ></strong></p></router-link>
           </div>
         </div>
       </div>
@@ -218,6 +218,7 @@
        If you still have more questions, see our frequently asked questions.</p>
       <!--<button>Let’s work together > </button>-->
     </section>
+    <br>
 </div>
 </template>
 <script>
@@ -228,6 +229,21 @@
 <style scoped>
   .grey-text2 {
     color: grey;
+  }
+  .bold {
+    font-weight:bold;
+  }
+  a:hover {
+    color: #4cc1a1;
+  }
+  .grey-button-outline {
+
+    border: 2px solid grey;
+    padding: 1%;
+  }
+  .grey-button-outline:hover {
+    background-color: white;
+    opacity: .5;
   }
   .services-background {
    background: url("../../static/img/HP/SERVICES_hero.png") center;
@@ -244,6 +260,9 @@
     color: #fff;
     font-family: 'Karla', sans-serif;
   }
+  .white-text:hover {
+    color: #4cc1a1;
+  }
   .what-we-offer {
     background-image: url('../../static/img/HP/whatweoffer.png');
   }
@@ -255,7 +274,8 @@
 
   }
   .listOfServices:hover {
-    background-color: white;
+
+    opacity: .5;
   }
   .divider-line {
     /*position:absolute;*/

@@ -88,7 +88,7 @@
     <!--Meet The Team-->
     <section class="green-background">
       <br>
-      <h3 class="title grey-text2"><b>Meet The Team:</b></h3>
+      <h3 id="meetTheTeam" class="title grey-text2"><b>Meet The Team:</b></h3>
       <!--Team Grid-->
       <div class="container">
       <div class="columns">

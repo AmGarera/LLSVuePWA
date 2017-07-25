@@ -36,10 +36,14 @@
         </p>
       </div>
     </section>
+    <backtowork></backtowork>
   </div>
 </template>
 <script>
+  import Backtowork from '../components/BackToWork.vue'
+
   export default {
+    components: {Backtowork},
     name: 'CathyGersonStudios'
   }
 </script>

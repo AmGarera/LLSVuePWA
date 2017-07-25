@@ -29,7 +29,7 @@
           <div class="field-body">
             <div class="field is-grouped">
               <p class="control is-expanded has-icons-left">
-                <input class="input" type="text" name="name" placeholder="First and Last Name">
+                <input class="input is-primary" type="text" name="name" placeholder="First and Last Name">
                 <span class="icon is-small is-left">
           <i class="fa fa-user"></i>
         </span>
@@ -37,7 +37,7 @@
             </div>
             <div class="field">
               <p class="control is-expanded has-icons-left has-icons-right">
-                <input class="input is-success" type="email" placeholder="Email" name="_replyto">
+                <input class="input is-primary" type="email" placeholder="Email" name="_replyto">
                 <span class="icon is-small is-left">
           <i class="fa fa-envelope"></i>
         </span>
@@ -56,7 +56,7 @@
           <div class="field-body">
             <div class="field">
               <div class="control">
-                <input class="input" type="text" placeholder="e.g. Partnership opportunity" name="subject">
+                <input class="input is-primary" type="text" placeholder="e.g. Partnership opportunity" name="subject">
               </div>
             </div>
           </div>
@@ -69,7 +69,7 @@
           <div class="field-body">
             <div class="field">
               <div class="control">
-                <textarea class="textarea" placeholder="Tell us about your creative project or company" name="Services"></textarea>
+                <textarea class="textarea is-primary" placeholder="Tell us about your creative project or company" name="Services"></textarea>
               </div>
             </div>
           </div>
@@ -107,5 +107,8 @@
   }
   .grey-text {
     color: grey;
+  }
+  .input.is-primary, textarea.is-primary {
+    border-color: #dbdbdb;
   }
 </style>

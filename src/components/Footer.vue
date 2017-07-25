@@ -14,7 +14,7 @@
         </ul>
       </div>
       <div class="column is-6">
-        <p class="subtitle has-text-centered Karla-font"> <span class="footer-hover"> <router-link to="/About">Site Credits</router-link> </span> <!--<span class="footer-hover" onclick="alertCustom()" >FAQ's</span> |--> | <span class="footer-hover"><router-link to="/Services">Testimonials</router-link></span> | <span class="footer-hover">Client Login</span></p>
+        <p class="subtitle has-text-centered Karla-font"> <span class="footer-hover"> <router-link to="/About#meetTheTeam">Site Credits</router-link> </span> <!--<span class="footer-hover" onclick="alertCustom()" >FAQ's</span> |--> | <span class="footer-hover"><router-link to="/Services">Testimonials</router-link></span> | <router-link to="/"><span class="footer-hover">Client Login</span></router-link></p>
 
       </div>
       <div class="column">
