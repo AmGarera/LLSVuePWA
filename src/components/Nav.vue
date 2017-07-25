@@ -114,8 +114,6 @@
 </script>
 
 <style lang="scss" scoped>
-  $primary: #72d0eb;
-  $is-tab: #72d0eb;
   .nav-toggle:before {
     content: '\2630';
   }
@@ -158,7 +156,7 @@
   figure:hover {
     color: #1ca64c;
   }
-  .nav-item a.is-tab.is-active, a.nav-item.is-tab.is-active {
-    border-bottom: #4cc1a1;
-  }
+  /*.nav-item a.is-tab.is-active, a.nav-item.is-tab.is-active {*/
+    /*border-bottom: #4cc1a1;*/
+  /*}*/
 </style>
