@@ -142,7 +142,10 @@
   }
 
   a.nav-item.is-tab {
-    border-bottom: none;
+    border-bottom: none transparent;
+  }
+  a.nav-item.is-tab:hover {
+    border-bottom: none transparent;
   }
 
   strong {
