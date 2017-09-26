@@ -24,9 +24,9 @@
     </section>
     <br><!--TODO Replace this with padding-->
     <section class="container">
-      <h3 class="has-text-left"> <img src="../../static/img/ABOUT/OurMission-32.svg"
+      <h3 class=""> <img src="../../static/img/ABOUT/OurMission-32.svg"
                                                                  height="113" width="268"/></h3>
-      <p class="has-text-left">At Long Live Simple, we craft brands for entrepreneurs and
+      <p class="">At Long Live Simple, we craft brands for entrepreneurs and
         businesses that are both relatable and intentional through custom typography and design services.
       Here are some of the things we love and the ways we aim to give back through what we do.</p>
 
@@ -200,7 +200,7 @@
         <br>
         <h3 class="title is-spaced white-text"> Join our Team</h3>
         <p class="white-text mission is-flex-mobile">We’re always looking for amazing designers, content strategists, or local entrepreneurs to work with.
-          Come join us! For inquiries or if you’d like to collaborate, email us at <a class="is-hidden-mobile" href="mailto:hello@longlivesimple.com?subject=Collaboration">hello@longlivesimple.com.</a>
+          Come join us! For inquiries or if you’d like to collaborate, email us.
         </p>
         <a class="is-hidden-tablet" href="mailto:hello@longlivesimple.com?subject=Collaboration">hello@longlivesimple.com.</a>
       </div>
