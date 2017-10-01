@@ -1,21 +1,8 @@
 <template>
-  <div class="hello">
+  <div>
     <section style="background-color: RGB(230, 238, 236)" class="hero">
-      <div class="hero-body">
-        <swiper :options="swiperOption" ref="mySwiper">
-          <!-- slides -->
-          <swiper-slide><router-link to="/Contact"><img src="../../static/img/HP/hero1.svg" alt=""></router-link></swiper-slide>
-          <swiper-slide><router-link to="/Work"><img src="../../static/img/HP/hero2.svg" alt=""></router-link></swiper-slide>
-          <swiper-slide><router-link to="/Tyler-J-McCall"><img src="../../static/img/HP/hero3.svg" alt=""></router-link></swiper-slide>
-          <swiper-slide><router-link to="/Services"><img src="../../static/img/HP/hero4.svg" alt=""></router-link></swiper-slide>
-          <swiper-slide><router-link to="/Shop"><img src="../../static/img/HP/hero5.svg" alt=""></router-link></swiper-slide>
-          <swiper-slide><router-link to="/Contact"><img src="../../static/img/HP/hero6.svg" alt=""></router-link></swiper-slide>
-          <!-- Optional controls -->
-          <!--<div class="swiper-pagination"  slot="pagination"></div>-->
-          <!--<div class="swiper-button-prev" slot="button-prev"></div>-->
-          <!--<div class="swiper-button-next" slot="button-next"></div>-->
-          <!--<div class="swiper-scrollbar"   slot="scrollbar"></div>-->
-        </swiper>
+      <div class="hero-body ">
+        <homeslider></homeslider>
       </div>
     </section>
 
@@ -187,22 +174,12 @@
 </template>
 
 <script>
-  import { swiper, swiperSlide } from 'vue-awesome-swiper'
-  import Insta from '../components/insta'
-export default {
+  import Homeslider from '../components/HomeSlider.vue'
+  export default {
     name: 'hello',
-    components: {
-      Insta,
-      swiper,
-      swiperSlide },
+    components: {Homeslider},
     data () {
-      return {
-        swiperOption: {
-          preloadImages: false,
-          lazyLoading: true,
-          autoplay: 5000
-        }
-      }
+      return {}
     },
 
   // All slick methods can be used too, example here
@@ -233,6 +210,9 @@ export default {
   display: inline-block;
   padding: 17px;
 }
+.hero-body {
+  padding: 0px
+}
 .hero-foot{
 background-color: black;
 opacity: .5;
@@ -262,9 +242,9 @@ a {
   color: #fff;
   padding-bottom: 30px;
 }
-  .listOfServices {
+  // .listOfServices {
 
-  }
+  // }
   .listOfServices:hover {
     background-color: white;
   }
