@@ -236,7 +236,7 @@ a {
   color: RGB(76,191,160);
 }
 .what-we-offer {
-  background-image: url('../../static/img/HP/whatweoffer.png');
+  background-image: url('../../static/img/HP/whatweoffer-opt.png');
 }
 .what-we-offer-text {
   color: #fff;
