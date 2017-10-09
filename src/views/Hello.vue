@@ -235,6 +235,10 @@ li {
 a {
   color: RGB(76,191,160);
 }
+
+.input:focus {
+  border-color: transparent;
+}
 .what-we-offer {
   background-image: url('../../static/img/HP/whatweoffer-opt.png');
 }
