@@ -147,6 +147,9 @@
   a.nav-item.is-tab:hover {
     border-bottom: none transparent;
   }
+  .nav-item a:not(.button).is-tab.is-active, a.nav-item:not(.button).is-tab.is-active {
+    border-bottom: none transparent;
+  }
 
   strong {
     color: #d3d3d3;

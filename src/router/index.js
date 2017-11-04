@@ -60,67 +60,80 @@ export default new Router({
     {
       path: '/',
       name: 'Hello',
-      component: Hello
+      component: Hello,
+      meta: { scrollToTop: true }
     },
     {
       path: '/Work',
       name: 'Work',
-      component: Work
+      component: Work,
+      meta: { scrollToTop: true }
     },
     {
       path: '/About',
       name: 'About',
-      component: About
+      component: About,
+      meta: { scrollToTop: true }
     },
     {
       path: '/Services',
       name: 'Services',
-      component: Services
+      component: Services,
+      meta: { scrollToTop: true }
     },
     {
       path: '/Contact',
       name: 'Contact',
-      component: Contact
+      component: Contact,
+      meta: { scrollToTop: true }
     },
     {
       path: '/Blog',
       name: 'Blog',
-      component: Blog
+      component: Blog,
+      meta: { scrollToTop: true }
     },
     {
       path: '/Shop',
       name: 'Shop',
-      component: Shop
+      component: Shop,
+      meta: { scrollToTop: true }
     },
     {
       path: '/Tyler-J-McCall',
       name: 'TylerJMcCall',
-      component: TylerJMcCall
+      component: TylerJMcCall,
+      meta: { scrollToTop: true }
     },
     {
       path: '/Arise',
       name: 'Arise',
-      component: Aris
+      component: Aris,
+      meta: { scrollToTop: true }
     },
     {
       path: '/Travel-Julias-Way',
       name: 'Travel-Julias-Way',
-      component: TravelJuliasWay
+      component: TravelJuliasWay,
+      meta: { scrollToTop: true }
     },
     {
       path: '/SalonEtc',
       name: 'SalonEtc',
-      component: SalonEtc
+      component: SalonEtc,
+      meta: { scrollToTop: true }
     },
     {
       path: '/CathyGersonStudios',
       name: 'CathyGersonStudios',
-      component: CathyGersonStudios
+      component: CathyGersonStudios,
+      meta: { scrollToTop: true }
     },
     {
       path: '/ChrisSobalvarro',
       name: 'ChrisSobalvarro',
-      component: ChrisSobalvarro
+      component: ChrisSobalvarro,
+      meta: { scrollToTop: true }
     }
   ]
 })

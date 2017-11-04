@@ -14,7 +14,7 @@
       <router-link to="/Services"><img src="../../static/img/HP/hero4.svg" alt=""></router-link>
     </swiper-slide>
     <swiper-slide>
-      <router-link to="/Shop"><img src="../../static/img/HP/hero5.svg" alt=""></router-link>
+      <router-link to="/Shop"><img src="../../static/img/HP/Shop-05.png" alt=""></router-link>
     </swiper-slide>
     <swiper-slide>
       <router-link to="/Contact"><img src="../../static/img/HP/hero6.svg" alt=""></router-link>
@@ -42,7 +42,9 @@ export default {
       swiperOption: {
         preloadImages: false,
         lazyLoading: true,
-        autoplay: 5000
+        autoplay: 5000,
+        setWrapperSize: true,
+        autoHeight: true
       }
     }
   }
