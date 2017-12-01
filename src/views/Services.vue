@@ -52,7 +52,7 @@
 
       </div>
     </section>
-    <section class="container">
+    <section style="padding-bottom: 2em" class="container">
       <br>
       <h3 class=" title has-text-centered grey-text2"><b> BRANDING PACKAGES</b></h3>
       <p class="has-text-left">Every branding package at Long Live Simple starts with a brand design. Whether a refresh or a start-to-finish design, this gets your project off to the right start.
@@ -73,7 +73,6 @@
       </ul>
 
       <h4 class="subtitle is-5 has-text-left">Investment:</h4>
-      <p class="has-text-left">Starting at $900</p>
       <p class="has-text-left">*Ask us about our local discounts.</p>
       <br>
 
@@ -92,7 +91,6 @@
       </ul>
 
       <h4 class="subtitle is-5 has-text-left">Investment:</h4>
-      <p class="has-text-left">Starting at $1,500</p>
       <p class="has-text-left">*Ask us about our local discounts.</p>
       <br>
       <h3 class="subtitle has-text-left grey-text2"> <b>Custom Illustration</b></h3>
@@ -105,22 +103,20 @@
       </p>
       <br>
       <h4 class="subtitle is-5 has-text-left">Investment:</h4>
-      <p class="has-text-left">Starting at $1,500</p>
       <p class="has-text-left">*Ask us about our local discounts.</p>
-      <br>
-      <router-link to="/contact"><a class="grey-text2 is-small is-outlined bold grey-button-outline">Book Now</a></router-link>
       <br>
       <h3 class="subtitle has-text-left grey-text2"> <b>Web Design Package </b></h3>
       <p class="has-text-left">Our user-experience driven website designs are fully responsive, meaning that they are designed to look good on any device, from mobile and tablets to desktop computers and displays. Featuring HTML and CSS for custom-coded Squarespace and  Wordpress  sites. See some of our work here.
       </p>
       <br>
       <h4 class="subtitle is-5 has-text-left">Investment:</h4>
-      <p class="has-text-left">Squarespace sites starting at $3,000</p>
-      <p class="has-text-left">Wordpress  sites starting at  $4,000</p>
       <br>
       <p class="has-text-left"><b>Contact us for our full list of services and pricing ></b></p>
       <br>
       <br>
+      <p class="has-text-centered">For pricing list, please email us at <a href="mailto:hello@longlivesimple.com">hello@longlivesimple.com</a></p>
+      <br>
+      <router-link to="/contact"><a class="grey-text2 is-small is-outlined bold grey-button-outline">Book Now</a></router-link>
     </section>
 
     <section class="newsletter-section">
