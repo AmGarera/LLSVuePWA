@@ -2,7 +2,7 @@
   <div id="app">
     <a id="top"></a>
     <header>
-    <navigationMenu></navigationMenu>
+      <navigation-menu1></navigation-menu1>
     </header>
     <main>
       <!--<img src="./assets/logo.png" alt="Vue.js PWA">-->
@@ -13,11 +13,11 @@
 </template>
 
 <script>
-import navigationMenu from './components/Nav.vue'
 import footerCustom from './components/Footer.vue'
+import NavigationMenu1 from './components/Nav1'
 export default {
   components: {
-    navigationMenu,
+    NavigationMenu1,
     footerCustom},
   name: 'app'
 }

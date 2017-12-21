@@ -1,12 +1,16 @@
 <template>
-  <nav id="top" class="nav has-shadow transparent">
-    <div class="nav-left">
+  <nav id="top" class="navbar has-shadow" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <div class="navbar-burger burger" @click="toggleMenu" :class="{'is-active': navIsActive}" data-target="mainNav">
+        &#9776;
+      </div>
       <a href="/" class="nav-item">
-        <img style="max-height: 2.75em" src="../../static/img/HP/llslogo.png" alt="Bulma logo">
+        <!--style="max-height: 2.75em" for Image-->
+        <img src="../../static/img/HP/llslogo.png" alt="Bulma logo">
       </a>
 
     </div>
-    <div class="nav-center">
+    <div class="navbar-start">
       <!--Map this to Vue-Router-->
       <router-link to="/Work" class="" tag="div" exact>
         <a class="nav-item is-tab is-hidden-mobile">
@@ -64,13 +68,12 @@
           <strong>SHOP</strong></a>
       </router-link>
     </div>
-    <label style="font-size: xx-large;" class="nav-toggle" for="nav-toggle-state">
-    </label>
+    <!--<label style="font-size: xx-large;" class="nav-toggle" for="nav-toggle-state">-->
+    <!--</label>-->
 
-    <!-- This checkbox is hidden -->
-    <input type="checkbox" id="nav-toggle-state"/>
-
-    <div class="nav-right nav-menu">
+    <!--&lt;!&ndash; This checkbox is hidden &ndash;&gt;-->
+    <!--<input type="checkbox" id="nav-toggle-state"/>-->
+    <div class="navbar-menu navbar-end">
       <a href="https://www.instagram.com/longlivesimple" class="nav-item is-tab is-paddingless is-hidden-mobile">
         <figure class="image is-32x32">
           <img src="../../static/img/HP/SocialMediaSVGs/SocialMediaSVGs/social1.svg" alt="Instagram Icon">
@@ -97,30 +100,35 @@
         </figure>
       </a>
       <!--Mobile Menu-->
-      <router-link to="/Work"><a style="color: #4cc1a1" v-on:click="nav-toggle-state" class="nav-item is-tab is-hidden-tablet is-active">WORK</a></router-link>
+      <div id="mainNav" class="navbar-menu" :class="{'is-active': navIsActive}">
+      <router-link to="/Work"><a style="color: #4cc1a1" class="nav-item is-tab is-hidden-tablet">WORK</a></router-link>
       <router-link to="/About"><a style="color: #4cc1a1" class="nav-item is-tab is-hidden-tablet">ABOUT</a></router-link>
       <router-link to="/Services"><a style="color: #4cc1a1" class="nav-item is-tab is-hidden-tablet">SERVICES</a></router-link>
       <router-link to="/Blog"><a style="color: #4cc1a1" class="nav-item is-tab is-hidden-tablet">BLOG</a></router-link>
       <router-link to="/Contact"><a style="color: #4cc1a1" class="nav-item is-tab is-hidden-tablet">CONTACT</a></router-link>
       <router-link to="/Shop"><a style="color: #4cc1a1" class="nav-item is-tab is-hidden-tablet">SHOP</a></router-link>
+      </div>
     </div>
   </nav>
 </template>
 
 <script>
   export default {
-    name: 'navigationMenu'
+    name: 'navigationMenu',
+    data () {
+      return {
+        navIsActive: false
+      }
+    },
+    methods: {
+      toggleMenu: function () {
+        this.navIsActive = !this.navIsActive
+      }
+    }
   }
 </script>
 
 <style lang="scss" scoped>
-  .nav-toggle:before {
-    content: '\2630';
-  }
-
-  #nav-toggle-state {
-    display: none;
-  }
 
   svg:hover {
     fill: #111;
@@ -130,7 +138,7 @@
     display: block;
   }
 
-  nav {
+  navbar {
     width: 100%;
     position: fixed;
     background: #fff;
