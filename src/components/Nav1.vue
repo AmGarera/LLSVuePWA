@@ -4,7 +4,7 @@
       <a class="navbar-item" href="/">
         <img src="../../static/img/HP/llslogo.png" alt="Long Live Simple">
       </a>
-      <div class="navbar-burger burger center" @click="toggleMenu" :class="{'is-active': navIsActive}" data-target="mainNav">
+      <div class="navbar-burger burger center is-hidden-desktop" @click="toggleMenu" :class="{'is-active': navIsActive}" data-target="mainNav">
         &#9776;
       </div>
     </div>
@@ -69,7 +69,7 @@
         </router-link>
       </div>
       <!--End of Nav-start-->
-      <div class="navbar-end is-hidden-tablet">
+      <div class="navbar-end is-hidden-mobile">
         <a href="https://www.instagram.com/longlivesimple" class="nav-item is-tab is-paddingless is-hidden-mobile">
           <figure class="image is-32x32">
             <img src="../../static/img/HP/SocialMediaSVGs/SocialMediaSVGs/social1.svg" alt="Instagram Icon">
