@@ -1,16 +1,16 @@
 <template>
-  <nav class="navbar is-transparent is-fixed-top">
+  <nav class="navbar is-transparent">
     <div class="navbar-brand">
       <a class="navbar-item" href="/">
         <img src="../../static/img/HP/llslogo.png" alt="Long Live Simple">
       </a>
-      <div class="navbar-burger burger center is-hidden-desktop" @click="toggleMenu" :class="{'is-active': navIsActive}" data-target="mainNav">
+      <div class="navbar-burger burger center is-hidden-desktop" @click="toggleMenu" :class="{'is-active': navIsActive}"
+           data-target="mainNav">
         &#9776;
       </div>
     </div>
-
     <div id="mainNav" class="navbar-menu" :class="{'is-active': navIsActive}">
-      <div class="navbar-start">
+      <div class="navbar-start is-centered">
         <!--Map this to Vue-Router-->
         <router-link to="/Work" class="" tag="div" exact>
           <a class="nav-item is-tab">
@@ -118,11 +118,12 @@
 
 <style lang="scss" scoped>
 
-  navbar {
+  .navbar {
     width: 100%;
     position: fixed;
     background: #fff;
     opacity: .8;
+    z-index: 1;
   }
 
   .nav-item {
@@ -130,16 +131,19 @@
   }
 
   .center {
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
   a.nav-item.is-tab {
     border-bottom: none transparent;
   }
+
   a.nav-item.is-tab:hover {
     border-bottom: none transparent;
   }
+
   .nav-item a:not(.button).is-tab.is-active, a.nav-item:not(.button).is-tab.is-active {
     border-bottom: none transparent;
   }
@@ -155,7 +159,11 @@
   figure:hover {
     color: #1ca64c;
   }
-  /*.nav-item a.is-tab.is-active, a.nav-item.is-tab.is-active {*/
-    /*border-bottom: #4cc1a1;*/
-  /*}*/
+
+  /*Desktop/Laptop specific tweaks*/
+  @media (min-width: 1025px) { /* big landscape tablets, laptops, and desktops */
+    .navbar-brand {
+      padding-right: 4em;
+    }
+  }
 </style>

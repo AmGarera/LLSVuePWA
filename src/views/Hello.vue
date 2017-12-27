@@ -1,7 +1,7 @@
 <template>
   <div>
     <section style="background-color: RGB(230, 238, 236)" class="hero">
-      <div class="hero-body ">
+      <div class="hero-body">
         <homeslider></homeslider>
       </div>
     </section>
@@ -210,8 +210,10 @@
   display: inline-block;
   padding: 17px;
 }
+
 .hero-body {
-  padding: 0px
+  padding: 0;
+  z-index: 0;
 }
 .hero-foot{
 background-color: black;
