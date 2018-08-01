@@ -1,7 +1,7 @@
 <template>
   <div>
-    <section style="background-color: RGB(230, 238, 236)" class="hero">
-      <div class="hero-body">
+    <section style="background-color: RGB(230, 238, 236)" class="">
+      <div class="">
         <homeslider></homeslider>
       </div>
     </section>
@@ -202,7 +202,6 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
-/*Section Title*/
 
 .white-box {
   color: white;

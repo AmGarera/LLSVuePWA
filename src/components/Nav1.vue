@@ -123,7 +123,7 @@
     position: fixed;
     background: #fff;
     opacity: .8;
-    z-index: 1;
+    z-index: 2;
   }
 
   .nav-item {
